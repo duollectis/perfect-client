@@ -41,6 +41,7 @@ replay_*.log
 logs/latest.log
 /src/main/resources/test/
 /logs/
+Microsoft
 
 # libs
 libs/
