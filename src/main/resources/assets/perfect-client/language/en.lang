@@ -1,0 +1,2228 @@
+# GUI
+
+gui.search = Search
+gui.copy = Copy
+gui.paste = Paste
+gui.opacity = Opacity
+gui.speed = Speed
+
+# Commands
+
+commands.friends.added = added as friend!
+commands.friends.already-added = already a friend!
+commands.friends.removed = removed from friend list!
+commands.friends.empty-list = Friends list is empty
+commands.friends.list = --- Friends list: ---
+
+commands.config.saved = successfully saved!
+commands.config.loaded = successfully loaded!
+commands.config.deleted = successfully deleted!
+commands.config.reset = All settings reset!
+
+commands.hud.reset = HUD reset!
+
+# Global
+
+globals.enabled = Enabled
+
+globals.swap = Swap
+globals.swap.desc = Method used to select items in the inventory
+
+globals.targets = Targets
+globals.targets.desc = Attack targets
+globals.target-priority = Target Priority
+globals.target-priority.desc = Flag by which targets are selected
+globals.field-of-view = Field Of View
+globals.field-of-view.desc = Maximum angle from the interaction point to the view
+
+globals.target-range = Target Range
+globals.target-range.desc = Maximum distance to the target
+globals.ignore-terrain = Ignore Terrain
+globals.ignore-terrain.desc = Ignores explosive blocks when calculating damage
+
+globals.rotate = Rotate
+globals.rotate.desc = Automatic turns towards the interaction position
+
+globals.only-on-ground = Only On Ground
+globals.only-on-ground.desc = The module stops while the player is not on the ground
+
+globals.pause-on-eat = Pause On Eat
+globals.pause-on-eat.desc = The module stops while eating
+globals.pause-on-shift = Pause On Shift
+globals.pause-on-shift.desc = The module stops if the player is crouching
+globals.pause-on-elytra = Pause On Elytra
+globals.pause-on-elytra.desc = The module stops if the player is flying on Elytra
+globals.pause-in-fluid = Pause In Fluid
+globals.pause-in-fluid.desc = The module stops if the player is in fluid
+globals.pause-on-blink = Pause On Blink
+globals.pause-on-blink.desc = The module pauses while Blink is running
+globals.pause-on-auto-crystal = Pause On Auto Crystal
+globals.pause-on-auto-crystal.desc = The module pauses while AutoCrystal is running
+globals.pause-on-auto-exp = Pause On Auto Exp
+globals.pause-on-auto-exp.desc = The module pauses while AutoExp is running
+globals.pause-on-lag-back = Pause On Lag Back
+globals.pause-on-lag-back.desc = Pauses the module after movement changes by anti-cheat
+globals.pause-time = Pause Time
+globals.pause-time.desc = The time the module pauses after movement changes by anti-cheat
+
+globals.render = Render
+globals.render.desc = Render Positions where blocks are placed
+globals.through-blocks = Through Blocks
+globals.through-blocks.desc = Ignores obstacles when rendering
+globals.cosmetics = Cosmetics
+globals.cosmetics.desc = Additional render settings
+globals.line-color = Line Color
+globals.line-color.desc = Color with which lines are rendered
+globals.side-color = Side Color
+globals.side-color.desc = Color with which sides are rendered
+
+globals.outline-color = Outline Color
+globals.outline-color.desc = Color with which outline is rendered
+globals.fill-color = Fill Color
+globals.fill-color.desc = Color with which fill is rendered
+
+globals.break-color-mode = Break Color Mode
+globals.break-color-mode.desc = Mode selected for color Render
+globals.break-start-line-color = Break Start Line Color
+globals.break-start-line-color.desc = Color with which lines are rendered at the start of block breaking
+globals.break-start-side-color = Break Start Side Color
+globals.break-start-side-color.desc = Color with which sides are rendered at the start of block breaking
+globals.break-end-line-color = Break End Line Color
+globals.break-end-line-color.desc = Color with which lines are rendered at the end of block breaking
+globals.break-end-side-color = Break End Side Color
+globals.break-end-side-color.desc = Color with which sides are rendered at the end of block breaking
+globals.break-smooth-animation = Break Smooth Animation
+globals.break-smooth-animation.desc = Smooth transition between rendering progress Breaking
+globals.break-smooth-color = Break Smooth Color
+globals.break-smooth-color.desc = Smooth transition between break progress colors
+globals.break-animation = Break Animation
+globals.break-animation.desc = Value used to change the animation
+
+globals.cps-limit = Cps Limit
+globals.cps-limit.desc = Maximum number of clicks per second on a target
+globals.hit-chance = Hit Chance
+globals.hit-chance.desc = Chance to hit a target
+globals.damage-timing = Damage Timing
+globals.damage-timing.desc = More likely to hit immediately after invulnerability
+globals.attack-range = Attack Range
+globals.attack-range.desc = Maximum range at which hits are made
+globals.smart-crit = Smart Crit
+globals.smart-crit.desc = Adjusts the timing of criticals
+globals.perfect-timing = Perfect Timing
+globals.perfect-timing.desc =
+globals.only-crit = Only Crit
+globals.only-crit.desc =
+globals.stop-sprint = Stop Sprint
+globals.stop-sprint.desc = Stops sprinting before attacking for a critical hit
+globals.pre-attack-sprint-delay = Pre Attack Sprint Delay
+globals.pre-attack-sprint-delay.desc = Time to pause sprinting before attacking
+globals.post-attack-sprint-delay = Post Attack Sprint Delay
+globals.post-attack-sprint-delay.desc = Time to pause sprinting after attacking
+
+globals.ignore-passive = Ignore Passive
+globals.ignore-passive.desc = Ignores passive entities
+globals.ignore-named = Ignore Named
+globals.ignore-named.desc = Ignores named entities
+globals.ignore-sitting = Ignore Sitting
+globals.ignore-sitting.desc = Ignores entities sitting in a boat or minecart
+globals.ignore-invisible = Ignore Invisible
+globals.ignore-invisible.desc = Ignores entities With the invisibility effect
+globals.ignore-naked = Ignore Naked
+globals.ignore-naked.desc = Ignores entities without equipment
+
+globals.support = Support
+globals.support.desc = Places support blocks if blocks cannot be placed in the air
+globals.support = Support
+globals.support.desc = Number of support blocks that can be placed
+
+globals.yaw-step = Yaw Step
+globals.yaw-step.desc = Maximum horizontal turn angle per tick
+globals.pitch-step = Pitch Step
+globals.pitch-step.desc = Maximum vertical turn angle per tick
+
+globals.weapon = Weapon
+globals.weapon.desc = Weapon used for attacking
+globals.version = Version
+globals.version.desc = Swing version
+
+globals.scale = Scale
+globals.color = Color
+
+globals.swing-hand = Swing Hand
+globals.swing-hand.desc = Hand animation during actions
+
+globals.toggle-on-chorus = Toggle On Chorus
+globals.toggle-on-chorus.desc = The module is disabled if the player eats the chorus
+globals.toggle-on-death = Toggle On Death
+globals.toggle-on-death.desc = The module is disabled after the player dies
+
+# Cosmetics
+
+settings.shader = Shader
+settings.shader.desc = Uses a shader for rendering
+settings.line-width = Line Width
+settings.line-width.desc = Width of shader outline
+settings.gradient-factor = Gradient Distance
+settings.gradient-factor.desc = Gradient generating factor
+settings.gradient-speed = Gradient Speed
+settings.gradient-speed.desc = Speed of changing colors in gradient
+settings.gradient = Gradient
+settings.gradient.desc = Transition between colors during rendering
+settings.gradient-segments = Color Segments
+settings.gradient-segments.desc = Segments of gradient colors in rendered box
+settings.pattern = Pattern
+settings.pattern.desc = Additional pattern to the render
+settings.opacity-animation = Opacity Animation
+settings.opacity-animation.desc = Adds transparency animation to the render
+settings.scale-animation = Scale Animation
+settings.scale-animation.desc = Adds scale animation to the render
+settings.animation = Animation
+settings.animation.desc = Animation type
+settings.animation-time = Animation Time
+settings.animation-time.desc = Time it takes for the animation to run
+
+# Client Config
+
+settings.gui-keybind = Gui Keybind
+settings.gui-keybind.desc = Keybind to which the cheat interface opens
+settings.gui-scale = Gui Scale
+settings.gui-scale.desc = Size at which the cheat interface is displayed
+settings.language = Language
+settings.language.desc = Interface and message language in read
+settings.play-sound = Play Sound
+settings.play-sound.desc = Plays a sound when the interface opens
+settings.world-animation = World Animation
+settings.world-animation.desc = Plays a world animation when the interface opens
+settings.animation-range = Animation Range
+settings.animation-range.desc = World animation range when the interface opens
+settings.animation-time = Animation Time
+settings.animation-time.desc = World animation time when the interface opens
+settings.wave-mode = Wave Mode
+settings.wave-mode.desc = Adds a wave effect to the render when the interface appears
+settings.name-spacings = Name Spacings
+settings.name-spacings.desc = Displays spaces in module names
+settings.friend-color = Friend Color
+settings.friend-color.desc = Color used to display friends
+settings.air-place = Air Place
+settings.air-place.desc = Allows placing blocks on air
+settings.strict-directions = Strict Directions
+settings.strict-directions.desc = Allows only strict directions when interacting with blocks
+settings.strict-timing = Strict Timing
+settings.strict-timing.desc = Strict timings that are taken into account when running modules
+settings.movement-sync = Movement Correction
+settings.movement-sync.desc = Modifies movements according to player rotations
+settings.client-rotation = Client Look
+settings.client-rotation.desc =
+settings.rotation-gap = Rotation Gap
+settings.rotation-gap.desc = Maximum distance at which rotation can be ignored
+
+# HUD
+
+settings.hud-scale = Scale
+settings.hud-scale.desc = The size of hud elements
+settings.grid-snap-distance = Snap Distance
+settings.grid-snap-distance.desc = Distance of snapping elements in grid
+settings.text-color = Text Color
+settings.text-color.desc = Color of main text element
+settings.color-spread = Color Spread
+settings.color-spread.desc = Letters gradient offset factor
+settings.value-text-color = Info Color
+settings.value-text-color.desc = Hud elements values color
+settings.brackets-color = Brackets Color
+settings.brackets-color.desc = Color of the brackets in the text
+settings.background-color = Background Color
+settings.background-color.desc = Color of the background rectangle
+settings.hud-editor = Hud Editor
+settings.hud-editor.desc = Activate hud editor screen
+
+# Enums
+
+enums.swap.hotbar = Hotbar
+enums.swap.alternative = Alternative
+
+enums.entities.animals = Animals
+enums.entities.monsters = Monsters
+enums.entities.other = Other
+enums.entities.players = Players
+enums.entities.items = Items
+
+enums.target-priority.health = Health
+enums.target-priority.range = Range
+enums.target-priority.field-of-view = Field Of View
+
+enums.trap.full = Full
+enums.trap.face = Face
+enums.trap.head = Head
+
+enums.break-color.progress = Progress
+enums.break-color.static = Static
+
+enums.rotate.none = None
+enums.rotate.vanilla = Vanilla
+enums.rotate.packet = Packet
+enums.rotate.grim = Grim
+
+enums.strict.none = None
+enums.strict.grim = Grim
+enums.strict.full = Full
+
+enums.pattern.none = None
+enums.pattern.web = Web
+enums.pattern.cage = Cage
+
+enums.easing-mode.linear = Linear
+enums.easing-mode.cubic = Cubic
+enums.easing-mode.double = Double
+
+enums.shader-type.default = Default
+enums.shader-type.wave = Wave
+enums.shader-type.gradient = Gradient
+
+enums.segments.two = Two
+enums.segments.four = Four
+enums.segments.eight = Eight
+
+# Aim Bot
+
+aim-bot.desc = Automatically aims at the enemy when drawing the bow
+aim-bot.rotate = Rotate
+aim-bot.rotate.desc = Rotation modes for aiming at the enemy
+aim-bot.extrapolation = Extrapolation
+aim-bot.extrapolation.desc = Calculates the player's future position in a few ticks and aims ahead
+aim-bot.enums.instant = Instant
+aim-bot.enums.vanilla = Vanilla
+aim-bot.enums.legit = Legit
+
+# Anchor Aura
+
+anchor-aura.desc = Automatically places and explodes respawn anchors to deal damage to the target
+anchor-aura.break-trap = Break Trap
+anchor-aura.break-trap.desc = Automatically breaks the target's trap to place an anchor
+anchor-aura.anti-protect = Anti Protect
+anchor-aura.anti-protect.desc = Instantly replaces the anchor with another block to prevent the target from detonating it first
+anchor-aura.replacement-block = Replacement Block
+anchor-aura.replacement-block.desc = Block to use to replace the anchor
+anchor-aura.sequential = Sequential
+anchor-aura.sequential.desc = Actions are performed sequentially over 1 tick
+anchor-aura.place-delay = Place Delay
+anchor-aura.place-delay.desc = Delay at which respawn anchors are placed
+anchor-aura.break-delay = Break Delay
+anchor-aura.break-delay.desc = Delay at which respawn anchors explode
+anchor-aura.interact-range = Interact Range
+anchor-aura.interact-range.desc = Maximum range at which respawn anchors are placed/exploded
+anchor-aura.min-damage = Min Damage
+anchor-aura.min-damage.desc = Minimum target damage at which respawn anchors are placed/exploded
+anchor-aura.max-self-damage = Max Self Damage
+anchor-aura.max-self-damage.desc = Maximum self-damage at which anchors are placed/exploded Respawn
+anchor-aura.anti-self-pop = Anti Self Pop
+anchor-aura.anti-self-pop.desc = A respawn anchor is not placed if damage to yourself at this location is greater than your health
+anchor-aura.anti-friend-pop = Anti Friend Pop
+anchor-aura.anti-friend-pop.desc = A respawn anchor is not placed if damage to friends at this location is greater than their health
+anchor-aura.render.desc = Render the positions where respawn anchors are placed
+
+anchor-aura.enums.none = None
+anchor-aura.enums.auto = Auto
+anchor-aura.enums.place = Place
+anchor-aura.enums.break = Break
+anchor-aura.enums.full = Full
+
+# Attack Aura
+
+attack-aura-2.desc = Automatically hits enemies in radius
+attack-aura-2.attack-delay = Attack Delay
+attack-aura-2.attack-delay.desc = Attack delay that is added to the weapon delay
+attack-aura-2.delay-chance = Delay Chance
+attack-aura-2.delay-chance.desc = Chance to choose a longer delay
+attack-aura-2.targeting = Targeting
+attack-aura-2.targeting.desc = Targets a specific target
+attack-aura-2.legit-rotate = Legit Rotate
+attack-aura-2.legit-rotate.desc = Simulates normal player rotations
+attack-aura-2.raytrace-blocks = Raytrace Blocks
+attack-aura-2.raytrace-blocks.desc = Does not attack if there is a block in the attack line
+attack-aura-2.raytrace-entities = Raytrace Entities
+attack-aura-2.raytrace-entities.desc = Entities
+attack-aura-2.snap-time = Snap Time
+attack-aura-2.snap-time.desc =
+
+attack-aura-2.enums.sword = Sword
+attack-aura-2.enums.axe = Axe
+attack-aura-2.enums.any = Any
+
+attack-aura-2.enums.none = None
+attack-aura-2.enums.packet = Packet
+attack-aura-2.enums.snap = Snap
+attack-aura-2.enums.track = Track
+
+# Attack Aura Old
+
+attack-aura.desc = Automatically attacks enemies in range
+attack-aura.legit-rotate = Legit Rotate
+attack-aura.legit-rotate.desc = Simulates regular player rotations
+attack-aura.legit-timing = Legit Timing
+attack-aura.legit-rotate.desc = Simulates the attack timings of a normal player
+attack-aura.raytrace = Raytrace
+attack-aura.raytrace.desc = Does not attack if there is an obstacle in the attack line
+attack-aura.snap-ticks = Snap Ticks
+attack-aura.snap-ticks.desc = Number of ticks during which rotation occurs
+attack-aura.track-ticks = Track Ticks
+attack-aura.track-ticks.desc = Number of ticks the module looks at the enemy
+attack-aura.sync-with-auto-mine = Sync With Auto Mine
+attack-aura.sync-with-auto-mine.desc = Synchronizes attacks with AutoMine for increased damage
+attack-aura.render.desc = Render target
+attack-aura.scale.desc = Ghost scale
+attack-aura.color.desc = Ghost color
+attack-aura.trail-color = Trail Color
+attack-aura.trail-color.desc = Color with which the circle trail is rendered
+
+attack-aura.enums.sword = Sword
+attack-aura.enums.axe = Axe
+attack-aura.enums.any = Any
+
+attack-aura.enums.none = None
+attack-aura.enums.instant = Instant
+attack-aura.enums.grim-instant = Grim Instant
+attack-aura.enums.snap = Snap
+attack-aura.enums.track = Track
+
+# Auto Crystal
+
+auto-crystal.desc = Automatically places and detonates crystals to deal damage to the target
+auto-crystal.place-delay = Place Delay
+auto-crystal.place-delay.desc = Delay at which crystals are placed
+auto-crystal.place-range = Place Range
+auto-crystal.place-range.desc = Maximum distance at which crystals are placed
+auto-crystal.walls-place-range = Walls Place Range
+auto-crystal.walls-place-range.desc = Maximum distance at which crystals are placed through walls
+auto-crystal.ray-trace-mode = Ray Trace
+auto-crystal.ray-trace-mode.desc = Checking visibility of placing crystal block
+auto-crystal.sequential = Sequential
+auto-crystal.sequential.desc = Instantly places the crystal after it detonates
+auto-crystal.anti-hitbox-desync = Anti Hitbox Desync
+auto-crystal.anti-hitbox-desync.desc = Prevents enemy HitboxDesync module
+auto-crystal.lower-hitbox = Lower Hitbox
+auto-crystal.lower-hitbox.desc = Uses low crystal hitboxes to calculate intersections with entities
+auto-crystal.legacy = 1.12.2
+auto-crystal.legacy.desc = Uses features from version 1.12.2 to calculate positions
+auto-crystal.break-delay = Break Delay
+auto-crystal.break-delay.desc = Delay with which crystal explosions occur
+auto-crystal.break-range = Break Range
+auto-crystal.break-range.desc = Maximum distance at which crystal explosions occur
+auto-crystal.walls-break-range = Walls Break Range
+auto-crystal.walls-break-range.desc = Maximum distance at which crystal explosions occur through walls
+auto-crystal.crystal-age = Crystal Age
+auto-crystal.crystal-age.desc = Minimum age of a crystal required to attacks
+auto-crystal.await = Await
+auto-crystal.await.desc = Waits a certain amount of time before exploding the crystal
+auto-crystal.inhibit = Inhibit
+auto-crystal.inhibit.desc = Limit the number of attacks per crystal
+auto-crystal.break-attempts = Break Attempts
+auto-crystal.break-attempts.desc = Number of attacks per crystal
+auto-crystal.retry-delay = Retry Delay
+auto-crystal.retry-delay.desc = Delay between attacks per crystal
+auto-crystal.auto-base = Auto Base
+auto-crystal.auto-base.desc = Places obsidian to place a crystal on
+auto-crystal.base-delay = Base Delay
+auto-crystal.base-delay.desc = Delay with which obsidian is placed
+auto-crystal.extrapolation = Extrapolation
+auto-crystal.extrapolation.desc = Number of ticks by which target movements are predicted for damage calculation
+auto-crystal.min-damage = Min Damage
+auto-crystal.min-damage.desc = Minimum target damage at which crystals are placed/exploded
+auto-crystal.min-damage-ratio = Min Damage Ratio
+auto-crystal.min-damage-ratio.desc = Minimum ratio of target damage to self at which crystals are placed/exploded
+auto-crystal.max-self-damage = Max Self Damage
+auto-crystal.max-self-damage.desc = Maximum self-damage at which crystals are placed/exploded Crystals
+auto-crystal.anti-self-pop = Anti Self Pop
+auto-crystal.anti-self-pop.desc = Crystals are not placed or exploded if damage to yourself in this location is greater than your health
+auto-crystal.anti-friend-pop = Anti Friend Pop
+auto-crystal.anti-friend-pop.desc = Crystals are not placed or exploded if damage to friends in this location is greater than their health
+auto-crystal.anti-resources-explosion = Anti Resources Explosion
+auto-crystal.anti-resources-explosion.desc = Doesn't place or explode crystals if they would explode resources
+auto-crystal.min-health = Min Health
+auto-crystal.min-health.desc = Minimum health at which crystals are placed/exploded
+auto-crystal.face-place = Face Place
+auto-crystal.face-place.desc = Places crystals even if their damage is less than the minimum damage
+auto-crystal.face-place-slowness = Face Place Slowness
+auto-crystal.face-place-slowness.desc = Action that is slowed down when using face place
+auto-crystal.face-place-hp = Face Place Hp
+auto-crystal.face-place-hp.desc = Maximum target health at which face place is used
+auto-crystal.face-place-armor = Face Place Armor
+auto-crystal.face-place-armor.desc = Maximum target armor durability at which face place is used
+auto-crystal.face-place-delay = Face Place Delay
+auto-crystal.face-place-delay.desc = Delay with which Face Place
+auto-crystal.render.desc = Render positions where crystals are placed
+
+auto-crystal.enums.none = None
+auto-crystal.enums.free = Free
+auto-crystal.enums.strict = Strict
+
+auto-crystal.enums.hotbar = Hotbar
+auto-crystal.enums.alternative = Alternative
+auto-crystal.enums.cc = crystalpvp.cc
+
+auto-crystal.enums.place = Place
+auto-crystal.enums.break = Break
+
+auto-crystal.enums.center = Center
+auto-crystal.enums.edges = Edges
+auto-crystal.enums.strict = Strict
+
+# Auto Mine
+
+auto-mine.desc = Automatically breaks enemy ladders to deal crystal damage
+auto-mine.range = Range
+auto-mine.range.desc = Maximum range of the module
+auto-mine.max-self-damage = Max Self Damage
+auto-mine.max-self-damage.desc = Maximum damage that can be inflicted on oneself due to the module's operation
+auto-mine.instant-rotate = Instant Rotate
+auto-mine.instant-rotate.desc = Instant rotation in 1 tick with the action
+auto-mine.wait-re-break = Wait Re Break
+auto-mine.wait-re-break.desc = Waits until a certain ReBreak progress is reached
+auto-mine.re-break-progress = Re Break Progress
+auto-mine.re-break-progress.desc = ReBreak progress that is waited for before acting
+auto-mine.air-pre-break = Air Pre Break
+auto-mine.air-pre-break.desc = Starts breaking air to produce a ReBreak
+auto-mine.place-crystal = Place Crystal
+auto-mine.place-crystal.desc = Places crystals after a block breaks
+auto-mine.crystal-support = Crystal Support
+auto-mine.crystal-support.desc = Places obsidian to place a crystal on it
+auto-mine.place-support = Place Support
+auto-mine.place-support.desc = Places support obsidian to place the main obsidian on top of it
+auto-mine.support-length = Support Length
+auto-mine.support-length.desc = Amount of support obsidian that can be placed
+auto-mine.support-only-in-hole = Support Only In Hole
+auto-mine.support-only-in-hole.desc = Places obsidian only if the player is in a trap
+auto-mine.break-obstructive = Break Obstructive
+auto-mine.break-obstructive.desc = Breaks crystals that prevent the block from being placed
+auto-mine.break-crystal = Break Crystal
+auto-mine.break-crystal.desc = Breaks crystals to deal damage to the target
+auto-mine.break-only-trap-cev = Break Only Trap Cev
+auto-mine.break-only-trap-cev.desc = Breaks a crystal only if it is in the Cev Trap position
+auto-mine.types = Types
+auto-mine.types.desc = Types of ladders to be broken
+auto-mine.burrow = Burrow
+auto-mine.burrow.desc = Breaks the enemy Burrow
+auto-mine.city = City
+auto-mine.city.desc = Breaks the enemy Surround for City
+auto-mine.surround-cev = Surround Cev
+auto-mine.surround-cev.desc = Breaks the enemy Surround for Cev
+auto-mine.trap-cev = Trap Cev
+auto-mine.trap-cev.desc = Breaks the enemy Trap
+auto-mine.min-cev-damage = Min Cev Damage
+auto-mine.min-cev-damage.desc = Minimum damage required to deal Cev
+auto-mine.cev-extra-positions = Cev Extra Positions
+auto-mine.cev-extra-positions.desc = Produces Cev in any possible position
+auto-mine.extra-positions-priority = Extra Positions Priority
+auto-mine.extra-positions-priority.desc = Produces Cev more often in non-standard positions
+
+# Place Function
+
+place-function.blocks = Blocks
+place-function.blocks.desc = Blocks used by the module
+place-function.range = Range
+place-function.range.desc = Maximum distance at which blocks are placed
+place-function.delay = Delay
+place-function.delay.desc = Delay at which blocks are placed
+place-function.break-crystals = Break Crystals
+place-function.break-crystals.desc = Explode crystals that interfere with block placement
+place-function.break-delay = Break Delay
+place-function.break-delay.desc = Delay with which crystals explode
+place-function.break-instant = Break Instant
+place-function.break-instant.desc = Instantly breaks the crystal after it appears
+place-function.place-rotate = Place Rotate
+place-function.place-rotate.desc = Rotates towards the place's position
+place-function.break-rotate = Break Rotate
+place-function.break-rotate.desc = Rotates towards the crystal's attack position
+place-function.shift-ticks = Shift Ticks
+place-function.shift-ticks.desc = The number of additional blocks placed per tick
+place-function.shift-delay = Shift Delay
+place-function.shift-delay.desc = Delay between skipped ticks
+place-function.resources-toggle = Resources Toggle
+place-function.resources-toggle.desc = Disables the module if there are no resources to operate
+
+# Auto Trap
+
+auto-trap.desc = Automatically traps an enemy
+auto-trap.mode = Mode
+auto-trap.mode.desc = Trap type to use
+auto-trap.anti-step = Anti Step
+auto-trap.anti-step.desc = Places additional blocks that prevent the target from using Step
+
+# Auto Web
+
+auto-web.desc = Automatically places webs on enemies
+auto-web.mode = Mode
+auto-web.mode.desc = Enemy body part where the web is placed
+auto-web.range = Range
+auto-web.range.desc = Maximum distance at which the web is placed
+auto-web.no-self-web = No Self Web
+auto-web.no-self-web.desc = Prevents webs from being placed on yourself
+auto-web.delay = Delay
+auto-web.delay.desc = Delay with which the web is placed
+auto-web.extrapolation = Extrapolation
+auto-web.extrapolation.desc = Number of ticks by which the target's movement is predicted for web placement
+
+auto-web.enums.feet = Feet
+auto-web.enums.head = Head
+auto-web.enums.full = Full
+
+# Backtrack
+
+backtrack.desc = Allows hitting the target's previous positions
+backtrack.range = Range
+backtrack.range.desc = Maximum range at which hitboxes remain
+backtrack.only-players = Only Players
+backtrack.only-players.desc = Only player hitboxes remain
+backtrack.backtrack-ticks = Backtrack Ticks
+backtrack.backtrack-ticks.desc = Number of ticks at which the hitbox remains
+
+# Blocker
+
+blocker.desc = Automatically blocks positions that the enemy can damage with a crystal
+blocker.mode = Mode
+blocker.mode.desc = Blocker mode
+blocker.break-progress = Break Progress
+blocker.break-progress.desc = Breaking progress of the block on which the position is blocked
+blocker.protection = Protection
+blocker.protection.desc = Part of the ladder that the Blocker protects
+blocker.extra-positions = Extra Positions
+blocker.extra-positions.desc = Protect non-standard positions
+blocker.air-trigger = Air Trigger
+blocker.air-trigger.desc = Blocks a position, even if it is air
+blocker.min-trigger-damage = Min Trigger Damage
+blocker.min-trigger-damage.desc = Minimum damage from a position at which it is blocked
+blocker.mining-range = Mining Range
+blocker.mining-range.desc = Mining range used to predict enemy block breaking
+blocker.only-targets-in-hole = Only Targets In Hole
+blocker.only-targets-in-hole.desc = Predicts block breaking for targets in hole only
+blocker.surround = Surround
+blocker.surround.desc = Mode used to predict Surround breaking
+blocker.self-trap = Self Trap
+blocker.surround.desc = Mode used to predict SelfTrap breaking
+blocker.force-surround-place = Force Surround Place
+blocker.force-surround-place.desc = When activated, blocks all Surround positions
+blocker.force-self-trap-place = Force Self Trap Place
+blocker.force-self-trap-place.desc = When activated, blocks all SelfTrap positions
+
+blocker.enums.normal = Normal
+blocker.enums.blind = Blind
+
+blocker.enums.full = Full
+blocker.enums.surround = Surround
+blocker.enums.self-trap = Self Trap
+
+blocker.enums.none = None
+blocker.enums.predictive = Predictive
+blocker.enums.delayed = Delayed
+
+# Bow Release
+
+bow-release.desc = Spams arrows
+bow-release.only-right-click = Only Right Click
+bow-release.only-right-click.desc = Works only when use key is pressed
+bow-release.charge-power = Charge Power
+bow-release.charge-power.desc = How long to charge bow in ticks
+
+# Burrow
+
+burrow.desc = Automatically places a block inside the player
+burrow.mode = Mode
+burrow.mode.desc = Mode used to place a block inside the player
+burrow.blocks = Blocks
+burrow.blocks.desc = Blocks used
+burrow.disable = Disable
+burrow.disable.desc = Disabled after the block is placed
+burrow.delay = Delay
+burrow.delay.desc = Delay after which the module is triggered
+burrow.v-clip = V Clip
+burrow.v-clip.desc = Distance used to teleport in Y to return to the block
+
+burrow.enums.normal = Normal
+burrow.enums.cc = crystalpvp.cc
+
+# Crawl Trap
+
+crawl-trap.desc = Keeps the enemy prone
+crawl-trap.trap-radius = Trap Radius
+crawl-trap.trap-radius.desc = Trap radius that is placed above the enemy
+
+# Criticals
+
+criticals.desc = Allows crits on the ground
+criticals.mode = Mode
+criticals.mode.desc = Mode used for crits
+criticals.only-with-attack-aura = Only With Attack Aura
+criticals.only-with-attack-aura.desc = Crits from the ground only with AttackAura
+criticals.only-phased = Only Phased
+criticals.only-phased.desc = Works only when you are in blocks
+criticals.only-phased-in-walls = Only Phased In Walls
+criticals.only-phased-in-walls.desc = Works only when your hitbox is fully inside a block
+criticals.pause-in-web = Pause In Web
+criticals.pause-in-web.desc = The module pauses while the player is in Web
+criticals.pause-on-move = Pause On Move
+criticals.pause-on-move.desc = The module pauses while the player is moving
+
+criticals.enums.packet = Packet
+criticals.enums.ncp = NCP
+criticals.enums.grim = Grim
+criticals.enums.grim-v3 = Grim V3
+
+# Crystal Optimizer
+
+crystal-optimizer.desc = Improves interaction with crystals
+crystal-optimizer.instant-remove = Instant Remove
+crystal-optimizer.instant-remove.desc = Instantly removes crystals after hitting, without waiting for a response from the server
+crystal-optimizer.multi-task = Multi Task
+crystal-optimizer.multi-task.desc = Allows you to simultaneously break blocks and attack crystals
+
+# Hole Fill
+
+hole-fill.desc = Automatically closes holes
+hole-fill.without-target = Without Target
+hole-fill.without-target.desc = Builds holes even if there are no targets nearby
+hole-fill.min-range = Min Range
+hole-fill.min-range.desc = Minimum distance from the player at which holes are built
+hole-fill.range-from-target = Range From Target
+hole-fill.range-from-target.desc = Maximum distance from the target at which holes are built
+hole-fill.y-range = Y Range
+hole-fill.y-range.desc = Maximum distance from the target in Y at which holes are built
+hole-fill.only-in-hole = Only In Hole
+hole-fill.only-in-hole.desc = The module only works if the player is in the holes
+hole-fill.safe-in-hole = Safe In Hole
+hole-fill.safe-in-hole.desc = Ignores the minimum distance if the player is in holes
+hole-fill.extrapolation = Extrapolation
+hole-fill.extrapolation.desc = Number of ticks by which the target's movements are predicted for building holes
+hole-fill.hole-height = Hole Height
+hole-fill.hole-height.desc = Minimum height of holes
+hole-fill.single-holes = Single Holes
+hole-fill.single-holes.desc = Builds holes of 1 block
+hole-fill.double-holes = Double Holes
+hole-fill.double-holes.desc = Builds holes of 2 blocks
+hole-fill.quad-holes = Quad Holes
+hole-fill.quad-holes.desc = Builds holes of 4 blocks
+
+# Offhand
+
+offhand.desc = Automatically moves the desired item to the offhand
+offhand.smart = Smart
+offhand.smart.desc = Takes into account the possibility damage that can be dealt to a player
+offhand.gapple-bind = Gapple Bind
+offhand.gapple-bind.desc = When activated, equip a golden apple to your offhand
+offhand.delay = Delay
+offhand.delay.desc = Delay between inventory item transfers
+offhand.item = Item
+offhand.item.desc = Primary item that is transferred to your offhand
+offhand.swap-mode = Swap Mode
+offhand.swap-mode.desc = Mode of moving items in your inventory
+offhand.silent = Silent
+offhand.silent.desc = Ignores clients calculations and send packet to the server instantly
+offhand.min-hp = Min Hp
+offhand.min-hp.desc = Health below which a totem will be placed in your offhand
+
+offhand.enums.totem = Totem
+offhand.enums.crystal = Crystal
+offhand.enums.gapple = Gapple
+offhand.enums.egapple = Egapple
+
+offhand.enums.swap = Swap
+offhand.enums.inventory = Inventory
+offhand.enums.simulation = Simulation
+
+# Piston Push
+
+piston-push.desc = Automatically pushes targets out of their holes with Piston
+piston-push.place-range = Place Range
+piston-push.place-range.desc = Maximum distance at which blocks can be placed
+piston-push.push-delay = Push Delay
+piston-push.push-delay.desc = Delay between pushing a single target
+piston-push.push-on-self = Push On Self
+piston-push.push-on-self.desc = Pushes the target towards the player if possible
+piston-push.hole-fill = Hole Fill
+piston-push.hole-fill.desc = Builds up an obsidian hole after pushing a target
+piston-push.anti-self-push = Anti Self Push
+piston-push.anti-self-push.desc = Prevents the player from being pushed out of the hole
+piston-push.auto-toggle = Auto Toggle
+piston-push.auto-toggle.desc = The module is disabled after the first activation
+
+# Self Trap
+
+self-trap.desc = Automatically traps the player
+self-trap.mode = Mode
+self-trap.mode.desc = Part of the trap the player stands in
+self-trap.anti-cev = Anti Cev
+self-trap.anti-cev.desc = Prevents damage from Cev
+
+# Suicide
+
+suicide.desc = Enables the modules attacking yourself
+
+# Surround
+
+surround.desc = Automatically traps the player
+surround.toggle-on-jump = Toggle On Jump
+surround.toggle-on-jump.desc = The module is disabled when the player jumps
+surround.pause-step = Pause Step
+surround.pause-step.desc = Disables Step while the module is active
+
+# Tnt Aura
+
+tnt-aura.desc = Automatically places and ignites dynamite above the target
+tnt-aura.tnt-delay = Tnt Delay
+tnt-aura.tnt-delay.desc = Delay with which dynamite blocks are placed
+tnt-aura.tnt-spam = Tnt Spam
+tnt-aura.tnt-spam.desc = Places blocks, ignoring activated dynamite
+tnt-aura.only-targets-in-hole = Only Targets In Hole
+tnt-aura.only-targets-in-hole.desc = Selects only targets in the hole
+tnt-aura.trap = Trap
+tnt-aura.trap.desc = Part of the trap into which the target is placed
+tnt-aura.face-trap = Face Trap
+tnt-aura.face-trap.desc = Places a trap at the level Target heads
+tnt-aura.only-top-trapped = Only Top Trapped
+tnt-aura.only-top-trapped.desc = Plants dynamite only if there is a block above the position
+tnt-aura.break-trap = Break Trap
+tnt-aura.break-trap.desc = Break the target's trap to plant dynamite
+
+tnt-aura.enums.none = None
+tnt-aura.enums.top = Top
+tnt-aura.enums.full = Full
+
+# Trigger Bot
+
+trigger-bot.desc = Automatically attacks entities the player is looking at
+trigger-bot.on-attack-key = On Attack Key
+trigger-bot.on-attack-key.desc = Attacks only if the attack key is held down
+
+# Anti Ac Detect
+
+anti-ac-detect.desc = Prevents anti-cheat detections
+anti-ac-detect.no-multi-swap = No Multi Swap
+anti-ac-detect.no-multi-swap.desc = Prevents multiple swaps in 1 tick, sending them gradually
+anti-ac-detect.no-aim-duplicate = No Aim Duplicate
+anti-ac-detect.no-aim-duplicate.desc = Prevents sending identical rotations in a row
+anti-ac-detect.no-slot-duplicate = No Slot Duplicate
+anti-ac-detect.no-slot-duplicate.desc = Prevents sending identical slots in a row
+anti-ac-detect.no-sprint-duplicate = No Sprint Duplicate
+anti-ac-detect.no-sprint-duplicate.desc = Prevents sending identical statuses consecutive sprints
+anti-ac-detect.no-input-duplicate = No Input Duplicate
+anti-ac-detect.no-input-duplicate.desc = Prevents sending identical movement statuses in a row
+anti-ac-detect.no-self-interact = No Self Interact
+anti-ac-detect.no-self-interact.desc = Prevents interactions with yourself
+
+# Anti AFK
+
+anti-afk.desc = Module that prevents kicks while AFK
+anti-afk.actions = Actions
+anti-afk.actions.desc = Actions to prevent a player from being kicked while AFK
+anti-afk.jump-delay = Jump Delay
+anti-afk.jump-delay.desc = Wait time between jumps
+
+anti-afk.enums.jump = Jump
+
+# Anti Bot
+
+anti-bot.desc = Disables Client bot handling
+anti-bot.ping = Ping
+anti-bot.ping.desc = Identifies bots by ping
+anti-bot.nickname = Nickname
+anti-bot.nickname.desc = Identifies bots by nickname
+anti-bot.uuid = Uuid
+anti-bot.uuid.desc = Identifies bots by Uuid
+anti-bot.movement = Movement
+anti-bot.movement.desc = Identifies bots by movement
+anti-bot.health = Health
+anti-bot.health.desc = Identifies bots by health
+anti-bot.age = Age
+anti-bot.age.desc = Identifies bots by their age
+anti-bot.speed = Speed
+anti-bot.speed.desc = Separates bots by movement speed
+
+# Anti Packet Crash
+
+anti-packet-crash.desc = Prevents game crashes due to packet handling errors
+
+# Auto Ominous
+
+auto-ominous.desc = Automatically drinks ominous potions to summon raids
+auto-ominous.range = Range
+auto-ominous.range.desc = Maximum distance from the center at which potions are used
+auto-ominous.setup-position = Setup Position
+auto-ominous.setup-position.desc = Sets the center of the radius at which potions are used
+auto-ominous.render.desc = Render the radius at which potions are used
+auto-ominous.active-color = Active Color
+auto-ominous.active-color.desc = Color used to render the radius when the module is running
+auto-ominous.inactive-color = Inactive Color
+auto-ominous.inactive-color.desc = Color used to render the radius while waiting
+
+# Auto Wither
+
+auto-wither.desc = Automatically places withers
+auto-wither.range = Range
+auto-wither.range.desc = Maximum distance at which blocks are placed
+auto-wither.place-delay = Place Delay
+auto-wither.place-delay.desc = Delay at which blocks are placed
+
+# Better Chat
+
+better-chat.desc = Allows you to customize your in game chat
+better-chat.animation = Animation
+better-chat.animation.desc = Display message animation while adding
+better-chat.time-stamps = Time Stamps
+better-chat.time-stamps.desc = Displays time stamps before message
+better-chat.player-heads = Player Heads
+better-chat.player-heads.desc = Displays player heads before message
+better-chat.keep-history = Keep History
+better-chat.keep-history.desc = Whether or not to clear chat history after disconnect
+better-chat.extra-chat-length = Extra History Length
+better-chat.extra-chat-length.desc = Allows to show more messages to chat history
+better-chat.extra-message-length = Extra Message Length
+better-chat.extra-message-length.desc = Allows to type infinity-length messages
+better-chat.chat-width = Chat Width
+better-chat.chat-width.desc = Setting to change chat width
+better-chat.prefix-string = Message Prefix
+better-chat.prefix-string.desc = Adds text before sent message
+better-chat.suffix-string = Message Suffix
+better-chat.suffix-string.desc = Adds text after sent message
+
+# Better Tab
+
+better-tab.desc = Allows you to customize tab
+better-tab.tab-size = Tab Size
+better-tab.tab-size.desc = Maximum count of players to be displayed
+better-tab.player-heads = Player Heads
+better-tab.player-heads.desc = Displays players heads before nickname
+better-tab.self-highlight = Self Highlight
+better-tab.self-highlight.desc = Highlights self nickname with selected color
+better-tab.friends-highlight = Friends Highlight
+better-tab.friends-highlight.desc = Highlights self nickname
+
+# Discord Presence
+
+discord-presence.desc = Displays the game status on the Discord profile
+discord-presence.small-image-mode = Small Image Mode
+discord-presence.small-image-mode.desc = Displays selected information in the small rpc icon
+
+discord-presence.enums.server-avatar = Server Info
+discord-presence.enums.player-avatar = Player Info
+discord-presence.enums.none = None
+
+# Ender Chest Farm
+
+ender-chest-farm.desc = Automatically places and breaks end chests to mine obsidian
+ender-chest-farm.range = Range
+ender-chest-farm.range.desc = Maximum distance at which end chests can be placed and broken
+ender-chest-farm.mine = Mine
+ender-chest-farm.mine.desc = Automatically breaks end chests
+ender-chest-farm.side-protect = Side Protect
+ender-chest-farm.side-protect.desc = Surrounds an end chest with obsidian
+ender-chest-farm.top-protect = Top Protect
+ender-chest-farm.top-protect.desc = Places obsidian above an end chest
+ender-chest-farm.support = Support
+ender-chest-farm.support.desc = Support blocks
+ender-chest-farm.break-crystals = Break Crystals
+ender-chest-farm.break-crystals.desc = Explodes crystals that interfere with block placement
+ender-chest-farm.break-rotate = Break Rotate
+ender-chest-farm.break-rotate.desc = Rotates in the direction of interaction with the crystal
+
+# Fake Player
+
+fake-player.desc = Creates an artificial player on the client-side
+fake-player.nickname = Nickname
+fake-player.nickname.desc = Nickname given to the artificial player
+
+# Fast Latency
+
+fast-latency.desc = Calculates ping faster than the standard Minecraft method
+fast-latency.method = Method
+fast-latency.method.desc = Method used to calculate ping
+fast-latency.request-command = Request Command
+fast-latency.request-command.desc = Command used to calculate response time From the server
+fast-latency.delay = Delay
+fast-latency.delay.desc = Delay with which requests to the server are made
+
+fast-latency.enums.stats = Stats
+fast-latency.enums.command = Command
+
+# Minigame Helper
+
+minigame-helper.desc = Various minigame amenities
+minigame-helper.team-colors = Team Colors
+minigame-helper.team-colors.desc = Player rendering in the cheat is displayed with team colors
+minigame-helper.friend-team = Friend Team
+minigame-helper.friend-team.desc = All players in the team automatically become friends
+
+# No Interact
+
+no-interact.desc = Disables selected interactions
+no-interact.eat = Eat
+no-interact.eat.desc = Disables interactions with blocks if you have a weapon in your hand Food
+no-interact.xp-bottles = Xp Bottles
+no-interact.xp-bottles.desc = Disables interactions with blocks if an experience potion is in hand
+no-interact.main-hand = Main Hand
+no-interact.main-hand.desc = Disables selected interactions in the main hand
+no-interact.off-hand = Off Hand
+no-interact.off-hand.desc = Disables selected interactions in the off-hand
+
+# Notifications
+
+notifications.desc = Sends notifications about selected events
+notifications.ignore-self = Ignore Self
+notifications.ignore-self.desc = Does not send notifications about events triggered by the player
+notifications.totems = Totems
+notifications.totems.desc = Sends notifications about totems being popped and about deaths
+
+# Packet Sounds
+
+packet-sounds.desc = Enables sounds for packet sounds Interactions
+packet-sounds.place-sound = Place Sound
+packet-sounds.place-sound.desc = Enables sounds for packet block placement
+packet-sounds.break-sound = Break Sound
+packet-sounds.break-sound.desc = Enables sounds for packet block breaking
+
+# Ping Spoof
+
+ping-spoof.desc = Increases the ping value in the tab
+ping-spoof.packet-lag = Packet Lag
+ping-spoof.packet-lag.desc = The time by which the packet is delayed when calculating the ping
+ping-spoof.correction = Correction
+ping-spoof.correction.desc = Takes the actual ping into account for latency accuracy
+
+# Spammer
+
+spammer.desc = Automatically sends random messages from a file to the chat
+spammer.delay = Delay
+spammer.delay.desc = Delay with which random messages are sent
+
+# Ambience
+
+ambience.desc = Allows you to customize the appearance of the world
+ambience.flat-sky = Flat Sky
+ambience.flat-sky.desc = Disables rendering of sky details
+ambience.custom-sky-color = Custom Sky Color
+ambience.custom-sky-color.desc = Allows you to customize the color of the sky in the world
+ambience.overworld-sky-color = Overworld Sky Color
+ambience.overworld-sky-color.desc = Overworld Sky Color
+ambience.nether-sky-color = Nether Sky Color
+ambience.nether-sky-color.desc = Nether Sky Color
+ambience.end-sky-color = End Sky Color
+ambience.end-sky-color.desc = Sky Color in end
+ambience.world-time = World Time
+ambience.world-time.desc = Changes the time of day in the world
+ambience.time = Time
+ambience.time.desc = World Time
+ambience.custom-time = Custom Time
+ambience.custom-time.desc = World Time
+ambience.custom-fog = Custom Fog
+ambience.custom-fog.desc = Allows you to customize the appearance of fog in the world
+ambience.thick-fog = Thick Fog
+ambience.thick-fog.desc = Sets a constant thick fog
+ambience.custom-fog-color = Custom Fog Color
+ambience.custom-fog-color.desc = Allows you to customize the color of fog in the world
+ambience.overworld-fog-color = Overworld Fog Color
+ambience.overworld-fog-color.desc = Overworld Fog Color
+ambience.nether-fog-color = Nether Fog Color
+ambience.nether-fog-color.desc = Nether fog color
+ambience.end-fog-color = End Fog Color
+ambience.end-fog-color.desc = End fog color
+ambience.custom-fog-range = Custom Fog Range
+ambience.custom-fog-range.desc = Allows you to adjust the fog range in the world
+ambience.fog-range = Fog Range
+ambience.fog-range.desc = Distance at which fog begins and ends
+ambience.particles = Particles
+ambience.particles.desc = Allows you to adjust the appearance of particles in the world
+ambience.particle-color = Particle Color
+ambience.particle-color.desc = Particle color in the world
+
+ambience.enums.evening = Evening
+ambience.enums.night = Night
+ambience.enums.day = Day
+ambience.enums.custom = Custom
+
+# Animations
+
+animations.desc = Adds various animations to your world
+animations.totem-pop-animation = Totem Pop Animation
+animations.totem-pop-animation.desc = Adds an animation when a totem is lost
+animations.death-animation = Death Animation
+animations.death-animation.desc = Adds an animation when a player dies
+animations.animation-time = Animation Time
+animations.animation-time.desc = Time it takes for the animation to play
+animations.wave-mode = Wave Mode
+animations.wave-mode.desc = Adds a wave effect to the render when a player appears
+animations.ignore-self = Ignore Self
+animations.ignore-self.desc = Ignores the loss of your totems
+
+# Arrows
+
+arrows.desc = Displays arrows on the screen pointing to players
+arrows.scale = Scale
+arrows.scale.desc = Scale of arrows
+arrows.radius = Radius
+arrows.radius.desc = Radius from the center of the screen where the arrows are rendered
+arrows.animation-time = Animation Time
+arrows.animation-time.desc = Time it takes for the animation to play
+arrows.animation-offset = Animation Offset
+arrows.animation-offset.desc = Distance the arrows travel during animation
+arrows.color = Color
+arrows.color.desc = Color with which the arrows are rendered
+
+# Aspect Ratio
+
+aspect-ratio.desc = Changes the aspect ratio of the image on the screen
+aspect-ratio.ratio = Ratio
+aspect-ratio.ratio.desc = Aspect ratio of the image on the screen
+aspect-ratio.custom-value = Custom Value
+aspect-ratio.custom-value.desc = Custom aspect ratio of the image on the screen screen
+
+aspect-ratio.enums.16-9 = 16:9
+aspect-ratio.enums.16-10 = 16:10
+aspect-ratio.enums.4-3 = 4:3
+aspect-ratio.enums.custom = Custom
+
+# Block ESP
+
+block-esp.desc = Lights up selected blocks
+block-esp.blocks = Blocks
+block-esp.blocks.desc = Blocks to select
+block-esp.line-opacity = Line Opacity
+block-esp.line-opacity.desc = Opacity of the esp lines
+block-esp.side-opacity = Side Opacity
+block-esp.side-opacity.desc = Opacity of the esp sides
+block-esp.tracers = Tracers
+block-esp.tracers.desc = Render tracers to selected blocks
+block-esp.tracer-opacity = Tracer Opacity
+block-esp.tracer-opacity.desc = Opacity of the tracers to blocks
+
+# Block Selection
+
+block-selection.desc = Renders the block the player's crosshair is aimed at
+block-selection.through-walls = Through Walls
+block-selection.through-walls.desc = Ignores obstacles when rendering
+block-selection.animation = Animation
+block-selection.animation.desc = Block changing animation
+block-selection.speed = Speed
+block-selection.speed.desc = Speed at which the animation occurs
+
+# Break ESP
+
+break-esp.desc = Renders blocks that other players break, configures block breaking for others modules
+break-esp.target-range = Target Range
+break-esp.target-range.desc = Maximum range at which block breaking is processed
+break-esp.mining-range = Mining Range
+break-esp.mining-range.desc = Maximum range at which other players can break blocks
+break-esp.speed = Speed
+break-esp.speed.desc = Speed at which other players can break blocks
+break-esp.double-mine = Double Mine
+break-esp.double-mine.desc = Enables breaking two blocks simultaneously for other players
+
+# Chams
+
+chams.desc = Allows you to change the appearance of entities
+chams.mode = Mode
+chams.mode.desc = Visual mode of chams
+chams.shader-color = Shader Color
+chams.shader-color.desc = Color of image shader
+chams.render-distance = Render Distance
+chams.render-distance.desc = Distance in which entities are rendered
+chams.crystals = Crystals
+chams.crystals.desc = Allows you to customize the appearance of ender crystals
+chams.crystals-scale = Crystals Scale
+chams.crystals-scale.desc = Scale at which ender crystals are displayed
+chams.crystals-bounce = Crystals Bounce
+chams.crystals-bounce.desc = Amplitude of ender crystal bounce
+chams.crystals-bounce-speed = Crystals Bounce Speed
+chams.crystals-bounce-speed.desc = End crystal bounce speed
+chams.crystals-rotation-speed = Crystals Rotation Speed
+chams.crystals-rotation-speed.desc = End crystal rotation speed
+chams.crystals-change-color = Change Crystals Color
+chams.crystals-change-color.desc = Whether or not to change crystals color
+chams.crystals-outline-color = Crystals Outline Color
+chams.crystals-outline-color.desc = Color of wireframe lines
+chams.crystals-fill-color = Crystals Fill Color
+chams.crystals-fill-color.desc = Color of wireframe sides
+chams.players = Players
+chams.players.desc = Allows you to customize the appearance of players
+chams.ignore-self = Ignore Self
+chams.ignore-self.desc = Does not change appearance itself
+chams.players-change-color = Change Players Color
+chams.players-change-color.desc = Whether or not to change players color
+chams.players-outline-color = Players Outline Color
+chams.players-outline-color.desc = Color of wireframe lines
+chams.players-fill-color = Players Fill Color
+chams.players-fill-color.desc = Color of wireframe sides
+
+chams.enums.none = None
+chams.enums.outline = Outline
+chams.enums.image = Image
+
+# China Hat
+
+china-hat.desc = Renders a Chinese hat on a player
+china-hat.friends = Friends
+china-hat.friends.desc = Renders a Chinese hat on friends
+
+# Entity ESP
+
+entity-esp.desc = Renders the position of entities through walls
+entity-esp.mode = Mode
+entity-esp.mode.desc = Mode with which entities are rendered
+entity-esp.shader-type = Shader Type
+entity-esp.shader-type.desc = Type of shader to be rendered
+entity-esp.entities = Entities
+entity-esp.entities.desc = Entities that are rendered through walls
+entity-esp.render-distance = Render Distance
+entity-esp.render-distance.desc = Distance in which entities are rendered
+entity-esp.line-width = Line Width
+entity-esp.line-width.desc = Width of shader outline
+entity-esp.gradient-factor = Gradient Distance
+entity-esp.gradient-factor.desc = Gradient generating factor
+entity-esp.gradient-speed = Gradient Speed
+entity-esp.gradient-speed.desc = Speed of changing colors in gradient
+entity-esp.wave-distance = Wave Distance
+entity-esp.wave-distance.desc = The level of zoom for waveform
+entity-esp.wave-width = Wave Width
+entity-esp.wave-width.desc = The width of wave line
+entity-esp.wave-speed = Wave Speed
+entity-esp.wave-speed.desc = Speed of wave movement
+entity-esp.wave-color = Wave Color
+entity-esp.wave-color.desc = Color of wave
+entity-esp.wave-outline-color = Wave Outline Color
+entity-esp.wave-outline-color.desc = Color of wave outline
+entity-esp.fill-opacity = Fill Opacity
+entity-esp.fill-opacity.desc = Opacity of fill color
+entity-esp.glow = Glow
+entity-esp.glow.desc = Adds a glow effect to the render
+entity-esp.glow-size = Glow Size
+entity-esp.glow-size.desc = Size at which the glow effect is rendered
+entity-esp.glow-multiplier = Glow Multiplier
+entity-esp.glow-multiplier.desc = Brightness at which the glow effect is rendered
+entity-esp.glow-color = Glow Color
+entity-esp.glow-color.desc = Color at which the glow effect is rendered
+
+entity-esp.enums.shader = Shader
+entity-esp.enums.wireframe = Wireframe
+
+# Fire Fly
+
+fire-fly.desc = Renders particles in the world
+fire-fly.physics = Physics
+fire-fly.physics.desc = Physics at which particles move Particles
+fire-fly.count = Count
+fire-fly.count.desc = Number of particles that spawn in the world
+fire-fly.scale = Scale
+fire-fly.scale.desc = Size of particles that spawn in the world
+fire-fly.speed = Speed
+fire-fly.speed.desc = Speed of particles that spawn in the world
+fire-fly.life-time = Life Time
+fire-fly.life-time.desc = Time a particle exists in the world
+fire-fly.ground-spawn = Ground Spawn
+fire-fly.ground-spawn.desc = Particles spawn on the ground and fly upwards
+fire-fly.color = Color
+fire-fly.color.desc = Color with which particles are rendered
+
+fire-fly.enums.fly = Fly
+fire-fly.enums.fall = Fall
+fire-fly.enums.inverted = Inverted
+
+# Field Of View
+
+field-of-view.desc = Allows you to configure the value of the field Field of View
+field-of-view.value = Value
+field-of-view.value.desc = Field of View Value
+
+# Freecam
+
+freecam.desc = Allows you to change the camera position independently of the player
+freecam.speed = Speed
+freecam.speed.desc = Camera movement speed
+freecam.smoothness = Smoothness
+freecam.smoothness.desc = Smoothness of camera speed changes
+freecam.interactions = Interactions
+freecam.interactions.desc =
+freecam.rotate = Rotate
+freecam.rotate.desc = Rotates the player to the position the camera is looking at
+freecam.no-hand-render = No Hand Render
+freecam.no-hand-render.desc = Disables hand rendering
+freecam.change-control-bind = Change Control Bind
+freecam.change-control-bind.desc = Toggle between player controls and camera controls
+
+# Full Bright
+
+full-bright.desc = Allows you to adjust the brightness in the world
+full-bright.mode = Mode
+full-bright.mode.desc = The way brightness is changed
+full-bright.light-type = Light Type
+full-bright.light-type.desc = Light type to change brightness for
+full-bright.sky-brightness = Sky Brightness
+full-bright.sky-brightness.desc = Sky Light Brightness
+full-bright.block-brightness = Block Brightness
+full-bright.block-brightness.desc = Block Light Brightness
+
+full-bright.enums.luminance = Luminance
+full-bright.enums.potion = Potion
+
+full-bright.enums.sky = Sky
+full-bright.enums.block = Block
+
+# Hands
+
+hands.desc = Allows you to change the appearance of hands
+hands.shader = Shader
+hands.shader.desc = Applies a shader to the hand renderer
+hands.shader-type = Shader Type
+hands.shader-type.desc = Type of shader to be rendered
+hands.line-width = Line Width
+hands.line-width.desc = Width of shader outline
+hands.gradient-factor = Gradient Distance
+hands.gradient-factor.desc = Gradient generating factor
+hands.gradient-speed = Gradient Speed
+hands.gradient-speed.desc = Speed of changing colors in gradient
+hands.wave-distance = Wave Distance
+hands.wave-distance.desc = The level of zoom for waveform
+hands.wave-width = Wave Width
+hands.wave-width.desc = The width of wave line
+hands.wave-speed = Wave Speed
+hands.wave-speed.desc = Speed of wave movement
+hands.wave-color = Wave Color
+hands.wave-color.desc = Color of wave line
+hands.fill-opacity = Fill Opacity
+hands.fill-opacity.desc = Opacity of fill color
+hands.glow = Glow
+hands.glow.desc = Adds a glow effect to the render
+hands.glow-size = Glow Size
+hands.glow-size.desc = Size at which the glow effect is rendered
+hands.glow-multiplier = Glow Multiplier
+hands.glow-multiplier.desc = Brightness at which the glow effect is rendered
+hands.glow-color = Glow Color
+hands.glow-color.desc = Color at which the glow effect is rendered
+hands.fill-opacity = Fill Opacity
+hands.fill-opacity.desc = Opacity of the fill color
+hands.view-model = View Model
+hands.view-model.desc = Allows you to adjust the position and size of the hands
+hands.scale = Scale
+hands.scale.desc = Scale at which the hands are displayed
+hands.x = X
+hands.x.desc = Distance by which the hands are moved in X
+hands.y = Y
+hands.y.desc = Distance by which the hands are moved in Y
+hands.z = Z
+hands.z.desc = Distance by which the hands are moved in Z
+hands.change-food-animation = Change Food Animations
+hands.change-food-animation.desc = Whether or not to transform position while eating/drinking
+hands.eat-x = Eat X
+hands.eat-x.desc = Eating distance by which the hands are moved in X
+hands.eat-y = Eat Y
+hands.eat-y.desc = Eating distance by which the hands are moved in Y
+hands.eat-z = Eat Z
+hands.eat-z.desc = Eating distance by which the hands are moved in Z
+hands.eat-multiplier = Eat Multiplier
+hands.eat-multiplier.desc = Eating dragging animation multiplier
+hands.rotate-x = Rotate X
+hands.rotate-x.desc = Angle by which the hands are rotated in X
+hands.rotate-y = Rotate Y
+hands.rotate-y.desc = Angle by which the hands are rotated in Y
+hands.rotate-z = Rotate Z
+hands.rotate-z.desc = Angle by which the hands are rotated in Z
+hands.change-swing-animation = Change Swing Animations
+hands.change-swing-animation.desc = Whether or not to change hand positions while swinging hand
+hands.swing-speed = Swing Speed
+hands.swing-speed.desc = Hand movement speed while swinging
+hands.swing-end-progress = Swing End Progress
+hands.swing-end-progress.desc = Progress when swinging is stopped
+hands.swing-end-y = Swing End Y
+hands.swing-end-y.desc = Swing Y end position offset
+hands.reset-swing-animation = Reset Swing Animation
+hands.reset-swing-animation.desc = Resets swinging progress when swinging again
+
+# Hole ESP
+
+hole-esp.desc = Renders safe hole positions around the player
+hole-esp.range-xz = Range XZ
+hole-esp.range-xz.desc = Maximum horizontal range
+hole-esp.range-y = Range Y
+hole-esp.range-xz.desc = Maximum vertical range
+hole-esp.render-height = Render Height
+hole-esp.render-height.desc = Height from which the holes positions are rendered
+hole-esp.gradient = Gradient
+hole-esp.gradient.desc = Adds a transparency transition to the holes render
+hole-esp.obsidian-line = Obsidian Line
+hole-esp.obsidian-line.desc = Color with which the holes lines made of non-bedrock are rendered
+hole-esp.obsidian-side = Obsidian Side
+hole-esp.obsidian-side.desc = Color with which the sides of the holes made of non-bedrock are rendered
+hole-esp.bedrock-line = Bedrock Line
+hole-esp.bedrock-line.desc = The color with which to render bedrock holes
+hole-esp.bedrock-side = Bedrock Side
+hole-esp.bedrock-side.desc = The color with which to render the sides of holes made of bedrock
+hole-esp.animation = Animation
+hole-esp.animation.desc = Animation for rendering holes
+hole-esp.animation-radius = Animation Radius
+hole-esp.animation-radius.desc = The radius from the player where the animation starts
+hole-esp.animation-offset = Animation Offset
+hole-esp.animation-offset.desc = The value by which the render is offset during animation
+
+# Image Filter
+
+image-filter.desc = Allows Change the color of the image on the screen
+image-filter.color = Color
+image-filter.color.desc = Color of the image on the screen
+
+# Jump Circles
+
+jump-circles.desc = Displays effects at the player's jump location
+jump-circles.scale = Scale
+jump-circles.scale.desc = Size with which circles are rendered where the player jumps
+jump-circles.color = Color
+jump-circles.color.desc = Color with which circles are rendered where the player jumps
+
+# Kill Effect
+
+kill-effect.desc = Renders beautiful effects when players are killed
+kill-effect.effect-type = Effect Type
+kill-effect.effect-type.desc = Type of effect that will be displayed after a kill
+
+kill-effect.enums.particles = Particles
+kill-effect.enums.lightning = Lightning
+
+# Name Protect
+
+name-protect.desc = Replaces the player's name
+name-protect.nickname = Nickname
+name-protect.nickname.desc = Name to replace the player's name with
+name-protect.friends = Friends
+name-protect.friends.desc = Changes friends' names
+
+# Nametags
+
+nametags.desc = Displays information about entities above them
+nametags.entities = Entities
+nametags.entities.desc = Entities for which information is displayed
+nametags.scale = Scale
+nametags.scale.desc = Size of displayed information
+nametags.distance-scale = Distance Scale
+nametags.distance-scale.desc = Changes the size of displayed information based on the distance to the entity
+nametags.min-scale = Min Scale
+nametags.min-scale.desc = Minimum size of displayed information
+nametags.armor = Armor
+nametags.armor.desc = Displays information about the entity's equipment
+nametags.health = Health
+nametags.health.desc = Displays information about an entity's health
+nametags.totem-pops = Totem Pops
+nametags.totem-pops.desc = Displays information about spent player totems
+nametags.ping = Ping
+nametags.ping.desc = Displays information about player pings
+
+# No Render
+
+no-render.desc = Disables the display of selected game elements
+no-render.elements = Elements
+no-render.elements.desc = Disabled game elements
+no-render.entities = Entities
+no-render.elements.desc = Disabled render of selected entities
+
+no-render.enums.loading-screen = Loading Screen
+no-render.enums.fire-overlay = Fire Overlay
+no-render.enums.nametags = Nametags
+no-render.enums.armor = Armor
+no-render.enums.held-item = Held Item
+no-render.enums.wall-overlay = Wall Overlay
+no-render.enums.totem-animation = Totem Animation
+no-render.enums.potion-icons = Potion Icons
+no-render.enums.hands = Hands
+no-render.enums.explosions = Explosions
+no-render.enums.particles = Particles
+no-render.enums.portal-overlay = Portal Overlay
+no-render.enums.nausea = Nausea
+no-render.enums.pumpkin-overlay = Pumpkin Overlay
+no-render.enums.liquid-overlay = Liquid Overlay
+no-render.enums.vignette = Vignette
+no-render.enums.enchant-glint = Enchant Glint
+no-render.enums.boss-bar = Boss Bar
+no-render.enums.scoreboard = Scoreboard
+no-render.enums.text-obfuscation = Text Obfuscation
+no-render.enums.weather = Weather
+no-render.enums.blindness = Blindness
+no-render.enums.darkness = Darkness
+no-render.enums.map-markers = Map Markers
+no-render.enums.map-content = Map Content
+no-render.enums.hurt-cam = Hurt Cam
+
+# Legacy Potions
+
+legacy-potions.desc = Returns the old game version potion appearance
+
+# Logout Spots
+
+logout-spots.desc = Displays model and nametag where player has left
+logout-spots.scale.desc = Scale of the nametag
+logout-spots.ignore-friends = Ignore Friends
+logout-spots.ignore-friends.desc = Ignores player in your friends list
+logout-spots.check-armor = Check Armor
+logout-spots.check-armor.desc = Checks if a player has any part of armor
+logout-spots.log-back-message = Log Back Message
+logout-spots.log-back-message.desc = Notifies you by sending chat message when player has joined
+logout-spots.background = Background
+logout-spots.background.desc = Whether or not to draw background
+logout-spots.name = Name
+logout-spots.name.desc = Whether or not to render player's name
+logout-spots.health = Health
+logout-spots.health.desc = Whether or not to render player's health
+logout-spots.coordinates = Coordinates
+logout-spots.coordinates.desc = Whether or not to render player's coordinates
+logout-spots.time = Time
+logout-spots.time.desc = Whether or not to render player's left time in seconds
+
+# Particles
+
+particles.desc = Renders particles for selected events
+particles.condition = Condition
+particles.condition.desc = Events that spawn particles
+particles.scale = Scale
+particles.scale.desc = Scale at which particles are displayed
+particles.speed = Speed
+particles.speed.desc = Speed at which particles move
+particles.color = Color
+particles.color.desc = Color at which particles are displayed
+
+particles.enums.totem-pop = Totem Pop
+particles.enums.walk = Walk
+particles.enums.pearl = Pearl
+particles.enums.trident = Trident
+particles.enums.bow = Bow
+
+# Phase ESP
+
+phase-esp.desc = Displays the Phase position with Pearl mode
+phase-esp.height = Height
+phase-esp.height.desc = Height from which the position is rendered
+
+# Pop Chams
+
+pop-chams.desc = Displays the ghosts when player pops totem
+pop-chams.render-ticks = Render Time
+pop-chams.render-ticks.desc = Ghosts render time in seconds
+pop-chams.max-chams-count = Max Chams Count
+pop-chams.max-chams-count.desc = Max count of chams in your render distance
+pop-chams.change-y = Change Y
+pop-chams.change-y.desc = Whether or not to change ghost end Y position
+pop-chams.change-scale = Change Scale
+pop-chams.change-scale.desc = Whether or not to change ghost end scale
+pop-chams.change-rotate = Change Rotate
+pop-chams.change-rotate.desc = Rotates ghosts around its axis at a given speed
+pop-chams.ignore-self = Ignore Self
+pop-chams.ignore-self.desc = Ignores the loss of your totems
+pop-chams.ignore-friends = Ignore Friends
+pop-chams.ignore-friends.desc = Ignores the loss of your friends totems
+pop-chams.fade-out = Fade Out
+pop-chams.fade-out.desc = Change opacity of colors during render
+
+# Prediction
+
+prediction.desc = Displays the predicted movement of projectiles
+prediction.projectile-trajectory = Projectile Trajectory
+prediction.projectile-trajectory.desc = Displays the predicted movement of projectiles in flight
+prediction.pearls = Pearls
+prediction.pearls.desc = Displays the predicted movement of thrown pearls
+prediction.arrows = Arrows
+prediction.arrows.desc = Displays the predicted movement of arrows in flight
+prediction.tridents = Tridents
+prediction.tridents.desc = Displays the predicted movement of thrown tridents
+prediction.xp-bottles = Xp Bottles
+prediction.xp-bottles.desc = Displays the predicted movement of thrown experience potions
+prediction.potions = Potions
+prediction.potions.desc = Displays the predicted movement of thrown potions
+prediction.trajectory-color = Trajectory Color
+prediction.trajectory-color.desc = Color used to display the predicted movement of thrown projectiles
+
+# Target ESP
+
+target-esp.desc = Displays beautiful effects around the target
+target-esp.mode = Mode
+target-esp.mode.desc = Select the mode for the module
+target-esp.through-obstacles = Through Obstacles
+target-esp.through-obstacles.desc =
+target-esp.ghosts-speed = Ghosts Speed
+target-esp.ghosts-speed.desc = Speed of ghosts effect
+target-esp.attack-aura = Attack Aura
+target-esp.attack-aura.desc = Displays the current target in Attack Aura
+target-esp.anchor-aura = Anchor Aura
+target-esp.anchor-aura.desc = Displays the current target in Anchor Aura
+target-esp.auto-crystal = Auto Crystal
+target-esp.auto-crystal.desc = Displays the current target in Auto Crystal
+target-esp.circle-line-color = Circle Line Color
+target-esp.circle-line-color.desc = Circle outline color
+target-esp.circle-trail-color = Circle Trail Color
+target-esp.circle-trail-color.desc = Color for the trail left by the circle as it moves
+
+target-esp.enums.box = Box
+target-esp.enums.circle = Circle
+target-esp.enums.ghosts = Ghosts
+
+# Anti Crawl
+
+anti-crawl.desc = Breaks the block above the player if the player is prone
+anti-crawl.single-block = Single Block
+anti-crawl.single-block.desc = Breaks one block above the player, ignoring the hitbox, Crossing multiple blocks
+
+# Auction Helper
+
+auction-helper.desc = Highlights the cheapest and best-value items at auction
+auction-helper.unbreaking-level = Unbreaking Level
+auction-helper.unbreaking-level.desc = Specific radius of unbreaking level
+auction-helper.min-item-price-color = Min Item Price Color
+auction-helper.min-item-price-color.desc = Cheapest item color
+auction-helper.best-item-price-color = Best Item Price Color
+auction-helper.best-item-price-color.desc = Best-value item color
+auction-helper.check-durability = Check Durability
+auction-helper.check-durability.desc = Only searches for items with full durability
+auction-helper.armor = Armor
+auction-helper.armor.desc = Adds specific armor filters
+auction-helper.armor-enchantments = Armor Enchantments
+auction-helper.armor-enchantments.desc = Select desired enchantments for armor
+auction-helper.protection-level = Protection Level
+auction-helper.protection-level.desc = Specific radius of protection level on armor
+auction-helper.swords = Swords
+auction-helper.swords.desc = Adds specific filters for swords
+auction-helper.sword-enchantments = Sword Enchantments
+auction-helper.sword-enchantments.desc = Select desired enchantments for swords
+auction-helper.sharpness-level = Sharpness Level
+auction-helper.sharpness-level.desc = Specific radius of sharpness level on Swords
+auction-helper.knockback-level = Knockback Level
+auction-helper.knockback-level.desc = Defined Knockback Level radius on swords
+auction-helper.fire-aspect-level = Fire Aspect Level
+auction-helper.fire-aspect-level.desc = Defined Fire Aspect Level radius on swords
+auction-helper.sweeping-edge-level = Sweeping Edge Level
+auction-helper.sweeping-edge-level.desc = Defined Sweeping Edge Level radius on swords
+auction-helper.looting-level = Looting Level
+auction-helper.looting-level.desc = Defined Loot Level radius on swords
+auction-helper.pickaxes = Pickaxes
+auction-helper.pickaxes.desc = Adds specific filters for pickaxes
+auction-helper.pickaxe-enchantments = Pickaxe Enchantments
+auction-helper.pickaxe-enchantments.desc = Selecting the desired enchantments for pickaxes
+auction-helper.efficiency-level = Efficiency Level
+auction-helper.efficiency-level.desc = Specific radius of the efficiency level on pickaxes
+auction-helper.fortune-level = Fortune Level
+auction-helper.fortune-level.desc = Specific radius of the luck level on pickaxes
+auction-helper.potions = Potions
+auction-helper.potions.desc = Adds specific filters for potions
+auction-helper.good-potion-effects = Good Potion Effects
+auction-helper.good-potion-effects.desc = Select good effects on a single potion
+auction-helper.speed-level = Speed Level
+auction-helper.speed-level.desc = Specific radius of the speed level on potions
+auction-helper.instant-health-level = Instant Health Level
+auction-helper.instant-health-level.desc = Specific radius of the healing level on potions
+auction-helper.strength-level = Strength Level
+auction-helper.strength-level.desc = Defined radius of strength level on potions
+auction-helper.resistance-level = Resistance Level
+auction-helper.resistance-level.desc = Defined radius of resistance level on potions
+auction-helper.bad-potion-effects = Bad Potion Effects
+auction-helper.bad-potion-effects.desc = Select bad effects on a single potion
+auction-helper.slowness-level = Slowness Level
+auction-helper.slowness-level.desc = Defined radius of slowness level on potions
+auction-helper.weakness-level = Weakness Level
+auction-helper.weakness-level.desc = Defined radius of weakness level on potions
+
+auction-helper.enums.unbreaking = Unbreaking
+auction-helper.enums.mending = Mending
+
+auction-helper.enums.protection = Protection
+auction-helper.enums.not-thorns = Not Thorns
+
+auction-helper.enums.sharpness = Sharpness
+auction-helper.enums.knockback = Knockback
+auction-helper.enums.fire-aspect = Fire Aspect
+auction-helper.enums.sweeping-edge = Sweeping Edge
+auction-helper.enums.looting = Looting
+
+auction-helper.enums.efficiency = Efficiency
+auction-helper.enums.fortune = Fortune
+auction-helper.enums.silk-touch = Silk Touch
+
+auction-helper.enums.invisibility = Invisibility
+auction-helper.enums.fire-resistance = Fire Resistance
+auction-helper.enums.speed = Speed
+auction-helper.enums.instant-health = Instant Health
+auction-helper.enums.regeneration = Regeneration
+auction-helper.enums.strength = Strength
+auction-helper.enums.resistance = Resistance
+
+auction-helper.enums.slowness = Slowness
+auction-helper.enums.poison = Poison
+auction-helper.enums.weakness = Weakness
+auction-helper.enums.wither = Wither
+auction-helper.enums.nausea = Nausea
+auction-helper.enums.blindness = Blindness
+auction-helper.enums.hunger = Hunger
+auction-helper.enums.glowing = Glowing
+
+# Auto Exp
+
+auto-exp.desc = Automatically uses experience potions
+auto-exp.delay = Delay
+auto-exp.delay.desc = Delay at which experience potions are used
+auto-exp.per-tick = Per Tick
+auto-exp.per-tick.desc = Number of experience potions used per tick
+auto-exp.no-unnecessary = No Unnecessary
+auto-exp.no-unnecessary.desc = Does not use experience potions if all equipment is at full durability
+auto-exp.rotate = Rotate
+auto-exp.rotate.desc = Changes the vertical rotation of the camera
+auto-exp.pitch = Pitch
+auto-exp.pitch.desc = The value set for the vertical rotation of the camera
+
+# Auto Kit
+
+auto-kit.desc =
+auto-kit.kit-command = Kit Command
+auto-kit.kit-command.desc =
+auto-kit.disable = Disable
+auto-kit.disable.desc =
+auto-kit.double-kit = Double Kit
+auto-kit.double-kit.desc =
+auto-kit.second-kit-command = Second Kit Command
+auto-kit.second-kit-command.desc =
+auto-kit.kill-command = Kill Command
+auto-kit.kill-command.desc =
+auto-kit.delay = Delay
+auto-kit.delay.desc =
+
+
+# Auto Respawn
+
+auto-respawn.desc = Automatically respawns player after death
+
+# Auto Swap
+
+auto-swap.desc = Automatically swaps an item using a bind and activates it
+auto-swap.in-gui = In Gui
+auto-swap.in-gui.desc = The module works when the client GUI is open
+auto-swap.inv-swap = Inv Swap
+auto-swap.inv-swap.desc = Allows taking items from inventory
+auto-swap.legit-sprint = Legit Sprint
+auto-swap.legit-sprint.desc = Enables legitimate sprinting to bypass anti-cheat
+auto-swap.legit-movement = Legit Movement
+auto-swap.legit-movement.desc = Stops movement before using an item
+auto-swap.legit-time = Legit Time
+auto-swap.legit-time.desc = Adds randomization to bypass Timings
+auto-swap.pre-ticks = Pre Ticks
+auto-swap.pre-ticks.desc = Delay before item swap
+auto-swap.post-ticks = Post Ticks
+auto-swap.post-ticks.desc = Delay after item use
+auto-swap.pearl = Pearl
+auto-swap.pearl.desc = Bind for using Ender Pearl
+auto-swap.ft-trap = Ft Trap
+auto-swap.ft-trap.desc = Bind for using Trap
+auto-swap.ft-layer = Ft Layer
+auto-swap.ft-layer.desc = Bind for using Layer
+auto-swap.ft-disorientation = Ft Disorientation
+auto-swap.ft-disorientation.desc = Bind for using Disorientation
+auto-swap.ft-freezing = Ft Freezing
+auto-swap.ft-freezing.desc = Bind for using Freezing Snowball
+auto-swap.ft-god-aura = Ft God Aura
+auto-swap.ft-god-aura.desc = Bind for using God's Auras
+auto-swap.ft-visible-dust = Ft Visible Dust
+auto-swap.ft-visible-dust.desc = Bind for using Visible Dust
+
+# Auto Tool
+
+auto-tool.desc = Automatically takes the appropriate tool when interacting with a block
+auto-tool.swap-delay = Swap Delay
+auto-tool.swap-delay.desc = Delay with which the tool is taken when interacting with a block
+auto-tool.enchantment = Enchantment
+auto-tool.enchantment.desc = Enchantment preferred for the tool
+auto-tool.ec-silk-touch = Ec Silk Touch
+auto-tool.ec-silk-touch.desc = Uses a pickaxe with Silk Touch when interacting with an ender chest
+
+auto-tool.enums.fortune = Fortune
+auto-tool.enums.silk-touch = Silk Touch
+
+# Better Inventory
+
+better-inventory.desc = Allows you to customize inventory tools
+better-inventory.x-carry = XCarry
+better-inventory.x-carry.desc = Allows you to store items in your craft slots
+better-inventory.auto-x-carry = Auto XCarry
+better-inventory.auto-x-carry.desc = Automatically puts selected items by XCarry
+better-inventory.carry-delay = Carry Delay
+better-inventory.carry-delay.desc = Delay between moving items
+better-inventory.items-to-carry = Items To Carry
+better-inventory.items-to-carry.desc = Selected items to carry
+better-inventory.tooltips = Tooltips
+better-inventory.tooltips.desc = Allows you to visible more tooltips
+better-inventory.keybind = Keybind
+better-inventory.keybind.desc = Allows you to set bind to visible tooltip
+better-inventory.condition = Previews
+better-inventory.condition.desc = Enables selected previews to items
+
+better-inventory.enums.shulkers = Shulkers
+better-inventory.enums.ender-chest = Ender Chest
+
+# Elytra Swap
+
+elytra-swap.desc = When activated, swaps the chest armor to Elytra or vice versa
+
+elytra-swap.enums.alternative = Alternative
+elytra-swap.enums.semi-alt = Semi Alt
+elytra-swap.enums.pick = Pick
+elytra-swap.enums.quick-move = Quick Move
+
+# Hitbox Desync
+
+hitbox-desync.desc = Teleports the player a short distance to the edge of the block, which causes collision errors in Minecraft
+hitbox-desync.logic = Logic
+hitbox-desync.logic.desc = Logic used to select the teleport position
+hitbox-desync.offset = Offset
+hitbox-desync.offset.desc = Distance the player is teleported to the edge of the block
+
+hitbox-desync.enums.look = Look
+hitbox-desync.enums.position = Position
+
+# Hotbar Refill
+
+hotbar-refill.desc = Automatically refills resources from the inventory to the hotbar
+hotbar-refill.count = Count
+hotbar-refill.count.desc = The amount of a single resource at which it is refilled
+hotbar-refill.single-items = Single Items
+hotbar-refill.single-items.desc = Refills non-stackable items
+hotbar-refill.delay = Delay
+hotbar-refill.delay.desc = Delay between resource refills
+hotbar-refill.offhand = Offhand
+hotbar-refill.offhand.desc = Refills offhand items
+
+# Illegal Disconnect
+
+illegal-disconnect.desc = Disconnects from the server using non-standard methods
+illegal-disconnect.mode = Mode
+illegal-disconnect.mode.desc = Mode selected for disconnecting from the server
+illegal-disconnect.leave = Leave
+illegal-disconnect.leave.desc = Prevents the server from automatically reconnecting
+
+illegal-disconnect.enums.inventory = Inventory
+illegal-disconnect.enums.look = Look
+
+# Infinite Elytra
+
+infinite-elytra.desc = Switches and equips Elytra to prevent its durability from being consumed
+infinite-elytra.switch-delay = Switch Delay
+infinite-elytra.switch-delay.desc = Delay at which Elytra is switched
+infinite-elytra.silent = Silent
+infinite-elytra.silent.desc = Does not switch Elytra for the client
+infinite-elytra.pause-under-ceiling = Pause Under Ceiling
+infinite-elytra.pause-under-ceiling.desc = Does not switch Elytra if there are blocks above the player
+infinite-elytra.extrapolation = Extrapolation
+infinite-elytra.extrapolation.desc = Number of ticks by which the player's movement is predicted
+
+# Middle Click
+
+middle-click.desc = Performs the selected action when the middle button is pressed mouse
+middle-click.action = Action
+middle-click.action.desc = Action performed when the middle mouse button is pressed
+
+middle-click.enums.pearl = Pearl
+middle-click.enums.firework = Firework
+middle-click.enums.friend = Friend
+
+# No Delay
+
+no-delay.desc = Allows you to reduce the delay between selected actions in the game
+no-delay.actions = Actions
+no-delay.actions.desc = Actions for which the delay will be reduced
+no-delay.jump-delay = Jump Delay
+no-delay.jump-delay.desc = Maximum delay between jumps
+no-delay.place-delay = Place Delay
+no-delay.place-delay.desc = Maximum delay between placing blocks
+no-delay.break-delay = Break Delay
+no-delay.break-delay.desc = Maximum delay between breaking Blocks
+no-delay.xp-delay = Xp Delay
+no-delay.xp-delay.desc = Maximum delay between using experience potions
+
+no-delay.enums.jump = Jump
+no-delay.enums.place = Place
+no-delay.enums.break = Break
+no-delay.enums.exp = Exp
+
+# No Server Rotate
+
+no-server-rotate.desc = Prevents server-sent player rotations
+no-server-rotate.on-elytra = On Elytra
+no-server-rotate.on-elytra.desc = Prevents player rotations while using Elytra
+no-server-rotate.strict = Strict
+no-server-rotate.strict.desc = Sends a packet with the server-sent rotation
+
+# Packet Mine
+
+packet-mine.desc = Breaks blocks using packets
+packet-mine.range = Range
+packet-mine.range.desc = Maximum range at which blocks are broken
+packet-mine.speed = Speed
+packet-mine.speed.desc = Speed at which blocks are broken
+packet-mine.crystalpvp-cc = crystalpvp.cc
+packet-mine.crystalpvp-cc.desc = Speeds up block breaking for the crystalpvp.cc anti-cheat
+packet-mine.grim = Grim
+packet-mine.grim.desc = Uses other packets to bypass the Grim anti-cheat
+packet-mine.double-mine = Double Mine
+packet-mine.double-mine.desc = Allows breaking two blocks at once
+packet-mine.reset-on-swap = Reset On Swap
+packet-mine.reset-on-swap.desc = Resets Block breaking progress when changing inventory slots
+packet-mine.new-version = 1.21
+packet-mine.new-version.desc = Takes into account the features of version 1.21+ for breaking blocks
+packet-mine.swap-time = Swap Time
+packet-mine.swap-time.desc = The amount of time a tool must be held in hand when breaking a block
+packet-mine.client-break = Client Break
+packet-mine.client-break.desc = Displays block breakage on the client
+packet-mine.rebreak = Rebreak
+packet-mine.rebreak.desc = The way a block is broken again in the same place
+packet-mine.render-rebreak = Render Rebreak
+packet-mine.render-rebreak.desc = Renders the position of the broken block
+
+packet-mine.enums.none = None
+packet-mine.enums.normal = Normal
+packet-mine.enums.fast = Fast
+packet-mine.enums.instant = Instant
+
+# Rotation
+
+rotation.desc = Sets a specific camera rotation
+rotation.client-look = Client Look
+rotation.client-look.desc = Rotates the camera from the client side
+rotation.yaw = Yaw
+rotation.yaw.desc = Horizontal camera rotation mode
+rotation.yaw-value = Yaw Value
+rotation.yaw-value = Yaw Value
+rotation.pitch = Pitch
+rotation.pitch.desc = Vertical camera rotation mode
+rotation.pitch-value = Pitch Value
+rotation.pitch-value = Pitch Value
+
+rotation.enums.none = None
+rotation.enums.custom = Custom
+rotation.enums.smart = Smart
+rotation.enums.memory = Memory
+
+# Self Bow
+
+self-bow.desc = Shoots yourself arrows with effects
+self-bow.effects = Effects
+self-bow.effects.desc = Selected effects to shoot
+self-bow.check-effects = Check Effects
+self-bow.check-effects.desc = Whether or not to shoot yourself by arrows with effects you've already had
+self-bow.delay = Shot Delay
+self-bow.delay.desc = Delay between shots
+self-bow.charge-power = Charge Power
+self-bow.charge-power.desc = How long to charge bow in ticks
+self-bow.min-health = Min Health
+self-bow.min-health.desc = Minimum health level required for the module to work
+
+self-bow.enums.speed = Speed
+self-bow.enums.strength = Strength
+self-bow.enums.jump-boost = Jump Boost
+self-bow.enums.regeneration = Regeneration
+
+# Auto Sprint
+
+auto-sprint.desc = Automatically activates sprint
+
+# Elytra Fly
+
+elytra-fly.desc = Improves flight on Elytra
+elytra-fly.mode = Mode
+elytra-fly.mode.desc = Elytra Flight Mode
+elytra-fly.sprint = Sprint
+elytra-fly.sprint.desc = Automatically activates sprint
+elytra-fly.auto-takeoff = Auto Takeoff
+elytra-fly.auto-takeoff.desc = Automatically takes off
+elytra-fly.restart = Restart
+elytra-fly.restart.desc = Tries to take off again after rubberband
+elytra-fly.restart-delay = Restart Delay
+elytra-fly.restart-delay.desc = Delay between attempt to restart
+elytra-fly.accelerate = Accelerate
+elytra-fly.accelerate.desc = Multiplies player speed
+elytra-fly.accelerate-factor = Accelerate Factor
+elytra-fly.accelerate-factor.desc = Speed multiplying factor
+elytra-fly.max-speed = Max Speed
+elytra-fly.max-speed.desc = Limits the maximum speed of movement
+elytra-fly.change-yaw = Change Yaw
+elytra-fly.change-yaw.desc = Sets the player's horizontal rotation while flying on an Elytra
+elytra-fly.yaw = Yaw
+elytra-fly.yaw.desc = Player's horizontal rotation while flying on an Elytra
+elytra-fly.change-pitch = Change Pitch
+elytra-fly.change-pitch.desc = Sets the player's vertical rotation while flying on an Elytra
+elytra-fly.pitch = Pitch
+elytra-fly.pitch.desc = Player's vertical rotation while flying on an Elytra
+elytra-fly.auto-jump = Auto Jump
+elytra-fly.auto-jump.desc = Allows to jump automatically
+elytra-fly.custom-jump = Custom Jump
+elytra-fly.custom-jump.desc = Modifies jump height on the ground
+elytra-fly.jump-multiplier = Jump Multiplier
+elytra-fly.jump-multiplier.desc = Modified Jump Height On the ground
+elytra-fly.ncp-bypass = Ncp Bypass
+elytra-fly.ncp-bypass.desc = Uses moves to bypass NCP anti-cheat
+elytra-fly.boost-bind = Boost Bind
+elytra-fly.boost-bind.desc = Increases flight speed when activated
+elytra-fly.boost = Boost
+elytra-fly.boost.desc = Increases flight speed on Elytra
+elytra-fly.speed-limit = Speed Limit
+elytra-fly.speed-limit.desc = Maximum flight speed on Elytra
+elytra-fly.stop-bind = Stop Bind
+elytra-fly.stop-bind.desc = Stops in place when activated
+elytra-fly.fall-speed = Fall Speed
+elytra-fly.fall-speed.desc = Fall speed when stopped Flight
+elytra-fly.stop-bypass = Stop Bypass
+elytra-fly.stop-bypass.desc = Uses NoServerRotate when stopping a flight
+
+elytra-fly.enums.bounce = Bounce
+elytra-fly.enums.control = Control
+elytra-fly.enums.boost = Boost
+
+# Fake Lag
+
+fake-lag.desc = Delays relocation packets, simulating connection problems
+fake-lag.cancel-bind = Cancel Bind
+fake-lag.cancel-bind.desc = Cancels all delayed packets and returns to their original location
+fake-lag.mode = Mode
+fake-lag.mode.desc = The way relocation packets are delayed
+fake-lag.auto-disable = Auto Disable
+fake-lag.auto-disable.desc = Automatically disables the module after a certain time
+fake-lag.time-to-disable = Time To Disable
+fake-lag.time-to-disable.desc = Time after which the module will automatically disable
+fake-lag.lag-time = Lag Time
+fake-lag.lag-time.desc = Time that movement packets are delayed
+
+fake-lag.enums.normal = Normal
+fake-lag.enums.toggling = Toggling
+
+# Fast Fall
+
+fast-fall.desc = Accelerates falling from the edge of a block
+fast-fall.instant-fall = Instant Fall
+fast-fall.instant-fall.desc = Accelerates the start of falling from the edge of a block
+fast-fall.only-hole = Only Hole
+fast-fall.only-hole.desc = Accelerates falling only if the player is above the holes
+fast-fall.mode = Mode
+fast-fall.mode.desc = The method by which falling is accelerated
+fast-fall.height = Height
+fast-fall.height.desc = Maximum height above the ground at which falling accelerates
+fast-fall.accelerate = Accelerate
+fast-fall.accelerate.desc = Fall speed increases every tick
+fast-fall.speed = Speed
+fast-fall.speed.desc = Fall speed from the edge of a block
+fast-fall.accelerate-speed = Accelerate Speed
+fast-fall.accelerate-speed.desc = Amount by which falling speed increases every tick
+fast-fall.shift-ticks = Shift Ticks
+fast-fall.shift-ticks.desc = Number of movement ticks that pass in 1 tick
+
+fast-fall.enums.tick-shift = Tick Shift
+fast-fall.enums.motion = Motion
+fast-fall.enums.none = None
+
+# Gui Move
+
+gui-move.desc = Allows you to move while in inventory/gui screen
+
+# Hole Snap
+
+hole-snap.desc = Automatically finds and moves to a hole
+hole-snap.hole-types = Hole Types
+hole-snap.hole-types.desc = Types of holes to snap in
+hole-snap.only-visible-holes = Only Visible Holes
+hole-snap.only-visible-holes.desc = Finds only holes visible to the player
+hole-snap.mode = Mode
+hole-snap.mode.desc = The method by which movement to the hole occurs
+hole-snap.tick-shift = Tick Shift
+hole-snap.tick-shift.desc =
+hole-snap.range-xz = Range XZ
+hole-snap.range-xz.desc = Maximum horizontal distance at which the holes can be found
+hole-snap.range-y = Range Y
+hole-snap.range-y.desc = Maximum vertical distance at which the holes can be found
+hole-snap.speed = Speed
+hole-snap.speed = Speed
+
+hole-snap.enums.motion = Motion
+hole-snap.enums.rotate = Rotate
+
+hole-snap.enums.single = Single
+hole-snap.enums.double = Double
+hole-snap.enums.quad = Quad
+
+# Jesus
+
+jesus.desc = Allows walking on water
+jesus.mode = Mode
+jesus.mode.desc = Method chosen for walking on water
+jesus.jumps = Jumps
+jesus.jumps.desc = Jump height for walking on water
+jesus.jumps.boost = Boost
+jesus.jumps.boost.desc = Acceleration when walking on Water
+jesus.jumps.speed = Speed
+jesus.jumps.speed.desc = Speed increase when walking on water
+
+jesus.enums.collision = Collision
+jesus.enums.jump = Jump
+
+# Legacy Sneak
+
+legacy-sneak.desc = Restores the crouching behavior from older versions of the game
+
+# NoSlow
+
+no-slow.desc = Removes the slowdown for selected actions
+no-slow.mode = Mode
+no-slow.mode.desc = The method chosen to bypass anti-cheat checks
+no-slow.item-use = Item Use
+no-slow.item-use.desc = Removes the slowdown when using items
+no-slow.shields = Shields
+no-slow.shields.desc = Removes the slowdown when using a shield
+no-slow.sneak = Sneak
+no-slow.sneak.desc = Removes the slowdown when crouching
+no-slow.crawl = Crawl
+no-slow.crawl.desc = Removes the slowdown when swimming
+
+no-slow.enums.vanilla = Vanilla
+no-slow.enums.grim = Grim
+no-slow.enums.grim-v3 = Grim V3
+
+# Phase
+
+phase.desc = Automatically moves inside blocks
+phase.mode = Mode
+phase.mode.desc = The method by which movement occurs inside a block
+phase.smart = Smart
+phase.smart.desc = Chooses the best block to move into
+phase.rotate = Rotate
+phase.rotate.desc = The method by which rotation occurs for pearl use
+phase.anti-pearl-rotate = Anti Pearl Rotate
+phase.anti-pearl-rotate.desc = Prevents rotation due to teleportation pearl
+phase.bypass = Bypass
+phase.bypass.desc = Method for bypassing anti-cheat checks
+phase.break-entities = Break Entities
+phase.break-entities.desc = Automatically removes interfering entities before using a pearl
+phase.break-scaffolding = Break Scaffolding
+phase.break-scaffolding.desc = Automatically removes interfering scaffolding before using a pearl
+
+phase.enums.pearl = Pearl
+
+phase.enums.vanilla = Vanilla
+phase.enums.instant = Instant
+
+phase.enums.none = None
+phase.enums.cobweb = Cobweb
+phase.enums.flint = Flint
+phase.enums.fireball = Fireball
+
+# Safe Walk
+
+safe-walk.desc = Prevents falling off the edge of a block
+safe-walk.mode = Mode
+safe-walk.mode.desc = Method Prevents falling off the edge of a block
+safe-walk.delay = Delay
+safe-walk.delay.desc = Delay after which crouching stops
+
+safe-walk.enums.normal = Normal
+safe-walk.enums.legit = Legit
+
+# Speed
+
+speed.desc = Accelerates player movement
+speed.mode = Mode
+speed.mode.desc = The method by which player movement is accelerated
+speed.speed = Speed
+speed.speed.desc = Player movement speed
+speed.strafe-multiplier = Strafe Multiplier
+speed.strafe-multiplier.desc = Movement speed increase multiplier when jumping
+speed.strict = Strict
+speed.strict.desc = Decreases movement speed to work with strict anti-cheat software
+speed.auto-jump = Auto Jump
+speed.auto-jump.desc = Automatically jumps when moving
+
+speed.enums.strafe = Strafe
+speed.enums.vanilla = Vanilla
+
+# Step
+
+step.desc = Allows you to quickly climb blocks
+step.mode = Mode
+step.mode.desc = Movement method for quickly climbing blocks
+step.height = Height
+step.height.desc = Maximum height of a wall of blocks
+step.normal-height = Normal Height
+step.normal-height.desc = Maximum height of a wall of blocks for accelerating with normal movement
+step.slow-height = Slow Height
+step.slow-height.desc = Maximum height of a wall of blocks for accelerating with slow movement
+step.speed = Speed
+step.speed.desc = Speed of movement on blocks
+step.height-speed-factor = Height Speed Factor
+step.height-speed-factor.desc = Speed multiplier depending on height
+step.jump-speed = Jump Speed
+step.jump-speed.desc = Jump speed after Block Climbing
+
+step.enums.normal = Normal
+step.enums.strict = Strict
+step.enums.slow = Slow
+
+# Tick Shift
+
+tick-shift.desc = Sends multiple moves per tick
+tick-shift.infinite = Infinite
+tick-shift.infinite.desc = Works without pre-charging
+tick-shift.legit = Legit
+tick-shift.legit.desc = Consumes charge when turning to bypass some anti-cheats
+tick-shift.keep-packets = Keep Packets
+tick-shift.keep-packets.desc = Keeps charge after the module is turned off
+tick-shift.packets-in-tick = Packets In Tick
+tick-shift.packets-in-tick.desc = Number of moves sent per tick tick
+tick-shift.max-packets = Max Packets
+tick-shift.max-packets.desc = Maximum number of packets sent per module use
+tick-shift.charge-speed = Charge Speed
+tick-shift.charge-speed.desc = Value added to the charge per tick
+tick-shift.min-charge = Min Charge
+tick-shift.min-charge.desc = Minimum charge required to start the module
+tick-shift.use-blink = Use Blink
+tick-shift.use-blink.desc = Uses FakeLag when the module is running
+tick-shift.blink-ticks = Blink Ticks
+tick-shift.blink-ticks.desc = Number of ticks by which each FakeLag occurs
+
+# Velocity
+
+velocity.desc = Prevents knockback
+velocity.mode = Mode
+velocity.mode.desc = Method for bypassing anti-cheat checks
+velocity.knockback = Knockback
+velocity.knockback.desc = Prevents knockback from hits on the player
+velocity.explosions = Explosions
+velocity.explosions.desc = Prevents knockback from explosions
+velocity.entities = Entities
+velocity.entities.desc = Prevents the player from being pushed out of an entity
+velocity.blocks = Blocks
+velocity.blocks.desc = Prevents the player from being pushed out of blocks
+velocity.fluids = Fluids
+velocity.fluids.desc = Prevents the player from being moved by fluids
+velocity.fishhook = Fishhook
+velocity.fishhook.desc = Prevents the player from being moved by a fishing rod
+
+velocity.enums.normal = Normal
+velocity.enums.walls = Walls
+velocity.enums.grim = Grim
+velocity.enums.grim-v3 = Grim V3
+
+# Water Speed
+
+water-speed.desc = Speeds up the player in water
+water-speed.speed-limit = Speed Limit
+water-speed.speed-limit.desc = Maximum player speed in water
+water-speed.boost = Boost
+water-speed.boost.desc = Boost when moving in water
+
+# Functions Hud
+
+functions-hud.categories = Categories
+
+# Potions Hud
+
+potions-hud.text-color-mode = Text Color Mode
+potions-hud.background-color-mode = Background Color Mode
+
+potions-hud.enums.client = Hud
+potions-hud.enums.potions = Potions
+
+# Speed Hud
+
+speed-hud.format-mode = Mode
+
+speed-hud.enums.bps = bps
+speed-hud.enums.kmh = km/h

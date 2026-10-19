@@ -1,0 +1,2238 @@
+# GUI
+
+gui.search = Поиск
+gui.copy = Копировать
+gui.paste = Вставить
+gui.opacity = Непрозрачность
+gui.speed = Скорость
+
+# Commands
+
+commands.friends.added = добавлен в друзья!
+commands.friends.already-added = уже есть в друзьях!
+commands.friends.removed = удален из друзей!
+commands.friends.empty-list = Список друзей пуст
+commands.friends.list = --- Список друзей: ---
+
+commands.config.saved = успешно сохранен!
+commands.config.loaded = успешно загружен!
+commands.config.deleted = успешно удален!
+commands.config.reset = Все настройки сброшены!
+
+commands.hud.reset = HUD сброшен!
+
+# Global
+
+globals.enabled = Активен
+
+globals.swap = Свап
+globals.swap.desc = Метод, который используется для выбора предметов в инвентаре
+
+globals.targets = Цели
+globals.targets.desc = Цели для атаки
+globals.target-priority = Приоритет цели
+globals.target-priority.desc = Признак, по которому выбираются цели
+globals.perfect-timing = Идеальный тайминг
+globals.perfect-timing.desc = Подбирает задержку атаки для нанесения максимального урона
+globals.field-of-view = Поле зрения
+globals.field-of-view.desc = Максимальный угол от точки взаимодействия до взгляда
+
+globals.target-range = Дальность цели
+globals.target-range.desc = Максимальное расстояние до цели
+globals.ignore-terrain = Игнорировать взрываемые блоки
+globals.ignore-terrain.desc = Игнорирует взрываемые блоки при расчете урона
+
+globals.rotate = Ротейты
+globals.rotate.desc = Автоматически поворачивается в сторону позиции взаимодействия
+
+globals.only-on-ground = Только на земле
+globals.only-on-ground.desc = Модуль останавливается, пока игрок не на земле
+
+globals.pause-on-eat = Пауза во время еды
+globals.pause-on-eat.desc = Модуль останавливается во время еды
+globals.pause-on-shift = Пауза при приседании
+globals.pause-on-shift.desc = Модуль останавливается, если игрок находится в положении приседания
+globals.pause-on-elytra = Пауза на элитре
+globals.pause-on-elytra.desc = Модуль останавливается, если игрок летит на элитре
+globals.pause-in-fluid = Пауза в жидкости
+globals.pause-in-fluid.desc = Модуль останавливается, если игрок находится в жидкости
+globals.pause-on-blink = Пауза при Blink
+globals.pause-on-blink.desc = Модуль останавливается во время работы Blink
+globals.pause-on-auto-crystal = Пауза при AutoCrystal
+globals.pause-on-auto-crystal.desc = Модуль останавливается во время работы AutoCrystal
+globals.pause-on-auto-exp = Пауза при AutoExp
+globals.pause-on-auto-exp.desc = Модуль останавливается во время работы AutoExp
+globals.pause-on-lag-back = Пауза при анти-чите
+globals.pause-on-lag-back.desc = Останавливает работу модуля после изменения движения анти-читом
+globals.pause-time = Время паузы
+globals.pause-time.desc = Время, на которое останавливается работа модуля после изменения движения анти-читом
+
+globals.render = Рендер
+globals.render.desc = Рендер позиций, в которые размещаются блоки
+globals.through-blocks = Через блоки
+globals.through-blocks.desc = Игнорирует препятствия при рендере
+globals.cosmetics = Косметика
+globals.cosmetics.desc = Дополнительные настройки рендера
+globals.line-color = Цвет линий
+globals.line-color.desc = Цвет, с которым рендерятся линии
+globals.side-color = Цвет сторон
+globals.side-color.desc = Цвет, с которым рендерятся стороны
+
+globals.outline-color = Цвет обводки
+globals.outline-color.desc = Цвет, с которым рендерится обводка
+globals.fill-color = Цвет заливки
+globals.fill-color.desc = Цвет, с которым рендерится заливка
+
+globals.break-color-mode = Режим цвета
+globals.break-color-mode.desc = Режим, выбранный для цвета рендера
+globals.break-start-line-color = Начальный цвет линий
+globals.break-start-line-color.desc = Цвет, с которым рендерятся линии в начале ломания блока
+globals.break-start-side-color = Начальный цвет сторон
+globals.break-start-side-color.desc = Цвет, с которым рендерятся стороны в начале ломания блока
+globals.break-end-line-color = Конечный цвет линий
+globals.break-end-line-color.desc = Цвет, с которым рендерятся линии в конце ломания блока
+globals.break-end-side-color = Конечный цвет сторон
+globals.break-end-side-color.desc = Цвет, с которым рендерятся стороны в конце ломания блока
+globals.break-smooth-animation = Плавная анимация
+globals.break-smooth-animation.desc = Плавный переход между рендером прогресса ломания
+globals.break-smooth-color = Плавный цвет
+globals.break-smooth-color.desc = Плавный переход между цветом прогресса ломания
+globals.break-animation = Анимация
+globals.break-animation.desc = Значение, используемое для изменения анимации
+
+globals.cps-limit = Лимит КПС
+globals.cps-limit.desc = Максимальное количество кликов в секунду по цели
+globals.hit-chance = Шанс удара
+globals.hit-chance.desc = Шанс удара по цели
+globals.damage-timing = Тайминги урона
+globals.damage-timing.desc = С большей вероятностью бьет сразу после времени неуязвимости
+globals.attack-range = Дальность атаки
+globals.attack-range.desc = Максимальное расстояние, на котором производятся удары
+globals.smart-crit = Умные криты
+globals.smart-crit.desc = Подбирает задержку ударов для нанесения критов
+globals.only-crit = Только криты
+globals.only-crit.desc = Бьет только критами
+globals.stop-sprint = Останавливать спринт
+globals.stop-sprint.desc = Останавливает спринт перед атакой для нанесения крита
+globals.pre-attack-sprint-delay = Остановка перед атакой
+globals.pre-attack-sprint-delay.desc = Время, на которое останавливается спринт перед атакой
+globals.post-attack-sprint-delay = Остановка после атаки
+globals.post-attack-sprint-delay.desc = Время, на которое останавливается спринт после атаки
+
+globals.ignore-passive = Игнорировать пассивных
+globals.ignore-passive.desc = Игнорирует пассивных сущностей
+globals.ignore-named = Игнорировать переименованных
+globals.ignore-named.desc = Игнорирует переименованных сущностей
+globals.ignore-sitting = Игнорировать сидящих
+globals.ignore-sitting.desc = Игнорирует сущностей, сидящих в лодке или вагонетке
+globals.ignore-invisible = Игнорировать невидимых
+globals.ignore-invisible.desc = Игнорирует сущностей с эффектом невидимости
+globals.ignore-naked = Игнорировать голых
+globals.ignore-naked.desc = Игнорирует сущностей без снаряжения
+
+globals.support = Вспомогательные блоки
+globals.support.desc = Размещает вспомогательные блоки, если нельзя ставить блоки на воздух
+globals.support-length = Количество вспомогательных блоков
+globals.support-length.desc = Количество вспомогательных блоков, которое может быть поставлено
+
+globals.yaw-step = Yaw Step
+globals.yaw-step.desc = Максимальный угол поворота по горизонтали за 1 тик
+globals.pitch-step = Pitch Step
+globals.pitch-step.desc = Максимальный угол поворота по вертикали за 1 тик
+
+globals.weapon = Оружие
+globals.weapon.desc = Оружие, которое используется для атаки
+globals.version = Версия
+globals.version.desc = Версия ударов
+
+globals.scale = Размер
+globals.color = Цвет
+
+globals.swing-hand = Анимация рук
+globals.swing-hand.desc = Анимация рук при действиях
+
+globals.toggle-on-chorus = Отключаться при хорусе
+globals.toggle-on-chorus.desc = Модуль отключается, если игрок съест хорус
+globals.toggle-on-death = Отключать при смерти
+globals.toggle-on-death.desc = Модуль отключается после смерти игрока
+
+globals.attack-delay = Задержка атаки
+globals.attack-delay.desc = Задержка атаки, которая добавляется к задержке оружия
+globals.delay-chance = Шанс задержки
+globals.delay-chance.desc = Шанс выбора большей задержки
+
+# Cosmetics
+
+settings.shader = Шейдер
+settings.shader.desc = Использует шейдер для рендера
+settings.line-width = Ширина линий
+settings.line-width.desc = Ширина линий обводки у шейдера
+settings.gradient-factor = Масштаб градиента
+settings.gradient-factor.desc = Масштаб переливания генерируемых цветов
+settings.gradient-speed = Скорость переливания
+settings.gradient-speed.desc = Скорость переливания цветов в рендере
+settings.gradient = Градиент
+settings.gradient.desc = Переход между цветами при рендере
+settings.gradient-segments = Количество цветов
+settings.gradient-segments.desc = Количество цветов отображаемых в градиенте
+settings.pattern = Узор
+settings.pattern.desc = Дополнительный узор к рендеру
+settings.opacity-animation = Анимация прозрачности
+settings.opacity-animation.desc = Дополняет рендер анимацией прозрачности
+settings.scale-animation = Анимация размера
+settings.scale-animation.desc = Дополняет рендер анимацией размера
+settings.animation = Анимация
+settings.animation.desc = Вид анимации
+settings.animation-time = Время анимации
+settings.animation-time.desc = Время, за которое проходит анимация
+
+# Client Config
+
+settings.gui-keybind = Бинд GUI
+settings.gui-keybind.desc = Бинд, на который открывается интерфейс чита
+settings.gui-scale = Размер GUI
+settings.gui-scale.desc = Размер, с которым отображается интерфейс чита
+settings.language = Язык
+settings.language.desc = Язык интерфейса и сообщений в чите
+settings.play-sound = Звук
+settings.play-sound.desc = Воспроизводит звук при открытии интерфейса
+settings.world-animation = Анимация в мире
+settings.world-animation.desc = Воспроизводит анимацию в мире при открытии интерфейса
+settings.animation-range = Дальность анимации
+settings.animation-range.desc = Дальность анимации в мире при открытии интерфейса
+settings.animation-time = Время анимации
+settings.animation-time.desc = Время анимации в мире при открытии интерфейса
+settings.wave-mode = Режим волны
+settings.wave-mode.desc = Дополняет рендер эффектом волны при появлении
+settings.name-spacings = Пробелы в названиях
+settings.name-spacings.desc = Отображает пробелы в названиях модулей
+settings.friend-color = Цвет друзей
+settings.friend-color.desc = Цвет, который используется для отображения друзей
+settings.air-place = Ставить на воздух
+settings.air-place.desc = Разрешает ставить блоки на воздух
+settings.strict-directions = Строгие направления
+settings.strict-directions.desc = Разрешает использование только строгих направлений при взаимодействии с блоками
+settings.strict-timing = Строгие тайминги
+settings.strict-timing.desc = Строгие тайминги, которые учитываются при работе модулей
+settings.movement-sync = Коррекция движений
+settings.movement-sync.desc = Модифицирует движения согласно поворотам игрока
+settings.client-rotation = Ротейты на клиенте
+settings.client-rotation.desc = Поворачивает камеру идентично ротейту
+settings.rotation-gap = Расстояние ротейта
+settings.rotation-gap.desc = Максимальное расстояние, на котором можно пренебречь поворотом
+
+# HUD
+
+settings.hud-scale = Размер
+settings.hud-scale.desc = Размер, с которым отображается интерфейс
+settings.grid-snap-distance = Дистанция прилипания
+settings.grid-snap-distance.desc = Дистанция, в которой прилипают элементы в грид сетке
+settings.text-color = Цвет текста
+settings.text-color.desc = Цвет, с которым отображается цвет
+settings.color-spread = Смещение цвета
+settings.color-spread.desc = Фактор смещения плавности градиента
+settings.value-text-color = Цвет информации
+settings.value-text-color.desc = Цвет, с которым отображается информация
+settings.brackets-color = Цвет скобок
+settings.brackets-color.desc = Цвет скобок в текстовых элементах (бинды, модули)
+settings.background-color = Цвет фона
+settings.background-color.desc = Цвет, с которым отображается фон интерфейса
+settings.hud-editor = Hud Editor
+settings.hud-editor.desc = Активирует экран изменения элементов худа
+
+# Enums
+
+enums.swap.hotbar = Хотбар
+enums.swap.alternative = Альтернативный
+
+enums.entities.animals = Животные
+enums.entities.monsters = Монстры
+enums.entities.other = Другие
+enums.entities.players = Игроки
+enums.entities.items = Предметы
+
+enums.target-priority.health = Здоровье
+enums.target-priority.range = Расстояние
+enums.target-priority.field-of-view = Поле зрения
+
+enums.trap.full = Полная
+enums.trap.face = Лицо
+enums.trap.head = Голова
+
+enums.break-color.progress = Прогресс
+enums.break-color.static = Статичный
+
+enums.rotate.none = Никакие
+enums.rotate.vanilla = Ванильные
+enums.rotate.packet = Пакетные
+enums.rotate.grim = Grim
+
+enums.strict.none = Никакие
+enums.strict.grim = Grim
+enums.strict.full = Полные
+
+enums.pattern.none = Никакой
+enums.pattern.web = Паутинка
+enums.pattern.cage = Крестик
+
+enums.easing-mode.linear = Линейная
+enums.easing-mode.cubic = Кубическая
+enums.easing-mode.double = Квадратичная
+
+enums.shader-type.default = Обычный
+enums.shader-type.wave = Волны
+enums.shader-type.gradient = Градиент
+
+enums.segments.two = Два
+enums.segments.four = Четыре
+enums.segments.eight = Восемь
+
+# Aim Bot
+
+aim-bot.desc = Автоматически наводится на противников
+aim-bot.rotate.desc = Автоматически поворачивается в сторону выстрела
+aim-bot.extrapolation = Предсказывание
+aim-bot.extrapolation.desc = Количество тиков, на которое предсказываются движения цели для выстрела
+aim-bot.enums.instant = Мгновенные
+aim-bot.enums.vanilla = Обычные
+aim-bot.enums.legit = Легитные
+
+# Anchor Aura
+
+anchor-aura.desc = Автоматически ставит и взрывает якори возрождения для нанесения урона по цели
+anchor-aura.break-trap = Ломать трапку
+anchor-aura.break-trap.desc = Автоматически ломает трапку цели чтобы поставить якорь
+anchor-aura.anti-protect = Анти протект
+anchor-aura.anti-protect.desc = Мгновенно заменяет якорь другим блоком, чтобы не дать цели взорвать его первым
+anchor-aura.replacement-block = Блок для замены
+anchor-aura.replacement-block.desc = Блок, который будет использоваться для замены якоря
+anchor-aura.sequential = Последовательность
+anchor-aura.sequential.desc = Действия выполняются последовательно за 1 тик
+anchor-aura.place-delay = Задержка плейса
+anchor-aura.place-delay.desc = Задержка, с которой ставятся якоря возрождения
+anchor-aura.break-delay = Задержка взрыва
+anchor-aura.break-delay.desc = Задержка, с которой взрываются якоря возрождения
+anchor-aura.interact-range = Дальность взаимодействия
+anchor-aura.interact-range.desc = Максимальное расстояние, на котором ставятся/взрываются якоря возрождения
+anchor-aura.min-damage = Минимальный урон
+anchor-aura.min-damage.desc = Минимальный урон по цели, при котором ставятся/взрываются якоря возрождения
+anchor-aura.max-self-damage = Максимальный урон по себе
+anchor-aura.max-self-damage.desc = Максимальный урон по себе, при котором ставятся/взрываются якоре возрождения
+anchor-aura.anti-self-pop = Не попать себя
+anchor-aura.anti-self-pop.desc = Якорь возрождения не ставится, если урон по себе в этом месте больше здоровья
+anchor-aura.anti-friend-pop = Не попать друзей
+anchor-aura.anti-friend-pop.desc = Якорь возрождения не ставится, если урон по друзьям в этом месте больше их здоровья
+anchor-aura.render.desc = Рендер позиций, в которые размещаются якоря возрождения
+
+anchor-aura.enums.none = Выключена
+anchor-aura.enums.auto = Автоматическая
+anchor-aura.enums.place = Плейс
+anchor-aura.enums.break = Ломание
+anchor-aura.enums.full = Полная
+
+# Attack Aura
+
+attack-aura-2.desc = Автоматически бьет врагов в радиусе
+attack-aura-2.targeting = Таргетить
+attack-aura-2.targeting.desc = Таргетит определенную цель
+attack-aura-2.legit-rotate = Легитные ротейты
+attack-aura-2.legit-rotate.desc = Имитирует ротейты обычного игрока
+attack-aura-2.raytrace-blocks = Не бить через стены
+attack-aura-2.raytrace-blocks.desc = Не атакует, если на линии атаки есть блок
+attack-aura-2.raytrace-entities = Не бить через сущностей
+attack-aura-2.raytrace-entities.desc = Не атакует, если на линии атаки есть сущность
+attack-aura-2.rotation-speed = Скорость
+attack-aura-2.rotation-speed.desc = Скорость поворота
+attack-aura-2.snap-time = Время снапа
+attack-aura-2.snap-time.desc = Время, которое совершается поворот на цель перед атакой
+
+
+attack-aura-2.enums.sword = Меч
+attack-aura-2.enums.axe = Топор
+attack-aura-2.enums.any = Любое
+
+attack-aura-2.enums.none = Нет
+attack-aura-2.enums.packet = Пакетные
+attack-aura-2.enums.snap = Снапы
+attack-aura-2.enums.track = Следование
+
+# Attack Aura Old
+
+attack-aura.desc = Автоматически бьет врагов в радиусе
+attack-aura.legit-rotate = Легитные ротейты
+attack-aura.legit-rotate.desc = Имитирует ротейты обычного игрока
+attack-aura.legit-timing = Легитные тайминги
+attack-aura.legit-rotate.desc = Имитирует тайминги ударов обычного игрока
+attack-aura.raytrace = Не бить через препятствия
+attack-aura.raytrace.desc =  Не атакует, если на линии атаки есть препятствие
+attack-aura.snap-ticks = Тики ротейта
+attack-aura.snap-ticks.desc = Количество тиков, за которые происходит ротейт
+attack-aura.track-ticks = Тики следования
+attack-aura.track-ticks.desc = Количество тиков, которое модуль смотрит на врага
+attack-aura.snap-ticks = Скорость ротейта
+attack-aura.snap-ticks.desc = Часть ротейта, которая производится за 1 тик
+attack-aura.sync-with-auto-mine = Синхронизировать с AutoMine
+attack-aura.sync-with-auto-mine.desc = Синхронизирует атаки с AutoMine для нанесения большего урона
+attack-aura.render.desc = Рендер атакуемой цели
+attack-aura.scale.desc = Размер призраков
+attack-aura.color.desc = Цвет призраков
+attack-aura.trail-color = Цвет следа
+attack-aura.trail-color.desc = Цвет, с которым рендерится след круга
+
+attack-aura.enums.sword = Меч
+attack-aura.enums.axe = Топор
+attack-aura.enums.any = Любое
+
+attack-aura.enums.none = Нет
+attack-aura.enums.instant = Моментальные
+attack-aura.enums.grim-instant = Grim
+attack-aura.enums.snap = Снапы
+attack-aura.enums.track = Следование
+
+# Auto Crystal
+
+auto-crystal.desc = Автоматически ставит и взрывает кристаллы для нанесения урона по цели
+auto-crystal.place-delay = Задержка плейса
+auto-crystal.place-delay.desc = Задержка, с которой размещаются кристаллы
+auto-crystal.place-range = Дальность плейса
+auto-crystal.place-range.desc = Максимальное расстояние, на котором размещаются кристаллы
+auto-crystal.walls-place-range = Дальность плейса через стены
+auto-crystal.walls-place-range.desc = Максимальное расстояние, на котором размещаются кристаллы через стены
+auto-crystal.ray-trace-mode = Рей трейсинг
+auto-crystal.ray-trace-mode.desc = Проверяет видимость блока, на который ставится кристалл
+auto-crystal.sequential = Моментальный плейс
+auto-crystal.sequential.desc = Моментально ставит кристалл после его взрыва
+auto-crystal.anti-hitbox-desync = Предотвращать HitboxDesync
+auto-crystal.anti-hitbox-desync.desc = Предотвращает действие HitboxDesync врага на модуль
+auto-crystal.lower-hitbox = Низкие хитбоксы
+auto-crystal.lower-hitbox.desc = Использует низкие хитбоксы кристалла для расчета пересечений с сущностями
+auto-crystal.legacy = 1.12.2
+auto-crystal.legacy.desc = Использует особенности версии 1.12.2 для расчета позиций
+auto-crystal.break-delay = Задержка взрыва
+auto-crystal.break-delay.desc = Задержка, с которой производятся взрывы кристаллов
+auto-crystal.break-range = Дальность взрыва
+auto-crystal.break-range.desc = Максимальное расстояние, на котором производятся взрывы кристаллов
+auto-crystal.walls-break-range = Дальность взрыва через стены
+auto-crystal.walls-break-range.desc = Максимальное расстояние, на котором производятся взрывы кристаллов через стены
+auto-crystal.crystal-age = Возраст кристалла
+auto-crystal.crystal-age.desc = Минимальное время существования кристалла, которое нужно для атаки
+auto-crystal.await = Ожидание
+auto-crystal.await.desc = Ожидает некоторое время перед взрывом кристалла
+auto-crystal.inhibit = Ограничить атаки
+auto-crystal.inhibit.desc = Ограничить количество атак, которые производятся по 1 кристаллу
+auto-crystal.break-attempts = Количество атак
+auto-crystal.break-attempts.desc = Количество атак, которые производятся по 1 кристаллу
+auto-crystal.retry-delay = Задержка между атаками
+auto-crystal.retry-delay.desc = Задержка между атаками, которые производятся по 1 кристаллу
+auto-crystal.auto-base = Ставить обсидиан
+auto-crystal.auto-base.desc = Ставит обсидиан чтобы поставить на него кристалл
+auto-crystal.base-delay = Задержка обсидиана
+auto-crystal.base-delay.desc = Задержка, с которой ставится обсидиан
+auto-crystal.extrapolation = Предсказывание
+auto-crystal.extrapolation.desc = Количество тиков, на которое предсказываются движения цели для расчета урона
+auto-crystal.min-damage = Минимальный урон
+auto-crystal.min-damage.desc = Минимальный урон по цели, при котором ставятся/взрываются кристаллы
+auto-crystal.min-damage-ratio = Минимальное соотношение урона
+auto-crystal.min-damage-ratio.desc = Минимальное соотношение урона цели к урону по себе, при котором ставятся/взрываются кристаллы
+auto-crystal.max-self-damage = Максимальный урон по себе
+auto-crystal.max-self-damage.desc = Максимальный урон по себе, при котором ставятся/взрываются кристаллы
+auto-crystal.anti-self-pop = Не попать себя
+auto-crystal.anti-self-pop.desc = Кристаллы не ставятся и не взрываются, если урон по себе в этом месте больше здоровья
+auto-crystal.anti-friend-pop = Не попать друзей
+auto-crystal.anti-friend-pop.desc = Кристаллы не ставятся и не взрываются, если урон по друзьям в этом месте больше их здоровья
+auto-crystal.anti-resources-explosion = Не взрывать ресурсы
+auto-crystal.anti-resources-explosion.desc = Не ставит и не взрывает кристаллы, если они взорвут ресурсы
+auto-crystal.min-health = Минимальное здоровье
+auto-crystal.min-health.desc = Минимальное здоровье, при котором ставятся/взрываются кристаллы
+auto-crystal.face-place = Фейс плейс
+auto-crystal.face-place.desc = Ставит кристаллы, даже если урон от них меньше минимального урона
+auto-crystal.face-place-slowness = Замедление фейс плейса
+auto-crystal.face-place-slowness.desc = Действие, которое замедляется при фейс плейсе
+auto-crystal.face-place-hp = Здоровье для фейс плейса
+auto-crystal.face-place-hp.desc = Максимальное здоровья цели, при котором используется фейс плейс
+auto-crystal.face-place-armor = Прочность брони для фейс плейса
+auto-crystal.face-place-armor.desc = Максимальная прочность брони цели, при котором используется фейс плейс
+auto-crystal.face-place-delay = Задержка фейс плейса
+auto-crystal.face-place-delay.desc = Задержка, с которой производится фейс плейс
+auto-crystal.render.desc = Рендер позиций, в которые размещаются кристаллы
+
+auto-crystal.enums.none = Нет
+auto-crystal.enums.free = Свободные
+auto-crystal.enums.strict = Строгие
+
+auto-crystal.enums.hotbar = Хотбар
+auto-crystal.enums.alternative = Альтернативные
+auto-crystal.enums.cc = crystalpvp.cc
+
+auto-crystal.enums.place = Плейс
+auto-crystal.enums.break = Ломание
+
+auto-crystal.enums.center = Центр
+auto-crystal.enums.edges = Углы
+auto-crystal.enums.strict = Строгий
+
+# Auto Mine
+
+auto-mine.desc = Автоматически ломает трапку противника для нанесения урона кристаллами
+auto-mine.range = Дальность
+auto-mine.range.desc = Максимальная дальность работы модуля
+auto-mine.max-self-damage = Максимальный урон по себе
+auto-mine.max-self-damage.desc = Максимальный урон, который может быть нанесен по себе из-за работы модуля
+auto-mine.instant-rotate = Моментальный ротейт
+auto-mine.instant-rotate.desc = Моментально поворачивается в 1 тик с действием
+auto-mine.wait-re-break = Ожидать ReBreak
+auto-mine.wait-re-break.desc = Ожидает, пока не будет достигнут определенный прогресс ReBreak
+auto-mine.re-break-progress = Прогресс ReBreak
+auto-mine.re-break-progress.desc = Прогресс ReBreak, который ожидается перед действием
+auto-mine.air-pre-break = Копать воздух
+auto-mine.air-pre-break.desc = Начинает ломать воздух, чтобы произвести ReBreak
+auto-mine.place-crystal = Ставить кристалл
+auto-mine.place-crystal.desc = Ставит кристаллы после того, как блок сломается
+auto-mine.crystal-support = Ставить обсидиан
+auto-mine.crystal-support.desc = Ставит обсидиан, чтобы поставить на него кристалл
+auto-mine.place-support = Вспомогательный обсидиан
+auto-mine.place-support.desc = Ставит вспомогательный обсидиан, чтобы поставить на него основной
+auto-mine.support-length = Количество вспомогательного обсидиана
+auto-mine.support-length.desc = Количество вспомогательного обсидиана, которое может быть поставлено
+auto-mine.support-only-in-hole = Обсидиан только в трапке
+auto-mine.support-only-in-hole.desc = Ставит обсидиан, только если игрок находится в трапке
+auto-mine.break-obstructive = Ломать мешающие кристаллы
+auto-mine.break-obstructive.desc = Ломает кристаллы, которые мешают поставить блок
+auto-mine.break-crystal = Ломать кристалл
+auto-mine.break-crystal.desc = Ломает кристаллы для нанесения урона по цели
+auto-mine.break-only-trap-cev = Ломать только Trap Cev
+auto-mine.break-only-trap-cev.desc = Ломает кристалл, только если он находится в позиции Trap Cev
+auto-mine.types = Типы
+auto-mine.types.desc = Типы блоков для ломания
+auto-mine.burrow = Burrow
+auto-mine.burrow.desc = Ломает Burrow противника
+auto-mine.city = City
+auto-mine.city.desc = Ломает Surround противника для City
+auto-mine.surround-cev = Surround Cev
+auto-mine.surround-cev.desc = Ломает Surround противника для Cev
+auto-mine.trap-cev = Trap Cev
+auto-mine.trap-cev.desc = Ломает трапку противника
+auto-mine.min-cev-damage = Минимальный урон Cev
+auto-mine.min-cev-damage.desc = Минимальный урон, при котором производится Cev
+auto-mine.cev-extra-positions = Дополнительные позиции Cev
+auto-mine.cev-extra-positions.desc = Производит Cev в любой позиции возможной позиции
+auto-mine.extra-positions-priority = Приоритет дополнительных позиций
+auto-mine.extra-positions-priority.desc = Чаще производит Cev в нестандартных позициях
+
+# Place Function
+
+place-function.blocks = Блоки
+place-function.blocks.desc = Блоки, которые использует модуль
+place-function.range = Дальность
+place-function.range.desc = Максимальное расстояние, на котором ставятся блоки
+place-function.delay = Задержка
+place-function.delay.desc = Задержка, с которой ставятся блоки
+place-function.break-crystals = Взрывать кристаллы
+place-function.break-crystals.desc = Взрывает кристаллы, которые мешают размещению блоков
+place-function.break-delay = Задержка взрыва
+place-function.break-delay.desc = Задержка, с которой взрываются кристаллы
+place-function.break-instant = Ломать моментально
+place-function.break-instant.desc = Моментально ломает кристалл после его появления
+place-function.place-rotate = Ротейт для плейса
+place-function.place-rotate.desc = Поворачивается в сторону позиции плейса
+place-function.break-rotate = Ротейт для взрыва
+place-function.break-rotate.desc = Поворачивается в сторону позиции атаки кристалла
+place-function.shift-ticks = Пропуск тиков
+place-function.shift-ticks.desc = Количество блоков, которые ставятся дополнительно за 1 тик
+place-function.shift-delay = Задержка пропуска тиков
+place-function.shift-delay.desc = Задержка между пропуском тиков
+place-function.resources-toggle = Отключать без ресурсов
+place-function.resources-toggle.desc = Отключает модуль, если нет ресурсов для работы
+
+# Auto Trap
+
+auto-trap.desc = Автоматически закрывает врага в трапке
+auto-trap.mode = Трапка
+auto-trap.mode.desc = Тип трапки, который будет использоваться
+auto-trap.anti-step = Предотвращать Step
+auto-trap.anti-step.desc = Размещает дополнительные блоки, мешающие цели использовать Step
+
+# Auto Web
+
+auto-web.desc = Автоматически ставит паутину во врагов
+auto-web.mode = Режим
+auto-web.mode.desc = Часть тела врага, в которую ставится паутина
+auto-web.range = Дальность
+auto-web.range.desc = Максимальное расстояние, на котором размещается паутина
+auto-web.no-self-web = Не ставить в себя
+auto-web.no-self-web.desc = Предотвращает плейс паутины в себя
+auto-web.delay = Задержка
+auto-web.delay.desc = Задержка, с которой ставится паутина
+auto-web.extrapolation = Предсказывание
+auto-web.extrapolation.desc = Количество тиков, на которое предсказывается движение цели для размещения паутины
+
+auto-web.enums.feet = Ноги
+auto-web.enums.head = Голова
+auto-web.enums.full = Полный
+
+# Backtrack
+
+backtrack.desc = Дает возможность бить по предыдущим позициям цели
+backtrack.range = Дальность
+backtrack.range.desc = Максимальное расстояние, на котором остаются хитбоксы
+backtrack.only-players = Только игроки
+backtrack.only-players.desc = Оставляет только хитбоксы игроков
+backtrack.backtrack-ticks = Тики
+backtrack.backtrack-ticks.desc = Количество тиков, на которое остается хитбокс
+
+# Blocker
+
+blocker.desc = Автоматически блокирует позиции, в которые противник может нанести урон кристаллом
+blocker.mode = Режим
+blocker.mode.desc = Режим работы Blocker
+blocker.break-progress = Прогресс ломания
+blocker.break-progress.desc = Прогресс ломания блока, на котором блокируется позиция
+blocker.protection = Защита
+blocker.protection.desc = Часть трапки, которую защищает Blocker
+blocker.extra-positions = Дополнительные позиции
+blocker.extra-positions.desc = Защита нестандартных позиций
+blocker.air-trigger = Блокировать воздух
+blocker.air-trigger.desc = Блокирует позицию, даже если это воздух
+blocker.min-trigger-damage = Минимальный урон
+blocker.min-trigger-damage.desc = Минимальный урон от позиции, при котором она блокируется
+blocker.mining-range = Дальность ломания
+blocker.mining-range.desc = Дальность ломания, которая используется для предугадывания ломания блоков врагом
+blocker.only-targets-in-hole = Только цели в холке
+blocker.only-targets-in-hole.desc = Предугадывает ломание блоков только для целей в холке
+blocker.surround = Surround
+blocker.surround.desc = Режим, который используется для предугадывания ломания Surround
+blocker.self-trap = SelfTrap
+blocker.surround.desc = Режим, который используется для предугадывания ломания SelfTrap
+blocker.force-surround-place = Поставить Surround
+blocker.force-surround-place.desc = При активации блокирует все позиции Surround
+blocker.force-self-trap-place = Поставить SelfTrap
+blocker.force-self-trap-place.desc = При активации блокирует все позиции SelfTrap
+
+blocker.enums.normal = Стандартный
+blocker.enums.blind = Слепой
+
+blocker.enums.full = Полная
+blocker.enums.surround = Surround
+blocker.enums.self-trap = SelfTrap
+
+blocker.enums.none = Никакой
+blocker.enums.predictive = Предсказывать
+blocker.enums.delayed = Задержка
+
+# Bow Release
+
+bow-release.desc = Спамит стрелами из лука
+bow-release.only-right-click = Только при использовании
+bow-release.only-right-click.desc = Работает только если кнопка использования нажата
+bow-release.charge-power = Сила натягивания
+bow-release.charge-power.desc = Насколкьо сильно нужно натягивать лук
+
+# Burrow
+
+burrow.desc = Автоматически ставит блок внутрь игрока
+burrow.mode = Режим
+burrow.mode.desc = Режим, используемый чтобы поставить блок внутрь игрока
+burrow.blocks = Блоки
+burrow.blocks.desc = Блоки, которые используются
+burrow.disable = Отключать
+burrow.disable.desc = Отключается после поставленного блока
+burrow.delay = Задержка
+burrow.delay.desc = Задержка, с которой срабатывает модуль
+burrow.v-clip = Телепортация по Y
+burrow.v-clip.desc = Расстояние, которое используется для телепортации по Y чтобы вернуться в блок
+
+burrow.enums.normal = Стандартный
+burrow.enums.cc = crystalpvp.cc
+
+# Crawl Trap
+
+crawl-trap.desc = Держит врага в лежачем положении
+crawl-trap.trap-radius = Радиус трапки
+crawl-trap.trap-radius.desc = Радиус трапки, которая ставится над врагом
+
+# Criticals
+
+criticals.desc = Позволяет критовать на земле
+criticals.mode = Режим
+criticals.mode.desc = Режим, используемый для критов
+criticals.only-with-attack-aura = Только с AttackAura
+criticals.only-with-attack-aura.desc = Критует с земли только вместе с AttackAura
+criticals.only-phased = Только в блоках
+criticals.only-phased.desc = Работает только когда ты в блоках
+criticals.only-phased-in-walls = Только в стене
+criticals.only-phased-in-walls.desc = Работает только когда хитбокс ПОЛНОСТЬЮ в блоках
+criticals.pause-in-web = Пауза в паутине
+criticals.pause-in-web.desc = Модуль останавливается, пока игрок находится в паутине
+criticals.pause-on-move = Пауза в движении
+criticals.pause-on-move.desc = Модуль останавливается, пока игрок двигается
+
+criticals.enums.packet = Пакетный
+criticals.enums.ncp = NCP
+criticals.enums.grim = Grim
+criticals.enums.grim-v3 = Grim V3
+
+# Crystal Optimizer
+
+crystal-optimizer.desc = Улучшает взаимодействие с кристаллами
+crystal-optimizer.instant-remove = Мгновенно убирать
+crystal-optimizer.instant-remove.desc = Мгновенно убирает кристаллы после удара, не дожидаясь ответа от сервера
+crystal-optimizer.multi-task = Multi Task
+crystal-optimizer.multi-task.desc = Позволяет одновременно ломать блок и атаковать кристаллы
+
+# Hole Fill
+
+hole-fill.desc = Автоматически закрывает холки
+hole-fill.without-target = Без цели
+hole-fill.without-target.desc = Застраивает холки, даже если по близости нет целей
+hole-fill.min-range = Минимальное расстояние
+hole-fill.min-range.desc = Минимальное расстояние от игрока, на котором застраиваются холки
+hole-fill.range-from-target = Расстояние от цели
+hole-fill.range-from-target.desc = Максимальное расстояние от цели, на котором застраиваются холки
+hole-fill.y-range = Расстояние по Y
+hole-fill.y-range.desc = Максимальное расстояние от цели по Y, на котором застраиваются холки
+hole-fill.only-in-hole = Только в холке
+hole-fill.only-in-hole.desc = Модуль работает, только если игрок находится в холке
+hole-fill.safe-in-hole = Безопасно в холке
+hole-fill.safe-in-hole.desc = Игнорирует минимальное расстояние, если игрок находится в холке
+hole-fill.extrapolation = Предсказывание
+hole-fill.extrapolation.desc = Количество тиков, на которое предсказываются движения цели для застраивания холок
+hole-fill.hole-height = Высота холки
+hole-fill.hole-height.desc = Минимальная высота холки
+hole-fill.single-holes = Одиночные холки
+hole-fill.single-holes.desc = Застраивает холки размером в 1 блок
+hole-fill.double-holes = Двойные холки
+hole-fill.double-holes.desc = Застраивает холки размером в 2 блока
+hole-fill.quad-holes = Четверные холки
+hole-fill.quad-holes.desc = Застраивает холки размером в 4 блока
+
+# Offhand
+
+offhand.desc = Автоматически перемещает нужный предмет во вторую руку
+offhand.smart = Умный
+offhand.smart.desc = Учитывает возможный урон, который может быть нанесен по игроку
+offhand.gapple-bind = Использовать золотое яблоко
+offhand.gapple-bind.desc = При активации берет золотое яблоко во вторую руку
+offhand.delay = Задержка
+offhand.delay.desc = Задержка между перемещениями предметов в инвентаре
+offhand.item = Предмет
+offhand.item.desc = Основной предмет, который перемещается во вторую руку
+offhand.swap-mode = Режим свапа
+offhand.swap-mode.desc = Режим которым будет перекладываться предмет
+offhand.silent = Пакетная отправка
+offhand.silent.desc = Отправляет пакет прямиком на сервер, минуя клиентские вычисления
+offhand.min-hp = Минимальное здоровье
+offhand.min-hp.desc = Здоровье, меньше которого во вторую руку будет помещен тотем
+
+offhand.enums.totem = Тотем
+offhand.enums.crystal = Кристалл
+offhand.enums.gapple = Золотое яблоко
+offhand.enums.egapple = Зачарованное яблоко
+
+offhand.enums.swap = Свап
+offhand.enums.inventory = Инвентарь
+offhand.enums.simulation = Симуляция
+
+# Piston Push
+
+piston-push.desc = Автоматически выталкивает целей из холок с помощью поршня
+piston-push.place-range = Дальность
+piston-push.place-range.desc = Максимальное расстояние, на котором могут размещаться блоки
+piston-push.push-delay = Задержка
+piston-push.push-delay.desc = Задержка между выталкиванием одной цели
+piston-push.push-on-self = Толкать на себя
+piston-push.push-on-self.desc = По возможности толкает цель в сторону игрока
+piston-push.hole-fill = Застраивать холку
+piston-push.hole-fill.desc = Застраивает холку обсидиана после выталкивания цели
+piston-push.anti-self-push = Не толкать себя
+piston-push.anti-self-push.desc = Предотвращает выталкивание игрока из холки
+piston-push.auto-toggle = Выключать
+piston-push.auto-toggle.desc = Модуль отключается после первого срабатывания
+
+# Self Trap
+
+self-trap.desc = Автоматически строит застраивает игрока в защиту
+self-trap.mode = Защита
+self-trap.mode.desc = Часть защиты, в которую застаивается игрок
+self-trap.anti-cev = Анти Cev
+self-trap.anti-cev.desc = Предотвращает урон от Cev
+
+# Suicide
+
+suicide.desc = Включает атаку по игроку
+
+# Surround
+
+surround.desc = Автоматически строит холку вокруг игрока
+surround.toggle-on-jump = Отключать при прыжке
+surround.toggle-on-jump.desc = Модуль отключается при прыжке игрока
+surround.pause-step = Отключать Step
+surround.pause-step.desc = Отключает Step во время работы модуля
+
+# Tnt Aura
+
+tnt-aura.desc = Автоматически ставит и поджигает динамит над целью
+tnt-aura.tnt-delay = Задержка ТНТ
+tnt-aura.tnt-delay.desc = Задержка, с которой устанавливаются блоки динамита
+tnt-aura.tnt-spam = Спамить ТНТ
+tnt-aura.tnt-spam.desc = Ставит блоки, игнорируя активированный динамит
+tnt-aura.only-targets-in-hole = Только цели в холке
+tnt-aura.only-targets-in-hole.desc = Выбирает только цели, находящиеся в холке
+tnt-aura.trap = Трапка
+tnt-aura.trap.desc = Часть трапки, в которую застраивается цель
+tnt-aura.face-trap = Фейс трап
+tnt-aura.face-trap.desc = Ставит трапку на уровне головы цели
+tnt-aura.only-top-trapped = Только закрытые сверху
+tnt-aura.only-top-trapped.desc = Ставит динамит, только если над позицией стоит блок
+tnt-aura.break-trap = Ломать трапку
+tnt-aura.break-trap.desc = Ломать трапку цели чтобы поставить динамит
+
+tnt-aura.enums.none = Нет
+tnt-aura.enums.top = Сверху
+tnt-aura.enums.full = Полная
+
+# Trigger Bot
+
+trigger-bot.desc = Автоматически атакует сущностей, на которые смотрит игрок
+trigger-bot.on-attack-key = На кнопку атаки
+trigger-bot.on-attack-key.desc = Атакует, только если зажата кнопка для атаки
+
+# Anti Ac Detect
+
+anti-ac-detect.desc = Предотвращает детекты от анти чита
+anti-ac-detect.no-multi-swap = Множественные свапы
+anti-ac-detect.no-multi-swap.desc = Предотвращает несколько свапов за 1 тик, отправляя их постепенно
+anti-ac-detect.no-aim-duplicate = Повторение ротейта
+anti-ac-detect.no-aim-duplicate.desc = Предотвращает отправку одинаковых ротейтов подряд
+anti-ac-detect.no-slot-duplicate = Повторение слота
+anti-ac-detect.no-slot-duplicate.desc = Предотвращает отправку одинаковых слотов подряд
+anti-ac-detect.no-sprint-duplicate = Повторение спринта
+anti-ac-detect.no-sprint-duplicate.desc = Предотвращает отправку одинаковых статусов спринта подряд
+anti-ac-detect.no-input-duplicate = Повторение движения
+anti-ac-detect.no-input-duplicate.desc = Предотвращает отправку одинаковых статусов движения подряд
+anti-ac-detect.no-self-interact = Взаимодействия с собой
+anti-ac-detect.no-self-interact.desc = Предотвращает взаимодействия с самим собой
+
+# Anti AFK
+
+anti-afk.desc = Модуль, предотвращающий кик за АФК
+anti-afk.actions = Действия
+anti-afk.actions.desc = Действия для предотвращения кика игрока за АФК
+anti-afk.jump-delay = Задержка
+anti-afk.jump-delay.desc = Время ожидания от одного прыжка до другого
+
+anti-afk.enums.jump = Прыжки
+
+# Anti Bot
+
+anti-bot.desc = Отключает обработку ботов клиентом
+anti-bot.ping = Пинг
+anti-bot.ping.desc = Определяет ботов по пингу
+anti-bot.nickname = Ник
+anti-bot.nickname.desc = Определяет ботов по нику
+anti-bot.uuid = Uuid
+anti-bot.uuid.desc = Определяет ботов по Uuid
+anti-bot.movement = Движение
+anti-bot.movement.desc = Определяет ботов по движениям
+anti-bot.health = Здоровье
+anti-bot.health.desc = Определяет ботов по здоровью
+anti-bot.age = Возраст
+anti-bot.age.desc = Определяет ботов по времени их существования
+anti-bot.speed = Скорость
+anti-bot.speed.desc = Определяет ботов по скорости передвижения
+
+# Anti Packet Crash
+
+anti-packet-crash.desc = Предотвращает вылет игры из-за ошибок с обработкой пакетов
+
+# Auto Ominous
+
+auto-ominous.desc = Автоматически пьет зловещие зелья для призыва рейдов
+auto-ominous.range = Дальность
+auto-ominous.range.desc = Максимально расстояние от центра, на котором используются зелья
+auto-ominous.setup-position = Установить позицию
+auto-ominous.setup-position.desc = Устанавливает центр радиуса, в котором используются зелья
+auto-ominous.render.desc = Рендер радиуса, в котором используются зелья
+auto-ominous.active-color = Активный цвет
+auto-ominous.active-color.desc = Цвет, который используется для рендера радиуса при работе модуля
+auto-ominous.inactive-color = Неактивный цвет
+auto-ominous.inactive-color.desc = Цвет, который используется для рендера радиуса при ожидании
+
+# Auto Wither
+
+auto-wither.desc = Автоматически размещает визеров
+auto-wither.range = Дальность
+auto-wither.range.desc = Максимальное расстояние, на котором ставятся блоки
+auto-wither.place-delay = Задержка
+auto-wither.place-delay.desc = Задержка, с которой размещаются блоки
+
+# Better Chat
+
+better-chat.desc = Позволяет настроить чат
+better-chat.animation = Анимация сообщений
+better-chat.animation.desc = Добавляет анимацию к появлению сообщений
+better-chat.time-stamps = Временные метки
+better-chat.time-stamps.desc = Добавляет временные метки перед сообщениями
+better-chat.player-heads = Головы игроков
+better-chat.player-heads.desc = Добавляет головы игроков перед сообщениями
+better-chat.keep-history = Сохранять историю
+better-chat.keep-history.desc = Убирает очистку чата при отключении
+better-chat.extra-chat-length = Большая длина истории
+better-chat.extra-chat-length.desc = Позволяет смотреть намного больше сообщений в истории чата
+better-chat.extra-message-length = Бесконечная длина сообщений
+better-chat.extra-message-length.desc = Убирает ограничение на длину сообщения
+better-chat.chat-width = Ширина чата
+better-chat.chat-width.desc = Позволяет изменить ширину чата
+better-chat.prefix-string = Префикс сообщений
+better-chat.prefix-string.desc = Добавляет текст перед отправленным сообщением
+better-chat.suffix-string = Суффикс сообщений
+better-chat.suffix-string.desc = Добавляет текст после отправленного сообщения
+
+# Better Tab
+
+better-tab.desc = Позволяет настроить таб
+better-tab.tab-size = Количество игроков
+better-tab.tab-size.desc = Максимальное количество игроков для отображения
+better-tab.player-heads = Головы игроков
+better-tab.player-heads.desc = Отображает головы игроков перед никнеймом
+better-tab.self-highlight = Подсвечивать себя
+better-tab.self-highlight.desc = Подсвечивает свой никнейм в табе выбранным цветом
+better-tab.friends-highlight = Подсвечивать друзей
+better-tab.friends-highlight.desc = Подсвечивает друзей в табе
+
+# Discord Presence
+
+discord-presence.desc = Отображает статус игры в профиле Discord
+discord-presence.small-image-mode = Что отображать
+discord-presence.small-image-mode.desc = Какую информацию отображать в маленькой иконке RPC
+
+discord-presence.enums.server-avatar = Информация о сервере
+discord-presence.enums.player-avatar = Информация об игроке
+discord-presence.enums.none = Ничего
+
+# Ender Chest Farm
+
+ender-chest-farm.desc = Автоматически ставит и ломает сундуки края для добычи обсидиана
+ender-chest-farm.range = Дальность
+ender-chest-farm.range.desc = Максимальное расстояние, на котором размещаются и ломаются сундуки края
+ender-chest-farm.mine = Ломать
+ender-chest-farm.mine.desc = Автоматически ломает сундуки края
+ender-chest-farm.side-protect = Защита вокруг
+ender-chest-farm.side-protect.desc = Окружает сундук края обсидианом
+ender-chest-farm.top-protect = Защита сверху
+ender-chest-farm.top-protect.desc = Размещает обсидиан над сундуком края
+ender-chest-farm.support = Вспомогательные блоки
+ender-chest-farm.support.desc = Вспомогательные блоки
+ender-chest-farm.break-crystals = Взрывать кристаллы
+ender-chest-farm.break-crystals.desc = Взрывает кристаллы, которые мешают размещению блоков
+ender-chest-farm.break-rotate = Ротейт для взрыва
+ender-chest-farm.break-rotate.desc = Поворачивается в сторону взаимодействия с кристаллом
+
+# Fake Player
+
+fake-player.desc = Создает искусственного игрока на стороне клиента
+fake-player.nickname = Ник
+fake-player.nickname.desc = Ник, который задается искусственному игроку
+
+# Fast Latency
+
+fast-latency.desc = Вычислят пинг быстрее стандартного способа майнкрафта
+fast-latency.method = Способ
+fast-latency.method.desc = Способ, используемый для вычисления пинга
+fast-latency.request-command = Команда для запроса
+fast-latency.request-command.desc = Команда, используемая для вычисления времени ответа от сервера
+fast-latency.delay = Задержка
+fast-latency.delay.desc = Задержка, с которой выполняются запросы серверу
+
+fast-latency.enums.stats = Статистика
+fast-latency.enums.command = Команда
+
+# Minigame Helper
+
+minigame-helper.desc = Различные удобства для мини-игр
+minigame-helper.team-colors = Цвета команд
+minigame-helper.team-colors.desc = Рендер игроков в чите отображается с цветом команд
+minigame-helper.friend-team = Команду в друзья
+minigame-helper.friend-team.desc = Все игроки в команде автоматически становятся друзьями
+
+# No Interact
+
+no-interact.desc = Отключает выбранные взаимодействия
+no-interact.eat = Еда
+no-interact.eat.desc = Отключает взаимодействия с блоками, если в руке находится еда
+no-interact.xp-bottles = Опыт
+no-interact.xp-bottles.desc = Отключает взаимодействия с блоками, если в руке находятся зелье опыта
+no-interact.main-hand = В главной руке
+no-interact.main-hand.desc = Отключает выбранные взаимодействия в главной руке
+no-interact.off-hand = Во второй руке
+no-interact.off-hand.desc = Отключает выбранные взаимодействия во второй руке
+
+# Notifications
+
+notifications.desc = Отправляет уведомления о выбранных событиях
+notifications.ignore-self = Игнорировать себя
+notifications.ignore-self.desc = Не отправляет уведомления о событиях, вызванных игроком
+notifications.totems = Тотемы
+notifications.totems.desc = Отправляет уведомления о попнутых тотемах и смертях
+
+# Packet Sounds
+
+packet-sounds.desc = Включает звуки для пакетных взаимодействий
+packet-sounds.place-sound = Звуки плейса
+packet-sounds.place-sound.desc = Включает звуки для пакетного размещения блока
+packet-sounds.break-sound = Звуки ломания
+packet-sounds.break-sound.desc = Включает звуки для пакетного ломания блока
+
+# Ping Spoof
+
+ping-spoof.desc = Увеличивает значение пинга в табе
+ping-spoof.packet-lag = Задержка пакета
+ping-spoof.packet-lag.desc = Время, на которое задерживается пакет расчета пинга
+ping-spoof.correction = Коррекция
+ping-spoof.correction.desc = Учитывает реальный пинг для точности задержки
+
+# Spammer
+
+spammer.desc = Автоматически отправляет в чат случайные сообщения из файла
+spammer.delay = Задержка
+spammer.delay.desc = Задержка, с которой отправляются случайные сообщения
+
+# Ambience
+
+ambience.desc = Позволяет настроить внешний вид мира
+ambience.flat-sky = Чистое небо
+ambience.flat-sky.desc = Отключает рендер деталей неба
+ambience.custom-sky-color = Изменять цвет неба
+ambience.custom-sky-color.desc = Позволяет настраивать цвет неба в мире
+ambience.overworld-sky-color = Небо в верхнем мире
+ambience.overworld-sky-color.desc = Цвет неба в верхнем мире
+ambience.nether-sky-color = Небо в аду
+ambience.nether-sky-color.desc = Цвет неба в аду
+ambience.end-sky-color = Небо в энде
+ambience.end-sky-color.desc = Цвет неба в энде
+ambience.world-time = Изменять время
+ambience.world-time.desc = Изменяет время суток в мире
+ambience.time = Время
+ambience.time.desc = Время, устанавливаемое в мире
+ambience.custom-time = Кастомное время
+ambience.custom-time.desc = Время, устанавливаемое в мире
+ambience.custom-fog = Изменять туман
+ambience.custom-fog.desc = Позволяет настроить внешний вид тумана в мире
+ambience.thick-fog = Плотный туман
+ambience.thick-fog.desc= Устанавливает постоянный плотный туман
+ambience.custom-fog-color = Изменять цвет тумана
+ambience.custom-fog-color.desc = Позволяет настроить цвет тумана в мире
+ambience.overworld-fog-color = Туман в верхнем мире
+ambience.overworld-fog-color.desc = Цвет тумана в верхнем мире
+ambience.nether-fog-color = Туман в аду
+ambience.nether-fog-color.desc = Цвет тумана в аду
+ambience.end-fog-color = Туман в энде
+ambience.end-fog-color.desc = Цвет тумана в энде
+ambience.custom-fog-range = Изменять дальность тумана
+ambience.custom-fog-range.desc = Позволяет настроить дальность тумана в мире
+ambience.fog-range = Дальность тумана
+ambience.fog-range.desc = Расстояние, на котором начинается и заканчивается туман
+ambience.particles = Изменять частицы
+ambience.particles.desc = Позволяет настраивать внешний вид частиц в мире
+ambience.particle-color = Цвет частиц
+ambience.particle-color.desc = Цвет частиц в мире
+
+ambience.enums.evening = Вечер
+ambience.enums.night = Ночь
+ambience.enums.day = День
+ambience.enums.custom = Пользовательское
+
+# Animations
+
+animations.desc = Добавляет различные анимации в ваш мир
+animations.totem-pop-animation = Анимация потери тотема
+animations.totem-pop-animation.desc = Добавляет анимацию при потере тотема
+animations.death-animation = Анимация смерти
+animations.death-animation.desc = Добавляет анимацию при смерти игрока
+animations.animation-time = Время анимации
+animations.animation-time.desc = Время, за которое проходит анимация
+animations.wave-mode = Режим волны
+animations.wave-mode.desc = Дополняет рендер эффектом волны при появлении
+animations.ignore-self = Игнорировать себя
+animations.ignore-self.desc = Игнорирует потерю своих тотемов
+
+# Arrows
+
+arrows.desc = Отображает на экране стрелки, указывающие на игроков
+arrows.scale = Размер
+arrows.scale.desc = Размер стрелок
+arrows.radius = Радиус
+arrows.radius.desc = Радиус от центра экрана, на котором рендерятся стрелки
+arrows.animation-time = Длительность анимации
+arrows.animation-time.desc = Время, за которое проходит анимация
+arrows.animation-offset = Размер анимации
+arrows.animation-offset.desc = Расстояние, которое проходят стрелки при анимации
+arrows.color = Цвет
+arrows.color.desc = Цвет, с которым рендерятся стрелки
+
+# Aspect Ratio
+
+aspect-ratio.desc = Изменяет соотношении сторон изображения на экране
+aspect-ratio.ratio = Соотношение
+aspect-ratio.ratio.desc = Соотношение сторон изображения на экране
+aspect-ratio.custom-value = Значение
+aspect-ratio.custom-value.desc = Кастомное соотношение сторон изображения на экране
+
+aspect-ratio.enums.16-9 = 16:9
+aspect-ratio.enums.16-10 = 16:10
+aspect-ratio.enums.4-3 = 4:3
+aspect-ratio.enums.custom = Пользовательское
+
+# Block Selection
+
+block-selection.desc = Рендерит блок, на который наведен прицел игрока
+block-selection.through-walls = Рендерит через стены
+block-selection.through-walls.desc = Игнорирует препятствия при рендере
+block-selection.animation = Анимация
+block-selection.animation.desc = Анимация смены блоков
+block-selection.speed = Скорость
+block-selection.speed.desc = Скорость, с которой происходит анимация
+
+# Break ESP
+
+break-esp.desc = Рендерит блоки, которые ломают другие игроки, настраивает ломание блоков для остальных модулей
+break-esp.target-range = Дальность
+break-esp.target-range.desc = Максимальное расстояние, на котором обрабатывается ломание блоков
+break-esp.mining-range = Дальность ломания
+break-esp.mining-range.desc = Максимальное расстояние, на котором другие игроки могут ломать блоки
+break-esp.speed = Скорость
+break-esp.speed.desc = Скорость, с которой другие игроки могут ломать блоки
+break-esp.double-mine = Двойное ломание
+break-esp.double-mine.desc = Включает ломание двух блоков одновременно для других игроков
+
+# Chams
+
+chams.desc = Позволяет изменить внешний вид сущностей
+chams.mode = Режим
+chams.mode.desc = Визуальный режим чамсов
+chams.shader-color = Цвет шейдера
+chams.shader-color.desc = Цвет шейдера для картинки
+chams.render-distance = Дистанция рендера
+chams.render-distance.desc = Дистанция в которой энтити будут отображаться
+chams.crystals = Изменять кристаллы
+chams.crystals.desc = Позволяет настроить внешний вид кристаллов края
+chams.crystals-scale = Размер кристаллов
+chams.crystals-scale.desc = Размер, с которым отображаются кристаллы края
+chams.crystals-bounce = Прыжки кристаллов
+chams.crystals-bounce.desc = Амплитуда подпрыгивания кристаллов края
+chams.crystals-bounce-speed = Скорость прыжков кристаллов
+chams.crystals-bounce-speed.desc = Скорость подпрыгивания кристаллов края
+chams.crystals-rotation-speed = Скорость вращения кристаллов
+chams.crystals-rotation-speed.desc = Скорость вращения кристаллов края
+chams.crystals-change-color = Изменять цвет кристаллов
+chams.crystals-change-color.desc = Изменять или нет цвет у кристаллов
+chams.crystals-outline-color = Цвет обводки кристаллов
+chams.crystals-outline-color.desc = Цвет линий обводки кристаллов
+chams.crystals-fill-color = Цвет заливки кристаллов
+chams.crystals-fill-color.desc = Цвет заливки кристаллов
+chams.players = Изменять игроков
+chams.players.desc = Позволяет настроить внешний вид игроков
+chams.ignore-self = Игнорировать себя
+chams.ignore-self.desc = Не изменяет внешний вид себя
+chams.players-change-color = Изменять цвет игроков
+chams.players-change-color.desc = Изменять или нет цвет у игроков
+chams.players-outline-color = Цвет обводки игроков
+chams.players-outline-color.desc = Цвет линий обводки игроков
+chams.players-fill-color = Цвет заливки игроков
+chams.players-fill-color.desc = Цвет заливки игроков
+
+chams.enums.none = Никакой
+chams.enums.outline = Обводка
+chams.enums.image = Картинка
+
+# China Hat
+
+china-hat.desc = Рендерит китайскую шляпу на игроке
+china-hat.friends = На друзьях
+china-hat.friends.desc = Рендерит китайскую шляпу на друзьях
+
+# Entity ESP
+
+entity-esp.desc = Рендерит позицию сущностей через стены
+entity-esp.mode = Режим
+entity-esp.mode.desc = Режим, с которым рендерятся сущности
+entity-esp.shader-type = Тип шейдера
+entity-esp.shader-type.desc = Тип шейдера для рендера
+entity-esp.entities = Цели
+entity-esp.entities.desc = Сущности, которые рендерятся через стены
+entity-esp.render-distance = Дистанция рендера
+entity-esp.render-distance.desc = Дистанция в которой энтити будут отображаться
+entity-esp.line-width = Ширина линий
+entity-esp.line-width.desc = Ширина линии обводки шейдера
+entity-esp.gradient-factor = Масштаб градиента
+entity-esp.gradient-factor.desc = Масштаб переливания генерируемых цветов
+entity-esp.gradient-speed = Скорость переливания
+entity-esp.gradient-speed.desc = Скорость переливания цветов в рендере
+entity-esp.wave-distance = Перспектива волн
+entity-esp.wave-distance.desc = Уровень приближения волны
+entity-esp.wave-width = Ширина волн
+entity-esp.wave-width.desc = Ширина линий волн
+entity-esp.wave-speed = Скорость волн
+entity-esp.wave-speed.desc = Скорость перемещения волн
+entity-esp.wave-color = Цвет волн
+entity-esp.wave-color.desc = Цвет с которым рисуются волны
+entity-esp.wave-outline-color = Цвет обводки
+entity-esp.wave-outline-color.desc = Цвет с которым рисуется обводка
+entity-esp.fill-opacity = Непрозрачность заливки
+entity-esp.fill-opacity.desc = Непрозрачность цвета заливки
+entity-esp.glow = Свечение
+entity-esp.glow.desc = Добавляет эффект свечения к рендеру
+entity-esp.glow-size = Размер свечения
+entity-esp.glow-size.desc = Размер, с которым рендерится эффект свечения
+entity-esp.glow-multiplier = Яркость свечения
+entity-esp.glow-multiplier.desc = Яркость, с которым рендерится эффект свечения
+entity-esp.glow-color = Цвет свечения
+entity-esp.glow-color.desc = Цвет, с котором рендерится эффект свечения
+
+entity-esp.enums.shader = Шейдер
+entity-esp.enums.wireframe = Обводка
+
+# Fire Fly
+
+fire-fly.desc = Рендерит частицы в мире
+fire-fly.physics = Физика
+fire-fly.physics.desc = Физика, с которой двигаются частицы
+fire-fly.count = Количество
+fire-fly.count.desc = Количество частиц, которое появляется в мире
+fire-fly.scale = Размер
+fire-fly.scale.desc = Размер частиц, которые появляется в мире
+fire-fly.speed = Скорость
+fire-fly.speed.desc = Скорость частиц, которые появляется в мире
+fire-fly.life-time = Время существования
+fire-fly.life-time.desc = Время, которое частица существует в мире
+fire-fly.ground-spawn = На земле
+fire-fly.ground-spawn.desc = Частицы появляются на земле и летят снизу вверх
+fire-fly.color = Цвет
+fire-fly.color.desc = Цвет, с котором рендерятся частицы
+
+fire-fly.enums.fly = Полет
+fire-fly.enums.fall = Падение
+fire-fly.enums.inverted = Обратная
+
+# Field Of View
+
+field-of-view.desc = Позволяет настроить значение поля зрения
+field-of-view.value = Значение
+field-of-view.value.desc = Значение поля зрения
+
+# Freecam
+
+freecam.desc = Позволяет изменять положение камеры отдельно от игрока
+freecam.speed = Скорость
+freecam.speed.desc = Скорость перемещения камеры
+freecam.smoothness = Плавность
+freecam.smoothness.desc = Плавность изменения скорости камеры
+freecam.interactions = Взаимодействия
+freecam.interactions.desc = Включает взаимодействия в режиме свободной камеры
+freecam.rotate = Ротейты
+freecam.rotate.desc = Поворачивает игрока в позицию, в которую смотрит камера
+freecam.no-hand-render = Не рендерить руки
+freecam.no-hand-render.desc = Отключает рендер рук
+freecam.change-control-bind = Изменить контроль
+freecam.change-control-bind.desc = Переключение между управлением игроком и управлением камерой
+
+# Full Bright
+
+full-bright.desc = Позволяет настроить яркость в мире
+full-bright.mode = Режим
+full-bright.mode.desc = Способ, которым изменяется яркость
+full-bright.light-type = Тип света
+full-bright.light-type.desc = Тип света, которому изменяется яркость
+full-bright.sky-brightness = Яркость неба
+full-bright.sky-brightness.desc = Яркость света от неба
+full-bright.block-brightness = Яркость блоков
+full-bright.block-brightness.desc = Яркость света от блоков
+
+full-bright.enums.luminance = Освещение
+full-bright.enums.potion = Зелье
+
+full-bright.enums.sky = Небо
+full-bright.enums.block = Блоки
+
+# Hands
+
+hands.desc = Позволяет изменить внешний вид рук
+hands.shader = Шейдер
+hands.shader.desc = Применяет шейдер к рендеру рук
+hands.shader-type = Тип шейдера
+hands.shader-type.desc = Тип шейдера для рендера
+hands.line-width = Ширина линий
+hands.line-width.desc = Ширина линии обводки шейдера
+hands.gradient-factor = Масштаб градиента
+hands.gradient-factor.desc = Масштаб переливания генерируемых цветов
+hands.gradient-speed = Скорость переливания
+hands.gradient-speed.desc = Скорость переливания цветов в рендере
+hands.wave-distance = Перспектива волн
+hands.wave-distance.desc = Уровень приближения волны
+hands.wave-width = Ширина волн
+hands.wave-width.desc = Ширина линий волн
+hands.wave-speed = Скорость волн
+hands.wave-speed.desc = Скорость перемещения волн
+hands.wave-color = Цвет волн
+hands.wave-color.desc = Цвет с которым рисуются волны
+hands.fill-opacity = Непрозрачность заливки
+hands.fill-opacity.desc = Непрозрачность цвета заливки
+hands.glow = Свечение
+hands.glow.desc = Добавляет эффект свечения к рендеру
+hands.glow-size = Размер свечения
+hands.glow-size.desc = Размер, с которым рендерится эффект свечения
+hands.glow-multiplier = Яркость свечения
+hands.glow-multiplier.desc = Яркость, с которым рендерится эффект свечения
+hands.glow-color = Цвет свечения
+hands.glow-color.desc = Цвет, с котором рендерится эффект свечения
+hands.fill-opacity = Непрозрачность заливки
+hands.fill-opacity.desc = Непрозрачность цвета внутри обводки
+hands.view-model = View Model
+hands.view-model.desc = Позволяет настроить положение и размер рук
+hands.scale = Размер
+hands.scale.desc = Размер, с которым отображаются руки
+hands.x = Смещение по X
+hands.x.desc = Расстояние, на которое смещаются руки по X
+hands.y = Смещение по Y
+hands.y.desc = Расстояние, на которое смещаются руки по Y
+hands.z = Смещение по Z
+hands.z.desc = Расстояние, на которое смещаются руки по Z
+hands.change-food-animation = Изменять Анимацию Еды
+hands.change-food-animation.desc = Изменять или нет трансформацию во время поедания/питья
+hands.eat-x = Смещение еды по X
+hands.eat-x.desc = Расстояние, на которое смещаются руки во время еды по X
+hands.eat-y = Смещение еды по Y
+hands.eat-y.desc = Расстояние, на которое смещаются руки во время еды по Y
+hands.eat-z = Смещение еды по Z
+hands.eat-z.desc = Расстояние, на которое смещаются руки во время еды по Z
+hands.eat-multiplier = Множитель поедания
+hands.eat-multiplier.desc = Множитель тряски предмета во время поедания
+hands.rotate-x = Вращение по X
+hands.rotate-x.desc = Угол, на который вращаются руки по X
+hands.rotate-y = Вращение по Y
+hands.rotate-y.desc = Угол, на который вращаются руки по Y
+hands.rotate-z = Вращение по Z
+hands.rotate-z.desc = Угол, на который вращаются руки по Z
+hands.change-swing-animation = Изменять анимацию руки
+hands.change-swing-animation.desc = Позволяет настроить параметры анимации покачивания рук
+hands.swing-speed = Скорость покачивания
+hands.swing-speed.desc = Скорость покачивания руки
+hands.swing-end-progress = Конечный прогресс качания
+hands.swing-end-progress.desc = Прогресс покачивания до которого идет анимация
+hands.swing-end-y = Конечная Y позиция
+hands.swing-end-y.desc = Смещение анимации по Y ближе к концу
+hands.reset-swing-animation = Сбрасывать при повторе
+hands.reset-swing-animation.desc = Сбрасывает прогресс покачивания при повторном покачивании
+
+# Hole ESP
+
+hole-esp.desc = Рендерит позиции безопасных холок вокруг игрока
+hole-esp.range-xz = Дальность по XZ
+hole-esp.range-xz.desc = Максимальное расстояние по горизонтали, на котором рендерятся холки
+hole-esp.range-y = Дальность по Y
+hole-esp.range-xz.desc = Максимальное расстояние по вертикали, на котором рендерятся холки
+hole-esp.render-height = Высота
+hole-esp.render-height.desc = Высота, с которой рендерятся позиции холок
+hole-esp.gradient = Градиент
+hole-esp.gradient.desc = Добавляет переход прозрачности рендеру холки
+hole-esp.obsidian-line = Линии обсидиана
+hole-esp.obsidian-line.desc = Цвет, с которым рендерятся линии холок, состоящих не из бедрока
+hole-esp.obsidian-side = Стороны обсидиана
+hole-esp.obsidian-side.desc = Цвет, с которым рендерятся стороны холок, состоящих не из бедрока
+hole-esp.bedrock-line = Линии бедрока
+hole-esp.bedrock-line.desc = Цвет, с которым рендерятся линии холок, состоящих из бедрока
+hole-esp.bedrock-side = Стороны бедрока
+hole-esp.bedrock-side.desc = Цвет, с которым рендерятся стороны холок, состоящих из бедрока
+hole-esp.animation = Анимация
+hole-esp.animation.desc = Анимация для рендера холок
+hole-esp.animation-radius = Радиус анимации
+hole-esp.animation-radius.desc = Радиус от игрока, на котором начинается анимация
+hole-esp.animation-offset = Размер анимации
+hole-esp.animation-offset.desc = Значение, на которое отклоняется рендер при анимации
+
+# Image Filter
+
+image-filter.desc = Позволяет изменять цвет изображения на экране
+image-filter.color = Цвет
+image-filter.color.desc = Цвет изображения на экране
+
+# Jump Circles
+
+jump-circles.desc = Отображает эффекты в месте прыжка игрока
+jump-circles.effect = Эффект
+jump-circles.effect.desc = Выбранный эффект для прыжков
+jump-circles.enums.circles = Круги
+jump-circles.enums.scan = Сканирование
+jump-circles.scan-radius = Радиус
+jump-circles.scan-radius.desc = Радиус анимации при прыжке
+jump-circles.scan-time = Длительность
+jump-circles.scan-time.desc = Длительность анимации при прыжке
+jump-circles.scan-line-color = Цвет линий
+jump-circles.scan-line-color.desc = Цвет, с котором рендерятся линии
+jump-circles.scan-side-color = Цвет сторон
+jump-circles.scan-side-color.desc = Цвет, с котором рендерятся стороны
+jump-circles.circle-scale = Размер
+jump-circles.circle-scale.desc = Размер, с котором рендерятся круги на месте прыжков игрока
+jump-circles.circle-color = Цвет
+jump-circles.circle-color.desc = Цвет, с котором рендерятся круги на месте прыжков игрока
+
+# Kill Effect
+
+kill-effect.desc = Рендерит красивые эффекты при убийстве игроков
+kill-effect.effect-type = Тип эффекта
+kill-effect.effect-type.desc = Тип эффекта, который будет отображен после убийства
+
+kill-effect.enums.particles = Партиклы
+kill-effect.enums.lightning = Молния
+
+# Name Protect
+
+name-protect.desc = Подменяет имя игрока
+name-protect.nickname = Имя
+name-protect.nickname.desc = Имя, на которое подменяется имя игрока
+name-protect.friends = Друзья
+name-protect.friends.desc = Изменяет имена друзей
+
+# Nametags
+
+nametags.desc = Отображает информацию о сущностях над ними
+nametags.entities = Цели
+nametags.entities.desc = Сущности, для которых отображается информация
+nametags.scale = Размер
+nametags.scale.desc = Размер отображаемой информации
+nametags.distance-scale = Размер от расстояния
+nametags.distance-scale.desc = Изменяет размер отображаемой информации в зависимости от расстояния до сущности
+nametags.min-scale = Минимальный размер
+nametags.min-scale.desc = Минимальный размер отображаемой информации
+nametags.armor = Броня
+nametags.armor.desc = Отображает информацию о снаряжении сущности
+nametags.health = Здоровье
+nametags.health.desc = Отображает информацию о здоровье сущности
+nametags.totem-pops = Тотемы
+nametags.totem-pops.desc = Отображает информацию о потраченных тотемах игроков
+nametags.ping = Пинг
+nametags.ping.desc = Отображает информацию о пинге игроков
+
+# No Render
+
+no-render.desc = Отключает отображение выбранных элементов игры
+no-render.elements = Элементы
+no-render.elements.desc = Отключенные элементы игры
+no-render.entities = Сущности
+no-render.elements.desc = Выключает рендер выбранных сущностей
+
+no-render.enums.loading-screen = Экран загрузки
+no-render.enums.fire-overlay = Огонь на экране
+no-render.enums.nametags = Ники
+no-render.enums.armor = Броня
+no-render.enums.held-item = Предметы в руках
+no-render.enums.wall-overlay = В стене
+no-render.enums.totem-animation = Анимация тотема
+no-render.enums.potion-icons = Иконки зелий
+no-render.enums.hands = Руки
+no-render.enums.explosions = Взрывы
+no-render.enums.particles = Партиклы
+no-render.enums.portal-overlay = В портале
+no-render.enums.nausea = Тошнота
+no-render.enums.pumpkin-overlay = Тыква
+no-render.enums.liquid-overlay = В жидкости
+no-render.enums.vignette = Виньетка
+no-render.enums.enchant-glint = Текстура зачарования
+no-render.enums.boss-bar = Здоровье боссов
+no-render.enums.scoreboard = Скорбоард
+no-render.enums.text-obfuscation = Запутанный текст
+no-render.enums.weather = Погода
+no-render.enums.blindness = Слепота
+no-render.enums.darkness = Темнота
+no-render.enums.map-markers = Метки карты
+no-render.enums.map-content = Контент карты
+no-render.enums.hurt-cam = Анимация урона
+
+# Legacy Potions
+
+legacy-potions.desc = Возвращает вид зелий из старых версий игры
+
+# Logout Spots
+
+logout-spots.desc = Отображает модель игрока и неймтег на месте, где он покинул игру
+logout-spots.scale.desc = Размер неймтега
+logout-spots.ignore-friends = Игнорировать друзей
+logout-spots.ignore-friends.desc = Игнорирует игроков из твоего списка друзей
+logout-spots.check-armor = Проверять броню
+logout-spots.check-armor.desc = Проверяет игрока на наличие элемента брони для отображения модели
+logout-spots.log-back-message = Сообщение при заходе
+logout-spots.log-back-message.desc = Отправляет сообщение с координатами в чат, если игрок присоединился обратно
+logout-spots.background = Рисовать фон
+logout-spots.background.desc = Рисует фон сзади текста неймтега
+logout-spots.name = Отображать имя
+logout-spots.name.desc = Отображает имя игрока в неймтеге
+logout-spots.health = Отображать здоровье
+logout-spots.health.desc = Отображает здоровья игрока в неймтеге
+logout-spots.coordinates = Отображать координаты
+logout-spots.coordinates.desc = Отображает координаты игрока в неймтеге
+logout-spots.time = Отображать время
+logout-spots.time.desc = Отображает секунды с момента выхода игрока в неймтеге
+
+# Particles
+
+particles.desc = Рендерит частицы при выбранных событиях
+particles.condition = События
+particles.condition.desc = События, при которых появляются частицы
+particles.scale = Размер
+particles.scale.desc = Размер, с которым отображаются частицы
+particles.speed = Скорость
+particles.speed.desc = Скорость, с которой перемещаются частицы
+particles.color = Цвет
+particles.color.desc = Цвет, с которым отображаются частицы
+
+particles.enums.totem-pop = Тотем
+particles.enums.walk = Хождение
+particles.enums.pearl = Перл
+particles.enums.trident = Трезубец
+particles.enums.bow = Лук
+
+# Phase ESP
+
+phase-esp.desc = Отображает позицию Phase с режимом Pearl
+phase-esp.height = Высота
+phase-esp.height.desc = Высота, с которой рендерится позиция
+
+# Pop Chams
+
+pop-chams.desc = Отобаражет чамсы при попе тотема у игрока
+pop-chams.render-ticks = Время рендера
+pop-chams.render-ticks.desc = Количество секунд в течение которых будет анимация
+pop-chams.max-chams-count = Максимальное количество чамсов
+pop-chams.max-chams-count.desc = Максимальное количество чамсов в пределах рендер дистанции
+pop-chams.change-y = Изменять Y
+pop-chams.change-y.desc = Изменяет конечную позицию по Y у чамса
+pop-chams.change-scale = Изменять размер
+pop-chams.change-scale.desc = Изменяет конечный размер модели у чамса
+pop-chams.change-rotate = Поворачивать модель
+pop-chams.change-rotate.desc = Вращает модель по кругу с заданной скоростью
+pop-chams.ignore-self = Игнорировать себя
+pop-chams.ignore-self.desc = Игнорирует потерю своих тотемов
+pop-chams.ignore-friends = Игнорировать друзей
+pop-chams.ignore-friends.desc = Игнорирует потерю тотемов друзей
+pop-chams.fade-out = Затухание
+pop-chams.fade-out.desc = Изменяет прозрачность цвета с течением анимации
+
+# Prediction
+
+prediction.desc = Отображает предсказанное движение снарядов
+prediction.projectile-trajectory = Траектория снарядов
+prediction.projectile-trajectory.desc = Отображает предсказанное движение снарядов в полете
+prediction.pearls = Перлы
+prediction.pearls.desc = Отображает предсказанное движение брошенных перлов
+prediction.arrows = Стрелы
+prediction.arrows.desc = Отображает предсказанное движение стрел в полете
+prediction.tridents = Трезубцы
+prediction.tridents.desc = Отображает предсказанное движение брошенных трезубцев
+prediction.xp-bottles = Зелья опыта
+prediction.xp-bottles.desc = Отображает предсказанное движение брошенных зелий опыта
+prediction.potions = Зелья
+prediction.potions.desc = Отображает предсказанное движение брошенных зелий
+prediction.trajectory-color = Цвет траектории
+prediction.trajectory-color.desc = Цвет, с которым отображает предсказанное движение брошенных снарядов
+
+# Prediction
+
+target-esp.desc = Отображает эффекты на текущих целях
+target-esp.mode = Режим
+target-esp.mode.desc = Эффект, который отображается на текущих целях
+target-esp.through-obstacles = Сквозь препятствия
+target-esp.through-obstacles.desc = Отображает эффект, если он находится за препятствием
+target-esp.ghosts-speed = Скорость
+target-esp.ghosts-speed.desc = Скорость призраков
+target-esp.attack-aura = Attack Aura
+target-esp.attack-aura.desc = Отображает текущую цель AttackAura
+target-esp.anchor-aura = Anchor Aura
+target-esp.anchor-aura.desc = Отображает текущую цель AnchorAura
+target-esp.auto-crystal = Auto Crystal
+target-esp.auto-crystal.desc = Отображает текущую цель AutoCrystal
+target-esp.circle-line-color = Цвет обводки
+target-esp.circle-line-color.desc = Цвет для обводки круга
+target-esp.circle-trail-color = Цвет следа
+target-esp.circle-trail-color.desc = Цвет для оставляемого при движении круга следа
+
+target-esp.enums.box = Объемный
+target-esp.enums.circle = Круг
+target-esp.enums.ghosts = Призраки
+
+# Anti Crawl
+
+anti-crawl.desc = Ломает блок над игроком, если игрок находится в лежачем положении
+anti-crawl.single-block = Один блок
+anti-crawl.single-block.desc = Ломает над игроком один блок, не учитывая хитбокс, пересекающий несколько блоков
+
+# Auction Helper
+
+auction-helper.desc = Подсвечивает самые дешевые и выгодные предметы на аукционе
+auction-helper.min-item-price-color = Цвет дешевого
+auction-helper.min-item-price-color.desc = Цвет самого дешевого предмета
+auction-helper.best-item-price-color = Цвет выгодного
+auction-helper.best-item-price-color.desc = Цвет самого выгодного предмета
+auction-helper.check-durability = Только целые
+auction-helper.check-durability.desc = Ищет только предметы с полной прочностью
+auction-helper.armor = Фильтр брони
+auction-helper.armor.desc = Добавляет определенные фильтры для брони
+auction-helper.armor-enchantments = Зачарования брони
+auction-helper.armor-enchantments.desc = Выбор нужных зачарований для брони
+auction-helper.protection-level = Уровень защиты
+auction-helper.protection-level.desc = Определенный радиус уровня защиты на броне
+auction-helper.unbreaking-level = Уровень прочности
+auction-helper.unbreaking-level.desc = Определенный радиус уровня прочности
+auction-helper.swords = Фильтр мечей
+auction-helper.swords.desc = Добавляет определенные фильтры для мечей
+auction-helper.sword-enchantments = Зачарования мечей
+auction-helper.sword-enchantments.desc =  Выбор нужных зачарований для мечей
+auction-helper.sharpness-level = Уровень остроты
+auction-helper.sharpness-level.desc = Определенный радиус уровня остроты на мечах
+auction-helper.knockback-level = Уровень отдачи
+auction-helper.knockback-level.desc = Определенный радиус уровня отдачи на мечах
+auction-helper.fire-aspect-level = Уровень заговора огня
+auction-helper.fire-aspect-level.desc = Определенный радиус уровня заговора огня на мечах
+auction-helper.sweeping-edge-level = Уровень разящего клинка
+auction-helper.sweeping-edge-level.desc = Определенный радиус уровня разящего клинка на мечах
+auction-helper.looting-level = Уровень добычи
+auction-helper.looting-level.desc = Определенный радиус уровня добычи на мечах
+auction-helper.pickaxes = Фильтр кирок
+auction-helper.pickaxes.desc = Добавляет определенные фильтры для кирок
+auction-helper.pickaxe-enchantments = Зачарования кирок
+auction-helper.pickaxe-enchantments.desc =  Выбор нужных зачарований для кирок
+auction-helper.efficiency-level = Уровень эффективности
+auction-helper.efficiency-level.desc = Определенный радиус уровня эффективности на кирках
+auction-helper.fortune-level = Уровень удачи
+auction-helper.fortune-level.desc = Определенный радиус уровня удачи на кирках
+auction-helper.potions = Фильтр зелий
+auction-helper.potions.desc = Добавляет определенные фильтры для зелий
+auction-helper.good-potion-effects = Хорошие эффекты на зельях
+auction-helper.good-potion-effects.desc = Выбор хороших эффектов на одном зелье
+auction-helper.speed-level = Уровень скорости
+auction-helper.speed-level.desc = Определенный радиус уровня скорости на зельях
+auction-helper.instant-health-level = Уровень исцеления
+auction-helper.instant-health-level.desc = Определенный радиус уровня исцеления на зельях
+auction-helper.strength-level = Уровень силы
+auction-helper.strength-level.desc = Определенный радиус уровня силы на зельях
+auction-helper.resistance-level = Уровень сопротивления
+auction-helper.resistance-level.desc =  Определенный радиус уровня сопротивления на зельях
+auction-helper.bad-potion-effects = Плохие эффекты на зельях
+auction-helper.bad-potion-effects.desc = Выбор плохих эффектов на одном зелье
+auction-helper.slowness-level = Уровень замедления
+auction-helper.slowness-level.desc = Определенный радиус уровня замедления на зельях
+auction-helper.weakness-level = Уровень слабости
+auction-helper.weakness-level.desc = Определенный радиус уровня слабости на зельях
+
+auction-helper.enums.unbreaking = Прочность
+auction-helper.enums.mending = Починка
+
+auction-helper.enums.protection = Защита
+auction-helper.enums.not-thorns = Без Шипов
+
+auction-helper.enums.sharpness = Острота
+auction-helper.enums.knockback = Отдача
+auction-helper.enums.fire-aspect = Заговор Огня
+auction-helper.enums.sweeping-edge = Разящий клинок
+auction-helper.enums.looting = Добыча
+
+auction-helper.enums.efficiency = Эффективность
+auction-helper.enums.fortune = Удача
+auction-helper.enums.silk-touch = Шёлковое касание
+
+auction-helper.enums.invisibility = Невидимость
+auction-helper.enums.fire-resistance = Огнестойкость
+auction-helper.enums.speed = Скорость
+auction-helper.enums.instant-health = Исцеление
+auction-helper.enums.regeneration = Регенерация
+auction-helper.enums.strength = Сила
+auction-helper.enums.resistance = Сопротивление
+
+auction-helper.enums.slowness = Замедление
+auction-helper.enums.poison = Отравление
+auction-helper.enums.weakness = Слабость
+auction-helper.enums.wither = Иссушение
+auction-helper.enums.nausea = Тошнота
+auction-helper.enums.blindness = Слепота
+auction-helper.enums.hunger = Голод
+auction-helper.enums.glowing = Свечение
+
+# Block ESP
+
+block-esp.desc = Подсвечивает выбранные блоки
+block-esp.blocks = Блоки
+block-esp.blocks.desc = Блоки, которые будут подсвечены
+block-esp.line-opacity = Непрозрачность линий
+block-esp.line-opacity.desc = Непрозрачность линий при рендере блоков
+block-esp.side-opacity = Непрозрачность сторон
+block-esp.side-opacity.desc = Непрозрачность сторон при рендере блоков
+block-esp.tracers = Рисовать трейсеры
+block-esp.tracers.desc = Рисует линии к подсвеченным блокам
+block-esp.tracer-opacity = Непрозрачность трейсеров
+block-esp.tracer-opacity.desc = Непрозрачность рисуемых трейсеров
+
+# Auto Exp
+
+auto-exp.desc = Автоматически использует зелья опыта
+auto-exp.delay = Задержка
+auto-exp.delay.desc = Задержка, с которой используются зелья опыта
+auto-exp.per-tick = За тик
+auto-exp.per-tick.desc = Количество зелий опыта, которые используются за за 1 тик
+auto-exp.no-unnecessary = Не использовать лишнее
+auto-exp.no-unnecessary.desc = Не использует зелья опыта, если у всего снаряжения полная прочность
+auto-exp.rotate = Ротейты
+auto-exp.rotate.desc = Изменяет вертикальный поворот камеры
+auto-exp.pitch = Pitch
+auto-exp.pitch.desc = Значение, установленное для вертикального поворота камеры
+
+# Auto Kit
+
+auto-kit.desc = Автоматически берет новый кит при возрождении
+auto-kit.kit-command = Команда
+auto-kit.kit-command.desc = Команда для взятия кита
+auto-kit.disable = Выключать
+auto-kit.disable.desc = Автоматически выключает модуль после использования
+auto-kit.double-kit = Двойной кит
+auto-kit.double-kit.desc = Берет кит дважды
+auto-kit.second-kit-command = Вторая команда
+auto-kit.second-kit-command.desc = Команда для взятия второго кита
+auto-kit.kill-command = Команда убийства
+auto-kit.kill-command.desc = Команда для убийства себя
+auto-kit.delay = Задержка
+auto-kit.delay.desc = Задержка между действиями
+
+# Auto Respawn
+
+auto-respawn.desc = Автоматически возрождает игрока после смерти
+
+# Auto Swap
+
+auto-swap.desc = Автоматически свапает предмет по бинду и активирует его
+auto-swap.in-gui = Работать в GUI
+auto-swap.in-gui.desc = Модуль работает при открытом GUI клиента
+auto-swap.inv-swap = Свапать из инвентаря
+auto-swap.inv-swap.desc = Разрешает брать предметы из инвентаря
+auto-swap.legit-sprint = Легитный спринт
+auto-swap.legit-sprint.desc = Включает легитный спринт для обхода античитов
+auto-swap.legit-movement = Легитное использование
+auto-swap.legit-movement.desc = Останавливает передвижение перед использованием предмета
+auto-swap.legit-time = Легитные тайминги
+auto-swap.legit-time.desc = Добавляет рандомизацию для обхода таймингов
+auto-swap.pre-ticks = Тики перед свапом
+auto-swap.pre-ticks.desc = Задержка перед свапом предмета
+auto-swap.post-ticks = Тики после использования
+auto-swap.post-ticks.desc = Задержка после использования предмета
+auto-swap.pearl = Эндер-жемчуг
+auto-swap.pearl.desc = Бинд на использование эндер-жумчуга
+auto-swap.ft-trap = Трапка
+auto-swap.ft-trap.desc = Бинд на использование трапки
+auto-swap.ft-layer = Пласт
+auto-swap.ft-layer.desc = Бинд на использование пласта
+auto-swap.ft-disorientation = Дизориентация
+auto-swap.ft-disorientation.desc = Бинд на использование дизориентации
+auto-swap.ft-freezing = Снежок заморозка
+auto-swap.ft-freezing.desc = Бинд на использование снежка заморозки
+auto-swap.ft-god-aura = Божья аура
+auto-swap.ft-god-aura.desc = Бинд на использование божьи ауры
+auto-swap.ft-visible-dust = Явная пыль
+auto-swap.ft-visible-dust.desc = Бинд на использование явной пыли
+
+# Auto Tool
+
+auto-tool.desc = Автоматически берет подходящий инструмент при взаимодействии с блоком
+auto-tool.swap-delay = Задержка
+auto-tool.swap-delay.desc = Задержка, с которой берется инструмент при взаимодействии с блоком
+auto-tool.enchantment = Зачарование
+auto-tool.enchantment.desc = Зачарование, которое предпочитается для инструмента
+auto-tool.ec-silk-touch = Шелковое касание для ЕЧ
+auto-tool.ec-silk-touch.desc = Использует кирку с шелковым касанием при взаимодействии с сундуком края
+
+auto-tool.enums.fortune = Удача
+auto-tool.enums.silk-touch = Шелковое касание
+
+# Better Inventory
+
+better-inventory.desc = Различные функции для инвентаря
+better-inventory.x-carry = XCarry
+better-inventory.x-carry.desc = Позволяет хранить вещи в слотах для крафта и слоте курсора
+better-inventory.auto-x-carry = Автоматический XCarry
+better-inventory.auto-x-carry.desc = Автоматически складывает нужные ресурсы в слоты для крафта
+better-inventory.carry-delay = Задержка
+better-inventory.carry-delay.desc = Задержка, с которой ресурсы складываются в слоты для крафта
+better-inventory.items-to-carry = Предметы
+better-inventory.items-to-carry.desc = Предметы, которые автоматически складываются в слоты для крафта
+better-inventory.tooltips = Расширенная информация
+better-inventory.tooltips.desc = Позволяет видеть расширенную информацию для предметов
+better-inventory.keybind = Бинд
+better-inventory.keybind.desc = Позволяет установить бинд для показа информации
+better-inventory.condition = Элементы
+better-inventory.condition.desc = Выбранные предметы для отображения расширенной информации
+
+better-inventory.enums.shulkers = Шалкеры
+better-inventory.enums.ender-chest = Эндер-чест
+
+# Elytra Swap
+
+elytra-swap.desc = При активации меняет нагрудник на элитру или обратно
+
+elytra-swap.enums.alternative = Альтернативный
+elytra-swap.enums.semi-alt = Полу-альтернативный
+elytra-swap.enums.pick = Перетаскивание
+elytra-swap.enums.quick-move = Быстрое перемещение
+
+# Hitbox Desync
+
+hitbox-desync.desc = Телепортирует игрока на маленькое расстояние в край блока, что вызывает ошибки расчета коллизий майнкрафта
+hitbox-desync.logic = Логика
+hitbox-desync.logic.desc = Логика, по которой выбирается позиция для телепортации
+hitbox-desync.offset = Расстояние
+hitbox-desync.offset.desc = Расстояние, на которое телепортируется игрок в край блока
+
+hitbox-desync.enums.look = Поворот
+hitbox-desync.enums.position = Позиция
+
+# Hotbar Refill
+
+hotbar-refill.desc = Автоматически пополняет ресурсы из инвентаря в хотбар
+hotbar-refill.count = Количество
+hotbar-refill.count.desc = Количество одного ресурсы, при котором происходит его пополнение
+hotbar-refill.single-items = Одиночные предметы
+hotbar-refill.single-items.desc = Пополняет предметы, которые не собираются в стак
+hotbar-refill.delay = Задержка
+hotbar-refill.delay.desc = Задержка между пополнением ресурсов
+hotbar-refill.offhand = Во второй руке
+hotbar-refill.offhand.desc = Пополняет предметы во второй руке
+
+# Illegal Disconnect
+
+illegal-disconnect.desc = Отключается от сервера нестандартными способами
+illegal-disconnect.mode = Режим
+illegal-disconnect.mode.desc = Режим, выбранный для отключения от сервера
+illegal-disconnect.leave = Выходить
+illegal-disconnect.leave.desc = Предотвращает автоматическое переподключение сервером
+
+illegal-disconnect.enums.inventory = Инвентарь
+illegal-disconnect.enums.look = Поворот
+
+# Infinite Elytra
+
+infinite-elytra.desc = Снимает и одевает элитру, чтобы предотвратить трату ее прочности
+infinite-elytra.switch-delay = Задержка
+infinite-elytra.switch-delay.desc = Задержка, с которой переключается элитра
+infinite-elytra.silent = Пакетно
+infinite-elytra.silent.desc = Не переключает элитру для клиента
+infinite-elytra.pause-under-ceiling = Останавливаться под блоками
+infinite-elytra.pause-under-ceiling.desc = Не переключает элитру, если над игроком есть блоки
+infinite-elytra.extrapolation = Предсказывание
+infinite-elytra.extrapolation.desc = Количество тиков, на которое предугадывается движение игрока
+
+# Middle Click
+
+middle-click.desc = Выполняет выбранное действие при нажатии средней кнопки мыши
+middle-click.action = Действие
+middle-click.action.desc = Действие, выполняемое при нажатии средней кнопки мыши
+
+middle-click.enums.pearl = Перл
+middle-click.enums.firework = Фейерверк
+middle-click.enums.friend = Друзья
+
+# No Delay
+
+no-delay.desc = Позволяет уменьшить задержку между выбранными действиями в игре
+no-delay.actions = Действия
+no-delay.actions.desc = Действия, для которых будет уменьшена задержка
+no-delay.jump-delay = Прыжки
+no-delay.jump-delay.desc = Максимальная задержка между прыжками
+no-delay.place-delay = Размещение блоков
+no-delay.place-delay.desc = Максимальная задержка между размещением блоков
+no-delay.break-delay = Ломание блоков
+no-delay.break-delay.desc = Максимальная задержка между ломанием блоков
+no-delay.xp-delay = Зелья опыта
+no-delay.xp-delay.desc = Максимальная задержка между использованием зелий опыта
+
+no-delay.enums.jump = Прыжки
+no-delay.enums.place = Плейс
+no-delay.enums.break = Ломание
+no-delay.enums.exp = Опыт
+
+# No Server Rotate
+
+no-server-rotate.desc = Предотвращает повороты игрока, отправляемые сервером
+no-server-rotate.on-elytra = На элитре
+no-server-rotate.on-elytra.desc = Предотвращает повороты игрока во время использования элитры
+no-server-rotate.strict = Отправлять ответ
+no-server-rotate.strict.desc = Отправляет пакет с поворотом, который отправил сервер
+
+# Packet Mine
+
+packet-mine.desc = Ломает блоки с помощью пакетов
+packet-mine.range = Дальность
+packet-mine.range.desc = Максимальное расстояние, на котором ломаются блоки
+packet-mine.speed = Скорость
+packet-mine.speed.desc = Скорость, с которой ломаются блоки
+packet-mine.crystalpvp-cc = crystalpvp.cc
+packet-mine.crystalpvp-cc.desc = Ускоряет ломание блоков для анти-чита crystalpvp.cc
+packet-mine.grim = Grim
+packet-mine.grim.desc = Использует другие пакеты для обхода анти-чита Grim
+packet-mine.double-mine = Двойное ломание
+packet-mine.double-mine.desc = Позволяет ломать два блока одновременно
+packet-mine.reset-on-swap = Сбрасывать при свапе
+packet-mine.reset-on-swap.desc = Сбрасывает прогресс ломания блока при смене слотов в инвентаре
+packet-mine.new-version = 1.21
+packet-mine.new-version.desc = Учитывает особенности версии 1.21+ для ломания блоков
+packet-mine.swap-time = Время свапа
+packet-mine.swap-time.desc = Время, которое инструмент должен находиться в руке при поломке блока
+packet-mine.client-break = На клиенте
+packet-mine.client-break.desc = Отображает поломку блока на клиенте
+packet-mine.rebreak = Rebreak
+packet-mine.rebreak.desc = Способ, которым блок ломается повторно на одном месте
+packet-mine.render-rebreak = Рендер Rebreak
+packet-mine.render-rebreak.desc = Рендерит позицию сломанного блока
+
+packet-mine.enums.none = Никакой
+packet-mine.enums.normal = Стандартный
+packet-mine.enums.fast = Быстрый
+packet-mine.enums.instant = Моментальный
+
+# Rotation
+
+rotation.desc = Устанавливает определенный поворот камеры
+rotation.client-look = На клиенте
+rotation.client-look.desc = Поворачивает камеру со стороны клиента
+rotation.yaw = Режим Yaw
+rotation.yaw.desc = Режим горизонтального поворота камеры
+rotation.yaw-value = Значение Yaw
+rotation.yaw-value = Значение, установленное для горизонтального поворота камеры
+rotation.pitch = Режим Pitch
+rotation.pitch.desc = Режим вертикального поворота камеры
+rotation.pitch-value = Значение Pitch
+rotation.pitch-value = Значение, установленное для вертикального поворота камеры
+
+rotation.enums.none = Никакой
+rotation.enums.custom = Пользовательский
+rotation.enums.smart = Умный
+rotation.enums.memory = Запоминать
+
+# Self Bow
+
+self-bow.desc = Стреляет в самого себя стрелами с эффектами
+self-bow.effects = Эффекты
+self-bow.effects.desc = Выбранные эффекты для стрел
+self-bow.check-effects = Проверять наличие эффектов
+self-bow.check-effects.desc = Не стреляет в игрока стрелами, эффект которых у него уже есть
+self-bow.delay = Задержка выстрелов
+self-bow.delay.desc = Задержка между выстрелами
+self-bow.charge-power = Сила натягивания
+self-bow.charge-power.desc = Насколько сильно нужно натягивать лук
+self-bow.min-health = Минимальное здоровье
+self-bow.min-health.desc = Минимальный уровень здоровья необходимый для работы модуля
+
+self-bow.enums.speed = Скорость
+self-bow.enums.strength = Сила
+self-bow.enums.jump-boost = Прыгучесть
+self-bow.enums.regeneration = Регенерация
+
+# Auto Sprint
+
+auto-sprint.desc = Автоматически активирует бег
+
+# Elytra Fly
+
+elytra-fly.desc = Улучшает полет на элитре
+elytra-fly.mode = Режим
+elytra-fly.mode.desc = Режим полета на элитрах
+elytra-fly.sprint = Спринт
+elytra-fly.sprint.desc = Автоматически активирует бег
+elytra-fly.auto-takeoff = Автоматический взлет
+elytra-fly.auto-takeoff.desc = Автоматически раскрывает элитры
+elytra-fly.restart = Перезапуск
+elytra-fly.restart.desc = Пытается взлететь и продолжить движение после сетбека
+elytra-fly.restart-delay = Задержка перезапуска
+elytra-fly.restart-delay.desc = Задержка перед попыткой перезапуска
+elytra-fly.accelerate = Ускорение
+elytra-fly.accelerate.desc = Ускоряет движение игрока
+elytra-fly.accelerate-factor = Фактор ускорения
+elytra-fly.accelerate-factor.desc = Фактор увеличения скорости движения
+elytra-fly.max-speed = Максимальная скорость
+elytra-fly.max-speed.desc = Ограничивает максимальную скорость передвижения
+elytra-fly.change-yaw = Изменять Yaw
+elytra-fly.change-yaw.desc = Устанавливает горизонтальный поворот игрока при полете на элитре
+elytra-fly.yaw = Yaw
+elytra-fly.yaw.desc = Горизонтальный поворот игрока при полете на элитре
+elytra-fly.change-pitch = Изменять Pitch
+elytra-fly.change-pitch.desc = Устанавливает вертикальный поворот игрока при полете на элитре
+elytra-fly.pitch = Pitch
+elytra-fly.pitch.desc = Вертикальный поворот игрока при полете на элитре
+elytra-fly.auto-jump = Автоматические прыжки
+elytra-fly.auto-jump.desc = Позволяет автоматически прыгать
+elytra-fly.custom-jump = Изменять прыжок
+elytra-fly.custom-jump.desc = Модифицирует высоту прыжка на земле
+elytra-fly.jump-multiplier = Множитель прыжка
+elytra-fly.jump-multiplier.desc = Модифицированная высота прыжка на земле
+elytra-fly.ncp-bypass = Обход NCP
+elytra-fly.ncp-bypass.desc = Использует движения для обхода анти-чита NCP
+elytra-fly.boost-bind = Бинд для ускорения
+elytra-fly.boost-bind.desc = Ускоряет полет при активации
+elytra-fly.boost = Ускорение
+elytra-fly.boost.desc = Увеличение скорости полета на элитре
+elytra-fly.speed-limit = Лимит скорости
+elytra-fly.speed-limit.desc = Максимальная скорость полета на элитре
+elytra-fly.stop-bind = Бинд для остановки
+elytra-fly.stop-bind.desc = Останавливается на месте при активации
+elytra-fly.fall-speed = Скорость падения
+elytra-fly.fall-speed.desc = Скорость падения при остановке полета
+elytra-fly.stop-bypass = NoRotate при остановке
+elytra-fly.stop-bypass.desc = Использует NoServerRotate при остановке полета
+
+elytra-fly.enums.bounce = Прыжки
+elytra-fly.enums.control = Контроль
+elytra-fly.enums.boost = Ускорение
+
+# Fake Lag
+
+fake-lag.desc = Задерживает пакеты перемещения, имитируя проблемы с соединением
+fake-lag.cancel-bind = Бинд для отмены
+fake-lag.cancel-bind.desc = Отменяет отправку всех задержанных пакетов и возвращается на изначальное место
+fake-lag.mode = Режим
+fake-lag.mode.desc = Способ, которым задерживаются пакеты перемещения
+fake-lag.auto-disable = Отключать
+fake-lag.auto-disable.desc = Автоматически отключает модуль после определенного времени
+fake-lag.time-to-disable = Время до отключения
+fake-lag.time-to-disable.desc = Время, через которое модуль автоматически отключится
+fake-lag.lag-time = Время задержки
+fake-lag.lag-time.desc = Время, которое задерживаются пакеты перемещения
+
+fake-lag.enums.normal = Статичный
+fake-lag.enums.toggling = Переключающийся
+
+# Fast Fall
+
+fast-fall.desc = Ускоряет падение с края блока
+fast-fall.instant-fall = Моментальное падение
+fast-fall.instant-fall.desc = Ускоряет начало падения с края блока
+fast-fall.only-hole = Только в холку
+fast-fall.only-hole.desc = Ускоряет падение, только если игрок находится над холкой
+fast-fall.mode = Режим
+fast-fall.mode.desc = Способ, которым ускоряется падение
+fast-fall.height = Высота
+fast-fall.height.desc = Максимальная высота над землей, на которой ускоряется падение
+fast-fall.accelerate = Ускорять
+fast-fall.accelerate.desc = Скорость падения увеличивается каждый тик
+fast-fall.speed = Скорость
+fast-fall.speed.desc = Скорость падения с края блока
+fast-fall.accelerate-speed = Ускорение
+fast-fall.accelerate-speed.desc = Значение, на которое увеличивается скорость падения каждый тик
+fast-fall.shift-ticks = Пропуск тиков
+fast-fall.shift-ticks.desc = Количество тиков движения, которые проходят за 1 тик
+
+fast-fall.enums.tick-shift = Пропуск
+fast-fall.enums.motion = Движение
+fast-fall.enums.none = Никакой
+
+# Gui Move
+
+gui-move.desc = Позволяет перемещаться при открытом инвентаре/гуи
+
+# Hole Snap
+
+hole-snap.desc = Автоматически находит холку и двигается в нее
+hole-snap.hole-types = Типы холок
+hole-snap.hole-types.desc = Типы холок для снапа
+hole-snap.only-visible-holes = Только видимые
+hole-snap.only-visible-holes.desc = Находит только холки, которые видит игрок
+hole-snap.tick-shift = TickShift
+hole-snap.tick-shift.desc = Использует TickShift для движения в холку
+hole-snap.range-xz = Дальность XZ
+hole-snap.range-xz.desc = Максимальное горизонтальное расстояние, на котором может быть найдена холка
+hole-snap.range-y = Дальность Y
+hole-snap.range-y.desc = Максимальное вертикальное расстояние, на котором может быть найдена холка
+
+hole-snap.enums.single = Одиночные
+hole-snap.enums.double = Двойные
+hole-snap.enums.quad = Четверные
+
+# Jesus
+
+jesus.desc = Позволяет ходить по воде
+jesus.mode = Режим
+jesus.mode.desc = Способ, выбранный для хождения по воде
+jesus.jumps = Высота прыжков
+jesus.jumps.desc = Высота прыжков для хождения по воде
+jesus.jumps.boost = Ускорение
+jesus.jumps.boost.desc = Ускорение при хождении по воде
+jesus.jumps.speed = Скорость
+jesus.jumps.speed.desc = Ускорение при хождении по воде
+
+jesus.enums.collision = Коллизия
+jesus.enums.jump = Прыжки
+
+# Legacy Sneak
+
+legacy-sneak.desc = Возвращает приседание из старых версий игры
+
+# NoSlow
+
+no-slow.desc = Убирает замедление при выбранных действиях
+no-slow.mode = Обход
+no-slow.mode.desc = Способ, выбранный для обхода проверок анти-чита
+no-slow.item-use = Предметы
+no-slow.item-use.desc = Убирает замедление при использовании предметов
+no-slow.shields = Щит
+no-slow.shields.desc = Убирает замедление при использовании щита
+no-slow.sneak = Приседание
+no-slow.sneak.desc = Убирает замедление при приседании
+no-slow.crawl = Плавание
+no-slow.crawl.desc = Убирает замедление в положении плавания
+
+no-slow.enums.vanilla = Ванилла
+no-slow.enums.grim = Grim
+no-slow.enums.grim-v3 = Grim V3
+
+# Phase
+
+phase.desc = Автоматически перемещается внутрь блоков
+phase.mode = Режим
+phase.mode.desc = Способ, котором происходит перемещение внутрь блока
+phase.smart = Умный
+phase.smart.desc = Выбирает лучшую блок для перемещения в него
+phase.rotate = Ротейты
+phase.rotate.desc = Способ, которым происходит поворот для использования перла
+phase.anti-pearl-rotate = Убирать поворот перлом
+phase.anti-pearl-rotate.desc = Предотвращает поворот из-за телепортации перлом
+phase.bypass = Обход
+phase.bypass.desc = Способ обхода проверок анти-чита
+phase.break-entities = Убирать сущностей
+phase.break-entities.desc = Автоматически убирает мешающие сущности перед использованием перла
+phase.break-scaffolding = Убирать подмостки
+phase.break-scaffolding.desc = Автоматически убирает мешающие подмостки перед использованием перла
+
+phase.enums.pearl = Перл
+
+phase.enums.vanilla = Ванильные
+phase.enums.instant = Моментальные
+
+phase.enums.none = Никакой
+phase.enums.cobweb = Паутина
+phase.enums.flint = Огниво
+phase.enums.fireball = Файербол
+
+# Safe Walk
+
+safe-walk.desc = Предотвращает падение с края блока
+safe-walk.mode = Режим
+safe-walk.mode.desc = Способ, которым предотвращается падение с края блока
+safe-walk.delay = Задержка
+safe-walk.delay.desc = Задержка, с котором прекращается приседание
+
+safe-walk.enums.normal = Стандартный
+safe-walk.enums.legit = Легитный
+
+# Speed
+
+speed.desc = Ускоряет перемещение игрока
+speed.mode = Режим
+speed.mode.desc = Способ, которым ускоряется перемещение игрока
+speed.speed = Скорость
+speed.speed.desc = Скорость перемещение игрока
+speed.strafe-multiplier = Ускорение при прыжке
+speed.strafe-multiplier.desc = Множитель увеличения скорости перемещения при прыжке
+speed.strict = Строгое движение
+speed.strict.desc = Уменьшает скорость перемещения для работы на строгих анти-читах
+speed.auto-jump = Прыгать
+speed.auto-jump.desc = Автоматически прыгает при перемещении
+speed.auto-jump.desc = Автоматически прыгает при перемещении
+
+speed.enums.strafe = Стрейфы
+speed.enums.vanilla = Ванильный
+
+# Step
+
+step.desc = Позволяет быстро забираться на блоки
+step.mode = Режим
+step.mode.desc = Способ перемещения чтобы быстро забраться на блоки
+step.height = Высота
+step.height.desc = Максимальная высота стены блоков
+step.normal-height = Стандартная высота
+step.normal-height.desc = Максимальное высота стены блоков для ускорения стандартным перемещением
+step.slow-height = Медленная высота
+step.slow-height.desc = Максимальное высота стены блоков для ускорения медленным перемещением
+step.speed = Скорость
+step.speed.desc = Скорость перемещения по блокам
+step.height-speed-factor = Скорость от высоты
+step.height-speed-factor.desc = Множитель скорости в зависимости от высоты
+step.jump-speed = Скорость прыжка
+step.jump-speed.desc = Скорость прыжка после взбирания по блоку
+
+step.enums.normal = Стандартный
+step.enums.strict = Строгий
+step.enums.slow = Медленный
+
+# Tick Shift
+
+tick-shift.desc = Отправляет несколько перемещений за 1 тик
+tick-shift.infinite = Бесконечный
+tick-shift.infinite.desc = Работает без предварительной зарядки
+tick-shift.legit = Легитный
+tick-shift.legit.desc = Тратит зарядку при поворотах для обхода некоторых анти-читов
+tick-shift.keep-packets = Оставлять зарядку
+tick-shift.keep-packets.desc = Оставляет зарядку после выключения модуля
+tick-shift.packets-in-tick = Пакеты за тик
+tick-shift.packets-in-tick.desc = Количество перемещений, которые отправляются за 1 тик
+tick-shift.max-packets = Всего пакетов
+tick-shift.max-packets.desc = Максимальное количество перемещений, которые отправляются за 1 использование модуля
+tick-shift.charge-speed = Скорость зарядки
+tick-shift.charge-speed.desc = Значение, которое прибавляется к зарядке за 1 тик
+tick-shift.min-charge = Минимальная зарядка
+tick-shift.min-charge.desc = Минимальная зарядка, которая нужна для начала работы модуля
+tick-shift.use-blink = Blink
+tick-shift.use-blink.desc = Использует FakeLag при работе модуля
+tick-shift.blink-ticks = Тики FakeLag
+tick-shift.blink-ticks.desc = Количество тиков, на которое происходит каждый FakeLag
+
+# Velocity
+
+velocity.desc = Предотвращает отбрасывание
+velocity.mode = Обход
+velocity.mode.desc = Способ обхода проверок анти-чита
+velocity.knockback = Удары
+velocity.knockback.desc = Предотвращает отбрасывание от ударов по игроку
+velocity.explosions = Взрывы
+velocity.explosions.desc = Предотвращает отбрасывание от взрывов
+velocity.entities = Сущности
+velocity.entities.desc = Предотвращает выталкивание игрока из сущности
+velocity.blocks = Блоки
+velocity.blocks.desc = Предотвращает выталкивание игрока из блоков
+velocity.fluids = Жидкости
+velocity.fluids.desc = Предотвращает перемещение игрока жидкостями
+velocity.fishhook = Удочка
+velocity.fishhook.desc = Предотвращает перемещение игрока удочкой
+
+velocity.enums.normal = Ванилла
+velocity.enums.walls = В стенах
+velocity.enums.grim = Grim
+velocity.enums.grim-v3 = Grim V3
+
+# Water Speed
+
+water-speed.desc = Ускоряет перемещение игрока в воде
+water-speed.speed-limit = Лимит скорости
+water-speed.speed-limit.desc = Максимальная скорость перемещения игрока в воде
+water-speed.boost = Ускорение
+water-speed.boost.desc = Ускорение при перемещении игрока в воде
+
+# Functions Hud
+
+functions-hud.categories = Категории
+
+# Potions Hud
+
+potions-hud.text-color-mode = Режим цвета текста
+potions-hud.background-color-mode = Режим цвета фона
+
+potions-hud.enums.client = Цвет худа
+potions-hud.enums.potions = Цвет зелья
+
+# Speed Hud
+
+speed-hud.format-mode = Режим
+
+speed-hud.enums.bps = bps
+speed-hud.enums.kmh = km/h

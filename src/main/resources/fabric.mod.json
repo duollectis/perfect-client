@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "perfect-client",
+	"version": "${version}",
+	"name": "Perfect Client",
+	"description": "",
+	"authors": [
+		"c0nsoleee",
+		"Applee453",
+		"Artik"
+	],
+	"contact": {
+		"discord": "https://discord.gg/eQbYN5VKeR"
+	},
+	"icon": "assets/perfect-client/icon.png",
+	"environment": "client",
+	"accessWidener": "perfect-client.accesswidener",
+	"entrypoints": {
+		"main": [
+          "com.perfect.client.Entry"
+		]
+	},
+	"mixins": [
+		"perfect-client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "1.21.8",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"breaks": {
+		"voxelmap": "*"
+	}
+}

@@ -1,0 +1,79 @@
+accessWidener	v1	named
+
+accessible class net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractAtHandler
+accessible class net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractTypeHandler
+accessible class net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractType
+accessible class net/minecraft/client/model/ModelPart$Quad
+accessible class net/minecraft/client/model/ModelPart$Vertex
+accessible class net/minecraft/client/render/RenderLayer$MultiPhaseParameters
+accessible class net/minecraft/client/render/RenderLayer$MultiPhase
+accessible class net/minecraft/client/particle/FireworksSparkParticle$Explosion
+accessible class net/minecraft/client/render/item/HeldItemRenderer$HandRenderType
+accessible method net/minecraft/client/render/item/HeldItemRenderer getHandRenderType (Lnet/minecraft/client/network/ClientPlayerEntity;)Lnet/minecraft/client/render/item/HeldItemRenderer$HandRenderType;
+accessible method net/minecraft/entity/Entity adjustMovementForCollisions (Lnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3d;
+accessible field net/minecraft/screen/HorseScreenHandler entity Lnet/minecraft/entity/passive/AbstractHorseEntity;
+accessible field net/minecraft/client/render/item/HeldItemRenderer$HandRenderType renderMainHand Z
+accessible field net/minecraft/client/render/item/HeldItemRenderer$HandRenderType renderOffHand Z
+accessible field net/minecraft/client/network/ClientPlayerInteractionManager blockBreakingCooldown I
+accessible field net/minecraft/entity/LivingEntity lastAttackedTicks I
+accessible field net/minecraft/entity/LivingEntity jumpingCooldown I
+accessible field net/minecraft/client/MinecraftClient itemUseCooldown I
+accessible field net/minecraft/entity/Entity FLAGS Lnet/minecraft/entity/data/TrackedData;
+accessible field net/minecraft/entity/Entity POSE Lnet/minecraft/entity/data/TrackedData;
+accessible field net/minecraft/entity/data/DataTracker entries [Lnet/minecraft/entity/data/DataTracker$Entry;
+accessible field net/minecraft/client/render/RenderLayer$MultiPhase phases Lnet/minecraft/client/render/RenderLayer$MultiPhaseParameters;
+accessible field net/minecraft/client/render/RenderLayer$MultiPhaseParameters target Lnet/minecraft/client/render/RenderPhase$Target;
+accessible method net/minecraft/entity/data/DataTracker copyToFrom (Lnet/minecraft/entity/data/DataTracker$Entry;Lnet/minecraft/entity/data/DataTracker$SerializedEntry;)V
+accessible field net/minecraft/client/option/KeyBinding boundKey Lnet/minecraft/client/util/InputUtil$Key;
+accessible field net/minecraft/client/gui/hud/ChatHud messages Ljava/util/List;
+accessible field net/minecraft/client/gui/hud/ChatHud visibleMessages Ljava/util/List;
+accessible field net/minecraft/client/world/ClientWorld pendingUpdateManager Lnet/minecraft/client/network/PendingUpdateManager;
+accessible field net/minecraft/client/gui/screen/ingame/CreativeInventoryScreen selectedTab Lnet/minecraft/item/ItemGroup;
+accessible field net/minecraft/client/network/AbstractClientPlayerEntity playerListEntry Lnet/minecraft/client/network/PlayerListEntry;
+accessible field net/minecraft/block/AbstractBlock collidable Z
+accessible field net/minecraft/client/model/ModelPart cuboids Ljava/util/List;
+accessible field net/minecraft/client/model/ModelPart children Ljava/util/Map;
+accessible field net/minecraft/client/model/ModelPart$Cuboid sides [Lnet/minecraft/client/model/ModelPart$Quad;
+accessible field net/minecraft/client/render/entity/model/RabbitEntityModel head Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/RabbitEntityModel leftHaunch Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/RabbitEntityModel rightHaunch Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/RabbitEntityModel leftFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/RabbitEntityModel rightFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel head Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel rightHindLeg Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel leftHindLeg Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel rightFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel leftFrontLeg Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel rightChest Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/client/render/entity/model/LlamaEntityModel leftChest Lnet/minecraft/client/model/ModelPart;
+accessible field net/minecraft/item/ItemGroups INVENTORY Lnet/minecraft/registry/RegistryKey;
+accessible method net/minecraft/client/render/entity/EntityRenderDispatcher render (Lnet/minecraft/entity/Entity;DDDFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;ILnet/minecraft/client/render/entity/EntityRenderer;)V
+accessible field net/minecraft/client/render/WorldRenderer entityOutlineFramebuffer Lnet/minecraft/client/gl/Framebuffer;
+accessible method net/minecraft/client/render/GameRenderer renderHand (FZLorg/joml/Matrix4f;)V
+accessible field net/minecraft/client/gl/GlGpuBuffer id I
+accessible field net/minecraft/client/input/Input movementVector Lnet/minecraft/util/math/Vec2f;
+accessible field net/minecraft/client/gui/render/GuiRenderer guiProjectionMatrix Lnet/minecraft/client/render/ProjectionMatrix2;
+accessible field net/minecraft/client/render/GameRenderer guiRenderer Lnet/minecraft/client/gui/render/GuiRenderer;
+accessible field net/minecraft/client/render/WorldRenderer framebufferSet Lnet/minecraft/client/render/DefaultFramebufferSet;
+accessible method net/minecraft/entity/Entity findCollisionsForMovement (Lnet/minecraft/entity/Entity;Lnet/minecraft/world/World;Ljava/util/List;Lnet/minecraft/util/math/Box;)Ljava/util/List;
+accessible method net/minecraft/entity/Entity collectStepHeights (Lnet/minecraft/util/math/Box;Ljava/util/List;FF)[F
+accessible method net/minecraft/entity/Entity adjustMovementForCollisions (Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Box;Ljava/util/List;)Lnet/minecraft/util/math/Vec3d;
+accessible method net/minecraft/entity/LivingEntity getEffectiveGravity ()D
+accessible method net/minecraft/entity/LivingEntity getJumpVelocity ()F
+accessible field net/minecraft/client/network/ClientPlayerInteractionManager currentBreakingPos Lnet/minecraft/util/math/BlockPos;
+accessible field net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket entityId I
+accessible field net/minecraft/client/network/ClientPlayNetworkHandler chunkLoadDistance I
+accessible field net/minecraft/client/world/ClientChunkManager chunks Lnet/minecraft/client/world/ClientChunkManager$ClientChunkMap;
+accessible field net/minecraft/client/world/ClientChunkManager$ClientChunkMap chunks Ljava/util/concurrent/atomic/AtomicReferenceArray;
+accessible field net/minecraft/scoreboard/Scoreboard scores Ljava/util/Map;
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen x I
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen y I
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen backgroundWidth I
+accessible field net/minecraft/client/gui/screen/ingame/HandledScreen backgroundHeight I
+accessible field net/minecraft/client/network/ClientCommandSource completionId I
+accessible field net/minecraft/client/network/ClientPlayNetworkHandler commandSource Lnet/minecraft/client/network/ClientCommandSource;
+accessible field net/minecraft/client/network/ClientCommandSource pendingCommandCompletion Ljava/util/concurrent/CompletableFuture;
+accessible method net/minecraft/client/input/KeyboardInput getMovementMultiplier (ZZ)F
+accessible method net/minecraft/entity/Entity unsetRemoved ()V
+accessible field net/minecraft/client/gl/GlCommandEncoder currentProgram Lnet/minecraft/client/gl/ShaderProgram;
+accessible field net/minecraft/component/type/ContainerComponent stacks Lnet/minecraft/util/collection/DefaultedList;
